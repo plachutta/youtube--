@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "policyStatus": "REVIEWER_ONBOARDING_PENDING",
+  "reviewers": [],
+  "requiredRoles": {
+    "semantic_review": "independent_reviewer",
+    "owner_acceptance": "product_owner"
+  },
+  "notes": [
+    "Policy change authorized by owner for trusted reviewer onboarding.",
+    "Reviewer entries will be added when legitimate independent_reviewer and product_owner",
+    "identities with valid public keys are established through the project onboarding process.",
+    "Do not add keys from implementation agents or review records.",
+    "See REVIEWER-ONBOARDING.md under /tmp/agenttube_full_roadmap_execution_20261022/ for",
+    "6-step legitimate reviewer registration instructions.",
+    "After reviewer identities are authorized, run claim verifier to confirm QUALIFIED status.",
+    "SHA-256 hash after owner modification should be verified per project policy update procedure."
+  ]
+}

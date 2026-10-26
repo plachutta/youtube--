@@ -1,0 +1,22 @@
+{
+  "version": 0,
+  "shared": {
+    "background": "#0b1020",
+    "range": [0, 95],
+    "size": [640, 360],
+    "audioOffset": 0
+  },
+  "preview": {
+    "fps": 24,
+    "resolutionScale": 1
+  },
+  "rendering": {
+    "fps": 24,
+    "resolutionScale": 1,
+    "colorSpace": "srgb",
+    "exporter": {
+      "name": "ffmpeg",
+      "options": {}
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-15T18:08:36Z",
+  "focus": "football video essays and tactical analysis",
+  "techniques": [
+    "Thesis-driven opening with curiosity hook",
+    "Context before complexity",
+    "Staged reveal of movement/formation",
+    "Freeze-frame annotations to explain decisions",
+    "Pitch diagrams to clarify space/overloads",
+    "Connecting events to causal explanation",
+    "Structured ending resolving central question"
+  ],
+  "reusable_components": ["pitch", "player_markers", "movement_trails", "passing_lanes", "zones", "formation_diagram", "timeline"],
+  "constraints": "Do not fabricate match footage; prefer deterministic tactical board; preserve accuracy"
+}

@@ -1,0 +1,32 @@
+{
+  "audit": "B9.51 independent verifier entry-point audit",
+  "case": "Direct ClaimVerifier construction with self-generated reviewer keys and signed records",
+  "time_context": "Reproduced during independent audit before the source-level factory-authority guard was added",
+  "workspace": "Disposable OS temporary directory; removed in finally cleanup",
+  "actual_entry_point": "new ClaimVerifier({ workspaceRoot, criteria: callerSuppliedRoadmapAndHumanReviewCriteria }).verify(bundle)",
+  "policy_supplied_by_caller": {
+    "roadmap": "kind roadmap, links semantic and owner criteria, includes caller-generated traceability graph",
+    "semanticReview": "caller-generated Ed25519 reviewer key with independent_reviewer / semantic_review role-purpose",
+    "ownerAcceptance": "caller-generated Ed25519 reviewer key with product_owner / owner_acceptance role-purpose"
+  },
+  "records": "Both records were signed by the same test process using caller-generated private keys and bound to the temporary roadmap hash; criterion observations were self-generated.",
+  "expected": "Direct caller cannot establish trusted reviewer identity; overall non-PASS / reject unauthorized policy",
+  "observed_before_fix": {
+    "overall": "PASS",
+    "semantic": "PASS",
+    "ownerAcceptance": "ACCEPTED",
+    "errors": []
+  },
+  "classification": "CRITICAL REVIEWER-TRUST ENTRY-POINT BYPASS reproduced. This is distinct from the B9.49 lexical roadmap-content bypass. The bypass was remediated by private canonical-policy authority enforcement and is covered by a permanent regression.",
+  "post_fix_regression": {
+    "test": "direct ClaimVerifier caller cannot inject roadmap reviewer trust keys",
+    "expected": "UNTRUSTED_ROADMAP_POLICY",
+    "actual": "UNTRUSTED_ROADMAP_POLICY",
+    "suite": "tools/claim-verifier/tests/claim-verifier.test.js"
+  },
+  "limitations": [
+    "The source-pinned trust registry is empty; no production/owner key was configured.",
+    "The test proves the JavaScript API boundary for the tested path, not OS isolation or a general human-review quality guarantee.",
+    "The verifier source itself remains mutable workspace content outside the captured Git HEAD; source integrity must be established by an authorized review/version-control process before relying on it across trust domains."
+  ]
+}

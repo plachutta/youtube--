@@ -1,0 +1,52 @@
+{
+  "milestone": "B9.48",
+  "captured_at": "2026-10-15",
+  "repository": "/home/gachiemeshackson/Videos/youtube",
+  "head": "e26792ae00dc1ec2434faf32632896609396dfad",
+  "branch": "master",
+  "upstream": "origin/master (behind 3)",
+  "working_tree": {
+    "modified_tracked_count": 3,
+    "modified_tracked_paths": [
+      "package-lock.json",
+      "test.js",
+      "utils/scene-repair-service.js"
+    ],
+    "untracked_file_count": 234,
+    "roadmap_status": "untracked user workspace content before B9.48"
+  },
+  "roadmap_before": {
+    "path": "data/roadmap/ROADMAP.md",
+    "line_count": 6,
+    "byte_count": 244,
+    "sha256": "f44a10d31217c60519e9dc2c7f0d42b6f8e8d919c1655244092e3eed9b4a4029",
+    "preserved_copy": "data/b9_48/evidence/ROADMAP-INITIAL.md",
+    "content_status": "six-line status note; no stage deliverables, dependencies, verification plan, acceptance criteria, or exit gates"
+  },
+  "proposal_before": {
+    "path": "VIDEO_PLATFORM_ROADMAP_PROPOSAL.md",
+    "line_count": 563,
+    "byte_count": 45664,
+    "sha256": "0bbeaa5baccb9f0e18cd79f4baa16abc5f56cb6b7fb2fa57f280b6a462631347",
+    "status": "pre-existing user-provided proposal; preserved unchanged and reconciled into the canonical roadmap"
+  },
+  "roadmap_authority_change": {
+    "old_path": "data/roadmap/ROADMAP.md",
+    "new_path": "video_platform_roadmap.md",
+    "old_content_preserved_at": "data/b9_48/evidence/ROADMAP-INITIAL.md",
+    "old_path_role": "compatibility pointer only"
+  },
+  "prior_evidence_reconciled": [
+    "data/b9_46/evidence/B9.46_FINAL_REPORT.json",
+    "data/b9_46/evidence/B9.46_RENDERER_BLOCKED.json",
+    "data/b9_46/execution/B9.46_COMPREHENSIVE_STATUS.json",
+    "data/b9_47/evidence/PROVIDER-PORTABILITY-RESULTS.json",
+    "docs/AGENTTUBE-B9-47-ENGINEERING-AGENT-PROVIDER-PORTABILITY-REPORT.md"
+  ],
+  "preservation": {
+    "destructive_git_operations": false,
+    "staging_or_commit": false,
+    "production_database_access": false,
+    "renderer_or_model_execution": false
+  }
+}

@@ -1,0 +1,281 @@
+/**
+ * KDENLIVE PROJECT GENERATOR (B9.50+)
+ * Generates MLT-compatible XML project files from AgentTube scene planner output.
+ * XML is programmable and reopenable per roadmap Part V.
+ * MLT can directly render the generated .mlt files.
+ */
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
+/**
+ * Generate an MLT XML project from AgentTube scenes.
+ * @param {Array} scenes - Array of scene objects from planScenes/buildEnginePlan
+ * @param {Object} options - Generation options
+ * @param {number} options.fps - Frames per second (default: 30)
+ * @param {string} options.outputPath - Output .mlt or .kdenlive file path
+ * @returns {string} The generated XML content
+ */
+function generateMltProject(scenes, options) {
+  var fps = options.fps || 30;
+  var outputFile = path.join(os.tmpdir(), 'agenttube-project-' + Date.now() + '.mlt');
+  var timelineScenes = [].concat(scenes).sort(function(a, b) { return a.startFrame - b.startFrame; });
+
+  var xml = '<?xml version="1.0" encoding="utf-8"?>';
+  xml += '<mlt>';
+  xml += '  <track type="video">';
+  for (var i = 0; i < timelineScenes.length; i++) {
+    var scene = timelineScenes[i];
+    var durationFrames = Math.max(1, Math.round(scene.durationSec * fps));
+    var startFrames = Math.round(scene.startFrame * fps);
+    var productionLabel = scene.productionLabel || 'scene';
+
+    xml += '    <producer>';
+    xml += '      <property name="title">' + productionLabel + '</property>';
+    xml += '      mlt_service="color"';
+    xml += '      <property name="color">0x0b1020</property>';
+    xml += '      <property name="duration"> ' + durationFrames + '</property>';
+    xml += '      <property name="in">0</property>';
+    xml += '      <property name="out"> ' + durationFrames + '</property>';
+    xml += '    </producer>';
+  }
+
+  for (var i = 0; i < timelineScenes.length - 1; i++) {
+    var enterFrames = Math.round(0.4 * fps);
+    var exitFrames = Math.round(0.4 * fps);
+    xml += '    <transition type="fade">';
+    xml += '      <property name="enter">' + enterFrames + '</property>';
+    xml += '      <property name="exit">' + exitFrames + '</property>';
+    xml += '    </transition>';
+  }
+
+  xml += '  </track>';
+  xml += '  <track type="audio">';
+  for (var i = 0; i < timelineScenes.length; i++) {
+    var scene = timelineScenes[i];
+    var durationFrames = Math.round(scene.durationSec * fps);
+    xml += '    <producer>';
+    if (scene.audioRef && scene.audioRef.startsWith('wav:')) {
+      var audioId = scene.audioRef.replace('wav:', '');
+      xml += '      <property name="audio">' + audioId + '</property>';
+      xml += '      mlt_service="audio"';
+    }
+    xml += '      <property name="duration"> ' + durationFrames + '</property>';
+    xml += '    </producer>';
+  }
+
+  xml += '  </track>';
+  xml += '</mlt>';
+  fs.writeFileSync(outputFile, xml, 'utf8');
+  return xml;
+}
+/**
+ * KDENLIVE PROJECT GENERATOR (B9.50+)
+ * Generates MLT-compatible XML project files from AgentTube scene planner output.
+ * XML is programmable and reopenable per roadmap Part V.
+ * MLT can directly render the generated .mlt files.
+ */
+'use strict';
+
+/**
+ * Validate a generated MLT project XML.
+ * @param {string} xml - The generated XML content
+ * @returns {Object} Validation result with ok flag and any findings
+ */
+function validateMltProject(xml) {
+  var findings = [];
+
+  if (!xml || typeof xml !== 'string') {
+    return { ok: false, findings: [{ code: 'EMPTY_PROJECT', message: 'Project XML is empty' }] };
+  }
+
+  if (xml.indexOf('<mlt>') === -1) {
+    findings.push({ code: 'MISSING_MLT_ROOT', message: 'MLT root element missing' });
+  }
+
+  if (xml.indexOf('<track') === -1) {
+    findings.push({ code: 'MISSING_TRACK', message: 'No timeline tracks found' });
+  }
+
+  var producerCount = (xml.match(/<producer>/g) || []).length;
+  if (producerCount === 0) {
+    findings.push({ code: 'NO_CLIP_PRODUCERS', message: 'No clip producers defined' });
+  }
+
+  return {
+    ok: findings.length === 0,
+    findings: findings
+  };
+}
+/**
+ * Generate a complete Kdenlive-compatible project file from AgentTube scene data.
+ * @param {Array} planScenes - Scenes from adapter.buildEnginePlan (validated + layoutled)
+ * @param {Object} options - Generation options
+ * @param {number} options.fps - Frames per second (default: 30)
+ * @param {string} options.outputPath - Output file path (.mlt or .kdenlive)
+ * @returns {Object} { ok, projectPath, xml, validation }
+ */
+function generateKdenliveProject(planScenes, options) {
+  var fps = options.fps || 30;
+  var outputPath = options.outputPath || os.tmpdir() + '/agenttube-' + Date.now() + '.mlt';
+
+  var xml = generateMltProject(planScenes, { fps: fps, outputPath: outputPath });
+  var validation = validateMltProject(xml);
+
+  var ok = validation.ok;
+  var findings = validation.findings;
+
+  if (!ok) {
+    console.warn('MLT project validation findings:', findings);
+  }
+
+  fs.writeFileSync(outputPath, xml, 'utf8');
+
+  return {
+    ok: ok,
+    projectPath: outputPath,
+    xml: xml,
+    validation: { findings: findings, valid: ok }
+  };
+}
+/**
+ * Generate MLT producer clip XML for a scene based on visual type.
+ * @param {Object} scene - Scene object
+ * @param {number} durationFrames - Clip duration in frames
+ * @param {number} startFrames - Start frame position
+ * @param {number} fps - Frames per second
+ * @param {Object} style - Color style object
+ * @returns {string} MLT producer XML
+ */
+function generateSceneClip(scene, durationFrames, startFrames, fps, style) {
+  // Validate scene identity
+  if (!scene || typeof scene !== 'object') {
+    throw new Error('generateSceneClip: scene must be a non-null object');
+  }
+  // Validate duration - must be a finite positive number
+  if (typeof durationFrames !== 'number' || !Number.isFinite(durationFrames) || durationFrames < 1) {
+    throw new Error('generateSceneClip: durationFrames must be a finite positive number, got ' + JSON.stringify(durationFrames));
+  }
+  // Validate startFrames - must be a finite number; safe default to 0
+  if (typeof startFrames !== 'number' || !Number.isFinite(startFrames)) {
+    startFrames = 0;
+  }
+  // Validate fps - must be a finite positive number; safe default to 30
+  if (typeof fps !== 'number' || !Number.isFinite(fps) || fps < 1) {
+    fps = 30;
+  }
+
+  var visualType = scene.visualType;
+  var narrationRef = scene.audioRef || 'audio:reference';
+  var productionLabel = scene.productionLabel || 'scene';
+
+  var clip = '    <producer>\n';
+  clip += '      <property name="title">' + productionLabel + '</property>\n';
+  clip += '      mlt_service="color"\n';
+  clip += '      <property name="color">0x0b1020</property>\n';
+  clip += '      <property name="duration"> ' + durationFrames + '</property>\n';
+  clip += '      <property name="in">0</property>\n';
+  clip += '      <property name="out"> ' + durationFrames + '</property>\n';
+  if (narrationRef && narrationRef.startsWith('wav:')) {
+    var audioId = narrationRef.replace('wav:', '');
+    clip += '      <consumer>' + audioId + '</consumer>\n';
+  }
+  clip += '    </producer>\n';
+  return clip;
+}
+
+/**
+ * Generate transition XML between two consecutive scenes.
+ * Supports fade transitions (most common for video essays/documentaries).
+ * @param {Object} sceneA - First scene
+ * @param {Object} sceneB - Second scene
+ * @param {number} fps - Frames per second
+ * @returns {string} MLT transition XML
+ */
+function generateTransition(sceneA, sceneB, fps) {
+  // Validate fps - must be a finite positive number; safe default to 30
+  if (typeof fps !== 'number' || !Number.isFinite(fps) || fps < 1) {
+    fps = 30;
+  }
+  var enterFrames = Math.round(0.4 * fps);
+  var exitFrames = Math.round(0.4 * fps);
+
+  var transition = '    <transition type="fade">\n';
+  transition += '      <property name="enter">' + enterFrames + '</property>\n';
+  transition += '      <property name="exit">' + exitFrames + '</property>\n';
+  transition += '    </transition>\n';
+  return transition;
+}
+
+/**
+ * Generate audio clip XML for a scene's narration audio reference.
+ * @param {Object} scene - Scene object
+ * @param {number} fps - Frames per second
+ * @returns {string} MLT producer XML or empty string
+ */
+function generateAudioClip(scene, fps) {
+  // Validate fps - must be a finite positive number; safe default to 30
+  if (typeof fps !== 'number' || !Number.isFinite(fps) || fps < 1) {
+    fps = 30;
+  }
+  // Validate scene and durationSec
+  if (!scene || typeof scene !== 'object') {
+    // Return a valid empty-placeholder producer rather than empty string
+    return '    <producer>\n' +
+      '      <property name="title">narration</property>\n' +
+      '      mlt_service="audio"\n' +
+      '      <property name="color">0x0b1020</property>\n' +
+      '      <property name="duration"> 0</property>\n' +
+      '    </producer>\n';
+  }
+  var durationSec = scene.durationSec;
+  if (typeof durationSec !== 'number' || !Number.isFinite(durationSec) || durationSec < 0) {
+    durationSec = 0;
+  }
+  var durationFrames = Math.round(durationSec * fps);
+  // Ensure durationFrames is non-negative
+  durationFrames = Math.max(0, durationFrames);
+
+  var narrationRef = scene.audioRef;
+  var clip = '    <producer>\n';
+
+  if (!narrationRef) {
+    // Audio not requested - still produce valid placeholder
+    clip += '      <property name="title">narration</property>\n';
+    clip += '      mlt_service="audio"\n';
+    clip += '      <property name="color">0x0b1020</property>\n';
+    clip += '      <property name="duration"> ' + durationFrames + '</property>\n';
+    clip += '    </producer>\n';
+    return clip;
+  }
+
+  if (typeof narrationRef === 'string' && narrationRef.startsWith('wav:')) {
+    var audioId = narrationRef.replace('wav:', '');
+    clip += '      <property name="audio">' + audioId + '</property>\n';
+    clip += '      mlt_service="audio"\n';
+  } else if (typeof narrationRef === 'string' && narrationRef.startsWith('file:')) {
+    clip += '      <property name="resource">' + narrationRef + '</property>\n';
+  } else {
+    // Optional audio unavailable or unknown reference type - produce placeholder
+    clip += '      <property name="title">narration</property>\n';
+    clip += '      mlt_service="audio"\n';
+    clip += '      <property name="color">0x0b1020</property>\n';
+    clip += '      <property name="duration"> ' + durationFrames + '</property>\n';
+    clip += '    </producer>\n';
+    return clip;
+  }
+
+  // Valid audio media configured
+  clip += '      <property name="duration"> ' + durationFrames + '</property>\n';
+  clip += '    </producer>\n';
+  return clip;
+}
+module.exports = {
+  generateMltProject,
+  generateKdenliveProject,
+  validateMltProject,
+  generateSceneClip,
+  generateTransition,
+  generateAudioClip
+};

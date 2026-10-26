@@ -1,0 +1,198 @@
+{
+ "schema_version": 1,
+ "created": "2026-10-15",
+ "patterns": [
+  {
+   "pattern": "curiosity-opening",
+   "when": "scene 1 hooks",
+   "needs": [
+    "central mechanism question"
+   ],
+   "viewer_understands": "what mystery this video resolves",
+   "elements": [
+    "question card",
+    "teaser visual"
+   ],
+   "maps_to": "explanatory_card",
+   "validate": "heading is a question, not a label"
+  },
+  {
+   "pattern": "conceptual-comparison",
+   "when": "two things contrasted",
+   "needs": [
+    "entity A",
+    "entity B",
+    "compared attributes"
+   ],
+   "viewer_understands": "how A differs from B",
+   "elements": [
+    "two panels",
+    "attribute rows"
+   ],
+   "maps_to": "comparison",
+   "validate": "attributes explicit; no invented values"
+  },
+  {
+   "pattern": "stepwise-process",
+   "when": "narration describes a sequence",
+   "needs": [
+    "ordered steps",
+    "edges"
+   ],
+   "viewer_understands": "what happens in what order",
+   "elements": [
+    "step nodes",
+    "directional edges"
+   ],
+   "maps_to": "process_diagram",
+   "validate": "step count matches narration; edges acyclic"
+  },
+  {
+   "pattern": "chronological-timeline",
+   "when": "events across time",
+   "needs": [
+    "dated/dated-ordered events"
+   ],
+   "viewer_understands": "what happened when",
+   "elements": [
+    "time spine",
+    "era cards"
+   ],
+   "maps_to": "timeline",
+   "validate": "order matches narration; no invented dates"
+  },
+  {
+   "pattern": "evidence-led",
+   "when": "claims need support",
+   "needs": [
+    "claim",
+    "evidence ref"
+   ],
+   "viewer_understands": "why the claim is true",
+   "elements": [
+    "claim banner",
+    "evidence panel"
+   ],
+   "maps_to": "explanatory_card",
+   "validate": "every claim has evidenceRef"
+  },
+  {
+   "pattern": "interface-demonstration",
+   "when": "invisible system behavior",
+   "needs": [
+    "system states",
+    "transitions"
+   ],
+   "viewer_understands": "how the system works internally",
+   "elements": [
+    "system mock",
+    "state highlights"
+   ],
+   "maps_to": "interface_recreation",
+   "validate": "marked illustrative; generic, no real brand"
+  },
+  {
+   "pattern": "entity-relationship",
+   "when": "entities interact",
+   "needs": [
+    "entities",
+    "relations"
+   ],
+   "viewer_understands": "who relates to whom how",
+   "elements": [
+    "entity nodes",
+    "relation edges"
+   ],
+   "maps_to": "relationship_diagram",
+   "validate": "relations named in narration"
+  },
+  {
+   "pattern": "map-based",
+   "when": "geography matters",
+   "needs": [
+    "regions",
+    "attribute per region"
+   ],
+   "viewer_understands": "where things differ",
+   "elements": [
+    "schematic map",
+    "region fills"
+   ],
+   "maps_to": "data_visualization",
+   "validate": "schematic not cartographic; no invented borders"
+  },
+  {
+   "pattern": "before-after",
+   "when": "transformation narrated",
+   "needs": [
+    "before state",
+    "after state"
+   ],
+   "viewer_understands": "what changed",
+   "elements": [
+    "two state panels",
+    "change arrow"
+   ],
+   "maps_to": "comparison",
+   "validate": "both states in narration"
+  },
+  {
+   "pattern": "escalating-sequence",
+   "when": "growing scale/stakes",
+   "needs": [
+    "ordered magnitudes"
+   ],
+   "viewer_understands": "how big this gets",
+   "elements": [
+    "scale ladder",
+    "zoom transitions"
+   ],
+   "maps_to": "process_diagram",
+   "validate": "order monotonic per narration"
+  },
+  {
+   "pattern": "data-chart",
+   "when": "numeric argument",
+   "needs": [
+    "series + provenance"
+   ],
+   "viewer_understands": "what the numbers show",
+   "elements": [
+    "axes",
+    "series",
+    "source note"
+   ],
+   "maps_to": "data_visualization",
+   "validate": "numbers from evidence only"
+  },
+  {
+   "pattern": "synthesis-summary",
+   "when": "recap before CTA",
+   "needs": [
+    "prior takeaways"
+   ],
+   "viewer_understands": "what was learned",
+   "elements": [
+    "takeaway list"
+   ],
+   "maps_to": "explanatory_card",
+   "validate": "takeaways trace to earlier scenes"
+  },
+  {
+   "pattern": "structured-endcard",
+   "when": "final scene",
+   "needs": [
+    "CTA wording",
+    "required elements"
+   ],
+   "viewer_understands": "what to do next",
+   "elements": [
+    "subscribe",
+    "comment prompt",
+    "related area"
+   ],
+   "maps_to": "cta_end_card",
+   "validate": "all required elements present"
+  }
+ ]
+}

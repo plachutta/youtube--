@@ -1,0 +1,11 @@
+npm warn ERESOLVE overriding peer dependency
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/home/gachiemeshackson/Videos/youtube/data/videos/review/b9_44_renderer_qual/proj/node_modules/caniuse-lite/data/regions'
+
+added 73 packages in 1m
+npm warn install-scripts 3 packages have install scripts not yet covered by allowScripts:
+npm warn install-scripts   @ffmpeg-installer/linux-x64@4.1.0 (postinstall: chmod u+x ffmpeg)
+npm warn install-scripts   @ffprobe-installer/linux-x64@5.2.0 (postinstall: chmod u+x ffprobe)
+npm warn install-scripts   esbuild@0.18.20 (postinstall: node install.js)
+npm warn install-scripts
+npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+EXIT:0

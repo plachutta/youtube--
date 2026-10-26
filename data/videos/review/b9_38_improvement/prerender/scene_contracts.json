@@ -1,0 +1,450 @@
+[
+  {
+    "sceneId": "scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3",
+    "productionLabel": "Hook",
+    "position": 0,
+    "purpose": "Open with the story’s central mechanism: one mistyped word shaped the most recognizable domain name in tech.",
+    "keyTakeaway": "A single misspelling, not genius naming, produced the iconic name.",
+    "narration": {
+      "transcript": "If you have ever wondered how a single misspelling created the most iconic domain name in tech, here is how it actually happened.",
+      "acceptedAudioRef": "wav:scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3"
+    },
+    "visual": {
+      "type": "explanatory_card",
+      "payload": {
+        "statements": [
+          "If you have ever wondered how a single misspelling created the most iconic domain name in tech, here is how it actually happened."
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 0,
+      "durationSec": 8
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_1f04d8be-4aa1-45a2-a3be-18fa070d5302",
+    "productionLabel": "Introduction",
+    "position": 1,
+    "purpose": "Establish the subject and what the viewer will understand by the end.",
+    "keyTakeaway": "You will understand how the registration worked and why the name stuck.",
+    "narration": {
+      "transcript": "Hey everyone, welcome back to the channel. Today we are walking through how one mistyped word turned into the most recognizable domain name in technology. By the end, you will understand exactly how the registration worked and why it stuck.",
+      "acceptedAudioRef": "wav:scene_1f04d8be-4aa1-45a2-a3be-18fa070d5302"
+    },
+    "visual": {
+      "type": "explanatory_card",
+      "payload": {
+        "statements": [
+          "Today we are walking through how one mistyped word turned into the most recognizable domain name in technology.",
+          "By the end, you will understand exactly how the registration worked and why it stuck."
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_1f04d8be-4aa1-45a2-a3be-18fa070d5302"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 8,
+      "durationSec": 15.425
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_edb8ee12-fcca-44a6-8980-5dfaa016860d",
+    "productionLabel": "The Setup",
+    "position": 2,
+    "purpose": "Show the registrar availability-check process the narration describes, step by step.",
+    "keyTakeaway": "Every domain starts with a request whose exact string the registrar checks for availability.",
+    "narration": {
+      "transcript": "Every domain name starts the same way. Someone picks the words they want, types them into a registrar, and sends a request across the internet. The registrar checks whether the exact string is already taken.",
+      "acceptedAudioRef": "wav:scene_edb8ee12-fcca-44a6-8980-5dfaa016860d"
+    },
+    "visual": {
+      "type": "process_diagram",
+      "payload": {
+        "steps": [
+          {
+            "id": "pick",
+            "label": "Someone picks the words they want"
+          },
+          {
+            "id": "type",
+            "label": "types them into a registrar"
+          },
+          {
+            "id": "send",
+            "label": "sends a request across the internet"
+          },
+          {
+            "id": "check",
+            "label": "the registrar checks whether the exact string is already taken"
+          }
+        ],
+        "edges": [
+          {
+            "from": "pick",
+            "to": "type"
+          },
+          {
+            "from": "type",
+            "to": "send"
+          },
+          {
+            "from": "send",
+            "to": "check"
+          }
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_edb8ee12-fcca-44a6-8980-5dfaa016860d"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 23.425,
+      "durationSec": 13.325
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_2d1b1392-458b-4831-a76f-7d0663e7bda5",
+    "productionLabel": "The Mistake",
+    "position": 3,
+    "purpose": "Differentiate the intended word from the string actually submitted to the registry.",
+    "keyTakeaway": "The registry checks the string that was actually sent, not the word that was meant.",
+    "narration": {
+      "transcript": "The misspelling happened in that check. The person intended one word, but typed something slightly different. The registry looked at the string they actually sent, not the word they meant, and it was free.",
+      "acceptedAudioRef": "wav:scene_2d1b1392-458b-4831-a76f-7d0663e7bda5"
+    },
+    "visual": {
+      "type": "comparison",
+      "payload": {
+        "left": {
+          "label": "INTENDED — the word they meant",
+          "items": [
+            "the word they meant"
+          ]
+        },
+        "right": {
+          "label": "SUBMITTED — the string they actually sent",
+          "items": [
+            "the string they actually sent",
+            "it was free"
+          ]
+        },
+        "comparedAttributes": [
+          "what the registry checks"
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_2d1b1392-458b-4831-a76f-7d0663e7bda5"
+      ],
+      "unresolvedNote": "The accepted narration never names the actual strings; the comparison stays structural."
+    },
+    "timing": {
+      "startSec": 36.75,
+      "durationSec": 12.125
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_6ac316ee-5208-458a-b582-c7d953b96e7b",
+    "productionLabel": "The Registration",
+    "position": 4,
+    "purpose": "Show the supported registration sequence and its consequence in the public record.",
+    "keyTakeaway": "Fee, record, server: the misspelled string became permanent in the public record.",
+    "narration": {
+      "transcript": "So the registration went through. The fee was paid, the record was written, and the domain pointed at a server. Nothing about the process was unusual. What made it memorable was that the string was now permanently misspelled in the public record.",
+      "acceptedAudioRef": "wav:scene_6ac316ee-5208-458a-b582-c7d953b96e7b"
+    },
+    "visual": {
+      "type": "process_diagram",
+      "payload": {
+        "steps": [
+          {
+            "id": "fee",
+            "label": "the fee was paid"
+          },
+          {
+            "id": "record",
+            "label": "the record was written"
+          },
+          {
+            "id": "server",
+            "label": "the domain pointed at a server"
+          },
+          {
+            "id": "permanent",
+            "label": "permanently misspelled in the public record"
+          }
+        ],
+        "edges": [
+          {
+            "from": "fee",
+            "to": "record"
+          },
+          {
+            "from": "record",
+            "to": "server"
+          },
+          {
+            "from": "server",
+            "to": "permanent"
+          }
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_6ac316ee-5208-458a-b582-c7d953b96e7b"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 48.875,
+      "durationSec": 14.975
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_8764649f-fd26-4157-a900-9df5f476fc0c",
+    "productionLabel": "Why It Stuck",
+    "position": 5,
+    "purpose": "Explain the memorability mechanism the narration describes: unexpected, read, paused, remembered, spread by word of mouth.",
+    "keyTakeaway": "Unexpected strings interrupt reading, which is why they are remembered and shared.",
+    "narration": {
+      "transcript": "A misspelled domain is memorable precisely because it is unexpected. People read it, pause, and remember it. That surprise is the reason it spread through word of mouth instead of advertising.",
+      "acceptedAudioRef": "wav:scene_8764649f-fd26-4157-a900-9df5f476fc0c"
+    },
+    "visual": {
+      "type": "relationship_diagram",
+      "payload": {
+        "nodes": [
+          {
+            "id": "unexpected",
+            "label": "it is unexpected"
+          },
+          {
+            "id": "read",
+            "label": "People read it"
+          },
+          {
+            "id": "pause",
+            "label": "pause"
+          },
+          {
+            "id": "remember",
+            "label": "remember it"
+          },
+          {
+            "id": "wom",
+            "label": "it spread through word of mouth"
+          }
+        ],
+        "edges": [
+          {
+            "from": "unexpected",
+            "to": "read"
+          },
+          {
+            "from": "read",
+            "to": "pause"
+          },
+          {
+            "from": "pause",
+            "to": "remember"
+          },
+          {
+            "from": "remember",
+            "to": "wom"
+          }
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_8764649f-fd26-4157-a900-9df5f476fc0c"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 63.85,
+      "durationSec": 12.6
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_9ffc0770-f028-4f10-9537-c637771fa26d",
+    "productionLabel": "The Trade-off",
+    "position": 6,
+    "purpose": "Express the contrast the narration states: memorable on hearing, mistyped on typing.",
+    "keyTakeaway": "The same misspelling that makes the name memorable makes it easy to mistype.",
+    "narration": {
+      "transcript": "There is a cost, though. A misspelled domain is easy to remember but easy to mistype in the other direction. Users who hear the name and type the correct spelling can end up somewhere else entirely.",
+      "acceptedAudioRef": "wav:scene_9ffc0770-f028-4f10-9537-c637771fa26d"
+    },
+    "visual": {
+      "type": "comparison",
+      "payload": {
+        "left": {
+          "label": "EASY TO REMEMBER",
+          "items": [
+            "A misspelled domain is easy to remember"
+          ]
+        },
+        "right": {
+          "label": "EASY TO MISTYPE",
+          "items": [
+            "easy to mistype in the other direction",
+            "Users who hear the name and type the correct spelling can end up somewhere else entirely"
+          ]
+        },
+        "comparedAttributes": [
+          "what happens when someone types the name"
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_9ffc0770-f028-4f10-9537-c637771fa26d"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 76.45,
+      "durationSec": 12.5
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_69203470-d058-490a-9b78-c365844ad995",
+    "productionLabel": "The Lesson",
+    "position": 7,
+    "purpose": "Distinguish intended meaning from the input the system actually records.",
+    "keyTakeaway": "Systems record what you send, not what you intended.",
+    "narration": {
+      "transcript": "The lesson is not that misspellings are good strategy. It is that the system records what you actually send, not what you intended. That gap between intention and input is where the whole story lives.",
+      "acceptedAudioRef": "wav:scene_69203470-d058-490a-9b78-c365844ad995"
+    },
+    "visual": {
+      "type": "comparison",
+      "payload": {
+        "left": {
+          "label": "WHAT YOU SEND",
+          "items": [
+            "records what you actually send"
+          ]
+        },
+        "right": {
+          "label": "WHAT YOU MEANT",
+          "items": [
+            "not what you intended"
+          ]
+        },
+        "comparedAttributes": [
+          "what the system records"
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_69203470-d058-490a-9b78-c365844ad995"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 88.95,
+      "durationSec": 12.3
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_be738bf9-b7b6-4f7b-8605-04311abb931d",
+    "productionLabel": "Conclusion",
+    "position": 8,
+    "purpose": "Synthesize the narrative without repeating a wall of narration text.",
+    "keyTakeaway": "Registration records exact strings; the misspelling entered there and became memorable.",
+    "narration": {
+      "transcript": "So that is how a single mistyped word became the most recognizable domain name in tech. We covered how registration works, where the misspelling entered the process, and why an unexpected string is easier to remember than a correct one.",
+      "acceptedAudioRef": "wav:scene_be738bf9-b7b6-4f7b-8605-04311abb931d"
+    },
+    "visual": {
+      "type": "explanatory_card",
+      "payload": {
+        "statements": [
+          "So that is how a single mistyped word became the most recognizable domain name in tech.",
+          "We covered how registration works, where the misspelling entered the process, and why an unexpected string is easier to remember than a correct one."
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_be738bf9-b7b6-4f7b-8605-04311abb931d"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 101.25,
+      "durationSec": 14.8
+    },
+    "invalid": false,
+    "findings": []
+  },
+  {
+    "sceneId": "scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9",
+    "productionLabel": "Call to action",
+    "position": 9,
+    "purpose": "Close with the approved call to action, including the related-video area the narration asks for.",
+    "keyTakeaway": "Subscribe, comment, and watch the related video.",
+    "narration": {
+      "transcript": "If this was useful, subscribe and hit the notification bell. Let me know in the comments what other tech stories you want broken down, and check out the related video for more.",
+      "acceptedAudioRef": "wav:scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9"
+    },
+    "visual": {
+      "type": "cta_end_card",
+      "payload": {
+        "ctaWording": "If this was useful, subscribe and hit the notification bell.",
+        "requiredElements": [
+          "subscribe",
+          "comment_prompt",
+          "related_video_area"
+        ],
+        "elements": [
+          {
+            "role": "subscribe",
+            "label": "subscribe and hit the notification bell"
+          },
+          {
+            "role": "comment_prompt",
+            "label": "Let me know in the comments what other tech stories you want broken down"
+          },
+          {
+            "role": "related_video_area",
+            "label": "the related video",
+            "geometry": {
+              "x": 0.62,
+              "y": 0.45,
+              "width": 0.32,
+              "height": 0.48
+            }
+          }
+        ]
+      },
+      "evidenceRefs": [
+        "narration:scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9"
+      ],
+      "unresolvedNote": "The actual domain name and the intended word are never named in the accepted narration."
+    },
+    "timing": {
+      "startSec": 116.05,
+      "durationSec": 10.55
+    },
+    "invalid": false,
+    "findings": []
+  }
+]

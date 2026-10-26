@@ -1,0 +1,21 @@
+Classification: source inspection only; legacy Python entry point NOT EXECUTED.
+
+AUTHORITATIVE acceptance caller:
+- None found for the JavaScript roadmap ClaimVerifier. package.json exposes only test:claim-verifier, which runs the test suite; .github/workflows/ci.yml runs npm run test:claim-verifier as CI regression. No service/production acceptance consumer found.
+
+TEST-ONLY:
+- tools/claim-verifier/tests/claim-verifier.test.js: direct ClaimVerifier/validateRoadmapFile exercises, synthetic signatures, graph fixtures, current canonical status.
+- tools/claim-verifier/tests/engineering-team-pilot.fixture.test.js: ClaimVerifier and engineering-task-verifier in temp fixture; deterministic test provider.
+- tests/engineering-agent-provider.test.js: engineering-task-verifier only; provider fixtures.
+- package.json test:claim-verifier and .github/workflows/ci.yml test job: run tests only.
+
+DOCUMENTATION-ONLY / HISTORICAL:
+- tools/claim-verifier/README.md and docs/ENGINEERING-AGENT-OPERATING-MODEL.md reference verifier usage; no production integration.
+- docs B9.47/B9.48/B9.49/B9.50, data/b9_47/b9_48/b9_49/b9_50 evidence, and root roadmap describe historical findings/statuses.
+- tools/claim-verifier/data/VERIFIER_REPORT.md, ADVERSARIAL_REPORT.md, adv_report.json, verifier_result.json are historical output files; no live code consumer found.
+
+LEGACY PYTHON:
+- tools/claim-verifier/verifier.py is a directly runnable placeholder; no package script, shell wrapper, CI workflow, test runner, or source call invokes it. It writes tools/claim-verifier/data/verifier_result.json and has check_evidence() returning true. It was not executed. Historical JSON/Markdown outputs include permissive PASS/true labels but no active acceptance consumer was found. Any external/manual reader treating them as authoritative remains a governance risk.
+
+UNKNOWN/OUT-OF-REPO:
+- Grep and source inspection cannot enumerate external CI, operator shell history, copied commands, or external tooling. No code-level caller was located beyond the classifications above.

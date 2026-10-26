@@ -1,0 +1,15 @@
+{
+  "qa_report": "data/videos/review/b9_43_qa/qa_orch.json",
+  "baseline_b37_sha256": "15606974b4b0954c3cec030fc0796e31231945f1716c5ed147820dab5ad5100d",
+  "status": {
+    "orchestrator_implemented": true,
+    "release_gate_behavior": true,
+    "checks_executed": true,
+    "failure_detection": true,
+    "tests_exercised": true,
+    "full_video_rendered": false,
+    "production_render_authorized": false,
+    "human_review": "PENDING"
+  },
+  "created_at": "2026-10-15T17:24:33.219687Z"
+}

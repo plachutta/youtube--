@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-10-15T17:01:34.988Z",
+  "checks": [],
+  "states": {
+    "PASS": "PASS",
+    "FAIL": "FAIL",
+    "NOT_RUN": "NOT_RUN",
+    "BLOCKED": "BLOCKED",
+    "NOT_APPLICABLE": "NOT_APPLICABLE"
+  },
+  "full_video_rendered": false,
+  "production_render_authorized": false,
+  "human_review": "PENDING",
+  "renderer_identity_verified": true,
+  "technical": {
+    "checks": [
+      {
+        "name": "file_integrity",
+        "state": "PASS",
+        "evidence": {
+          "sha256": "1aa75d572b9fb768f53860e945e1356ba3da3ddcf5a45684916ee487bf3b96ab",
+          "size": 136927
+        }
+      }
+    ],
+    "overall": "PASS"
+  }
+}

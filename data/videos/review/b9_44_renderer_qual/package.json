@@ -1,0 +1,13 @@
+{
+  "name": "b9-44-renderer-qual",
+  "version": "1.0.0",
+  "private": true,
+  "description": "B9.44+ isolated native-renderer qualification sandbox (NOT production)",
+  "type": "module",
+  "dependencies": {
+    "@motion-canvas/2d": "^3.17.2",
+    "@motion-canvas/core": "^3.17.2",
+    "@motion-canvas/ffmpeg": "^1.1.1",
+    "@motion-canvas/vite-plugin": "^3.17.2"
+  }
+}

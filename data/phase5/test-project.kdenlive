@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kdenliveproject version="3">
+  <componentbaseurl>/tmp</componentbaseurl>
+  <p id="0" stripend="0" striptype="0">
+    <t ids="0" time="-1" timed="0" type="P" show="1"/>
+  </p>
+  <trackids>
+    <track id="0" type="video"/>
+    <track id="1" type="audio"/>
+  </trackids>
+  <playlist>
+    <entry producerid="vid0" in="0" out="150"/>
+    <entry producerid="vid1" in="0" out="300"/>
+  </playlist>
+</kdenliveproject>

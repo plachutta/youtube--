@@ -1,0 +1,6 @@
+{
+  "created_at": "2026-10-15T18:19:15Z",
+  "status": "NOT_VERIFIED",
+  "evidence": [],
+  "notes": "Renderer identity (native Motion Canvas execution) remains to be established via isolated qualification harness."
+}

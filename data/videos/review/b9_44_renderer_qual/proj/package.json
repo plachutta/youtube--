@@ -1,0 +1,1 @@
+{"name":"mc-qual-proj","private":true,"type":"module","dependencies":{"@motion-canvas/2d":"3.17.2","@motion-canvas/core":"3.17.2","@motion-canvas/ffmpeg":"1.1.1","@motion-canvas/ui":"^3.17.2","@motion-canvas/vite-plugin":"3.17.2","@preact/preset-vite":"^2.10.6","preact":"^11.0.1","vite":"4"}}

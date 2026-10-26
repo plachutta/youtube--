@@ -1,0 +1,31 @@
+B9.16 HOSTED TTS PILOT — HOW TO RUN
+
+These are two separate notebooks so the provider dependency environments are isolated.
+They have NOT been executed. Do not interpret them as proof of inference success.
+
+Canonical text:
+How a single misspelling created the most iconic domain name in tech is about to change everything, and here's why...
+
+Expected SHA-256:
+7b292603c4308ecf92cc882e1e2cc21b5da57ccade71b51ec3078a57bb11f5a8
+
+1. Open Google Colab.
+2. Upload/open one .ipynb notebook at a time.
+3. Choose Runtime > Change runtime type, select a GPU, and if offered pin the past
+   runtime version 2026.07 (documented Python 3.12.13). If Python is not 3.12, the
+   notebook intentionally stops before model installation/inference.
+4. Run its cells. It installs dependencies in the temporary hosted runtime, verifies
+   the canonical text hash, attempts one genuine inference, validates a WAV if created,
+   and downloads a ZIP containing output/manifest/logs.
+5. Run the other notebook in a fresh runtime so its dependencies remain isolated.
+6. Keep both downloaded ZIP files; they are evidence for the qualification report.
+
+Kokoro official source: https://github.com/hexgrad/kokoro
+Qwen official source: https://github.com/QwenLM/Qwen3-TTS
+Qwen model: https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+
+Constraints:
+- Hosted GPU inference only; no local inference.
+- One segment per engine; no production batch.
+- No production import, database mutation, or YouTube publishing.
+- A technically valid WAV remains pending human listening review.

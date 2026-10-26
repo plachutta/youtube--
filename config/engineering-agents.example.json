@@ -1,0 +1,14 @@
+{
+  "contractVersion": "1.0.0",
+  "providers": [
+    {
+      "id": "kilo-cli",
+      "enabled": false,
+      "adapter": "utils/engineering-agent-providers/kilo-cli.js#KiloCliAdapter",
+      "note": "Optional provider. The adapter is unsandboxed by default and must not receive production workspaces. No implicit fallback is permitted."
+    }
+  ],
+  "providerSelection": "explicit-per-task",
+  "modelProviderSelection": "provider-managed-or-explicit",
+  "executionBackendSelection": "separate-from-agent-and-model"
+}
