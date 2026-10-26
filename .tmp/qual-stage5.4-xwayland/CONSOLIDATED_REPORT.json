@@ -1,0 +1,76 @@
+{
+  "report_title": "Stage 5.4 - XWayland-Based GUI Automation",
+  "timestamp": "2026-10-26 01:02:36",
+  "repository_preservation": {
+    "git_head": "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.4-xwayland/HEAD.txt",
+    "git_branch": "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.4-xwayland/branch.txt",
+    "git_status": "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.4-xwayland/git-status.txt",
+    "source_hashes": "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.4-xwayland/source-hashes.txt",
+    "preservation_guarantee": "No user changes discarded, reverted, staged, or committed"
+  },
+  "xwayland_environment": {
+    "display": ":0",
+    "wayland_display": "wayland-0",
+    "session_type": "wayland",
+    "xcb_plugin_qt6": "/usr/lib/x86_64-linux-gnu/qt6/plugins/platforms/libqxcb.so",
+    "xcb_plugin_qt5": "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so",
+    "kdenlive_xcb_launch": "PASS - Kdenlive launched with QT_QPA_PLATFORM=xcb"
+  },
+  "required_tools": {
+    "xdotool": {
+      "system_binary": "NOT INSTALLED",
+      "install_method_attempted": "apt-get (failed - no sudo terminal), pip --break-system-packages (installed Python package but requires system binary)",
+      "status": "UNAVAILABLE"
+    },
+    "wmctrl": {
+      "system_binary": "NOT INSTALLED",
+      "python_package": "NOT AVAILABLE",
+      "status": "UNAVAILABLE"
+    }
+  },
+  "kdenlive_launch_test": {
+    "platform": "QT_QPA_PLATFORM=xcb",
+    "launch_status": "Kdenlive launched successfully with XCB platform",
+    "window_control": "BLOCKED - xdotool/wmctrl unavailable"
+  },
+  "gui_automation": {
+    "smoke_test": "BLOCKED - Required tools unavailable",
+    "window_identification": "BLOCKED - No xdotool/wmctrl",
+    "keyboard_interaction": "BLOCKED - No xdotool",
+    "wmctrl_operations": "BLOCKED - No wmctrl"
+  },
+  "production_generator": {
+    "generator_path": "/home/gachiemeshackson/Videos/youtube/utils/renderers/kdenlive-generator.js",
+    "generator_type": "JavaScript/Node.js production generator",
+    "generated_mlt_project": "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.4-xwayland/generated-project.mlt",
+    "scenes": 2,
+    "scene_description": [
+      "Scene A (Opening Title)",
+      "Scene B (Main Content)"
+    ]
+  },
+  "native_save_reopen": {
+    "status": "BLOCKED",
+    "reason": "XWayland GUI automation block prevents accessing Save As, close, and reopen workflow",
+    "executed": "NO - GUI automation tools unavailable"
+  },
+  "mlt_rendering": {
+    "status": "QUALIFIED (from Stage 5.2)",
+    "consumer": "melt-7 with avformat",
+    "verification": "h264 video, aac audio, correct duration and dimensions (FFprobe verified)"
+  },
+  "classification": {
+    "mlt_rendering": "QUALIFIED",
+    "native_kdenlive_cli_render": "PENDING (from Stage 5.2)",
+    "xwayland_gui_automation": "BLOCKED",
+    "native_kdenlive_save_reopen": "BLOCKED",
+    "overall_stage_5.4": "BLOCKED"
+  },
+  "next_executable_task": "Investigate alternative GUI automation approaches or accept MLT rendering as the qualified pathway while native persistence remains blocked. Do not promote Stage 5 classification based on incomplete automation.",
+  "preservation_statement": "All source files, automation scripts, test scripts, reports, generated projects, and rendered artifacts preserved in original state. Repository at /home/gachiemeshackson/Videos/youtube remains intact.",
+  "cross_stage_evidence": {
+    "stage_5.3_accessibility": "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/",
+    "stage_5.2_native_persistence": "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.2-native-persistence/",
+    "stage_5.4_xwayland": "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.4-xwayland/"
+  }
+}

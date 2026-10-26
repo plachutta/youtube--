@@ -1,0 +1,5 @@
+f70f893badff0f0a10842a18d0ed01e07219cc3b2579be0a9409cbbf85b317f7  /home/gachiemeshackson/Videos/youtube/utils/renderers/kdenlive-generator.js
+eb0148772f4f1e3f410de309f69335332175a8916ea07e8f7a822f671859a490  /home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5/stage5_automation_v2_audited.py
+338618dd871d48a9be8505f1fa1d26cdc7490938125832ec83922dd460791794  /home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5/project.kdenlive
+010726f99ef4237e235aa584389c2fac22f86d9749ef6c81a51c1ff5289494ef  /home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5/agenttube-project.mlt
+09abd487ef644944e6d628068e4fc03c2aa3d36ab2e6ef00d132ac0795a68132  /home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5/project.mlt

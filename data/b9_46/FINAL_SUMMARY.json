@@ -1,0 +1,18 @@
+{
+  "milestone": "B9.46",
+  "head": "e26792a",
+  "working_tree_changes": 123,
+  "renderer_identity": "NOT_VERIFIED",
+  "components": {
+    "timeline": "contract_only",
+    "comparison": "contract_only",
+    "process": "contract_only"
+  },
+  "tests": {
+    "motion-canvas-adapter.test.js": "PASS",
+    "scene-contract.test.js": "PASS"
+  },
+  "complete_production_rendered": false,
+  "custom_audio_deferred": true,
+  "status": "IN_PROGRESS"
+}

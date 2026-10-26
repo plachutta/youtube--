@@ -1,0 +1,17 @@
+{
+  "reconciled": {
+    "head": "e26792a",
+    "changes": 123
+  },
+  "renderer_status": "NOT_VERIFIED",
+  "blocker_evidence": "previous attempt failed (VITE_NOT_READY)",
+  "tests": {
+    "motion-canvas-adapter.test.js": "PASS",
+    "scene-contract.test.js": "PASS"
+  },
+  "components": {
+    "status": "stubbed_contracts"
+  },
+  "complete_production_video_rendered": false,
+  "custom_audio_deferred": true
+}

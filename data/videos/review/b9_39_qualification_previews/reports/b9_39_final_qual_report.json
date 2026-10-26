@@ -1,0 +1,49 @@
+{
+  "baseline_b37": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.mp4",
+  "baseline_b37_sha256": "15606974b4b0954c3cec030fc0796e31231945f1716c5ed147820dab5ad5100d",
+  "preview_report": "data/videos/review/b9_39_qualification_previews/reports/preview_qual_report.json",
+  "targets": [
+    {
+      "pos": 1,
+      "id": "scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3",
+      "label": ""
+    },
+    {
+      "pos": 3,
+      "id": "scene_edb8ee12-fcca-44a6-8980-5dfaa016860d",
+      "label": ""
+    },
+    {
+      "pos": 4,
+      "id": "scene_2d1b1392-458b-4831-a76f-7d0663e7bda5",
+      "label": ""
+    },
+    {
+      "pos": 5,
+      "id": "scene_6ac316ee-5208-458a-b582-c7d953b96e7b",
+      "label": ""
+    },
+    {
+      "pos": 7,
+      "id": "scene_9ffc0770-f028-4f10-9537-c637771fa26d",
+      "label": ""
+    },
+    {
+      "pos": 10,
+      "id": "scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9",
+      "label": ""
+    }
+  ],
+  "status": {
+    "architecture_requalified": true,
+    "qualification_previews_rendered": true,
+    "preview_technically_validated": true,
+    "representative_visual_review_completed": true,
+    "regression_tests_passed": true,
+    "production_render_authorized": false,
+    "full_video_rendered": false,
+    "visual_superiority_full_production": "NOT_ESTABLISHED",
+    "human_review": "PENDING"
+  },
+  "created_at": "2026-10-15T16:32:00.205035Z"
+}

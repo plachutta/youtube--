@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-10-15T18:08:15Z",
+  "patterns": [
+    {"name": "timeline", "when": "chronological", "needs": ["ordered_events"], "elements": ["timeline_axis", "markers", "labels"], "reusable": true},
+    {"name": "comparison", "when": "contrast two states", "needs": ["state_a", "state_b", "diffs"], "elements": ["side_by_side", "highlights"], "reusable": true},
+    {"name": "process", "when": "stepwise explanation", "needs": ["steps"], "elements": ["sequence", "progress_indicator"], "reusable": true},
+    {"name": "tactical_pitch", "when": "football tactics", "needs": ["formation", "positions", "movement"], "elements": ["pitch", "markers", "arrows", "zones"], "reusable": true}
+  ],
+  "notes": "Patterns derived from cross-industry references; avoid copying assets. Preserve accepted audio."
+}

@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-10-15T18:07:55Z",
+  "categories": {
+    "football": [
+      {"title": "Football video essay - general reference", "niche": "football", "format": "video essay", "url": "https://www.youtube.com/results?search_query=football+video+essay", "observation": "research target - narrative structure"}
+    ],
+    "technology": [{"title": "Tech explainer references", "niche": "technology", "format": "explainer", "url": "https://www.youtube.com/results?search_query=technology+explainer+short", "observation": "visual clarity"}],
+    "science": [{"title": "Science explainers", "niche": "science", "format": "explainer", "url": "https://www.youtube.com/results?search_query=science+explainer", "observation": "diagrams/animations"}],
+    "business": [{"title": "Business documentaries/explainers", "niche": "business", "format": "documentary", "url": "https://www.youtube.com/results?search_query=business+case+study+explainer", "observation": "narrative structure"}],
+    "history": [{"title": "History video essays", "niche": "history", "format": "video essay", "url": "https://www.youtube.com/results?search_query=history+video+essay", "observation": "timelines/cause-effect"}],
+    "gaming": [{"title": "Gaming strategy explainers", "niche": "gaming", "format": "breakdown", "url": "https://www.youtube.com/results?search_query=game+strategy+breakdown", "observation": "mechanics visualization"}]
+  }
+}

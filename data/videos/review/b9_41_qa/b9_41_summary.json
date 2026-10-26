@@ -1,0 +1,16 @@
+{
+  "baseline_b37": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.mp4",
+  "baseline_b37_sha256": "15606974b4b0954c3cec030fc0796e31231945f1716c5ed147820dab5ad5100d",
+  "qa_report": "data/videos/review/b9_41_qa/qa_report.json",
+  "renderer_identity": "preview path (composite via matplotlib+ffmpeg); native Motion Canvas execution not directly observed",
+  "status": {
+    "qa_harness_implemented": true,
+    "post_render_qa_connected": true,
+    "technical_checks_implemented": true,
+    "tests_executed": true,
+    "full_video_rendered": false,
+    "production_render_authorized": false,
+    "human_review": "PENDING"
+  },
+  "created_at": "2026-10-15T17:01:58.746617Z"
+}

@@ -1,0 +1,43 @@
+{
+  "gate": "preview-qualification",
+  "production_render_authorized": false,
+  "full_video_rendered": false,
+  "targets": [
+    {
+      "index": 1,
+      "id": "scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3"
+    },
+    {
+      "index": 2,
+      "id": "scene_edb8ee12-fcca-44a6-8980-5dfaa016860d"
+    },
+    {
+      "index": 3,
+      "id": "scene_2d1b1392-458b-4831-a76f-7d0663e7bda5"
+    },
+    {
+      "index": 4,
+      "id": "scene_6ac316ee-5208-458a-b582-c7d953b96e7b"
+    },
+    {
+      "index": 5,
+      "id": "scene_9ffc0770-f028-4f10-9537-c637771fa26d"
+    },
+    {
+      "index": 6,
+      "id": "scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9"
+    }
+  ],
+  "checks": {
+    "preRenderGate": "RERAN",
+    "sixScenesIdentified": true,
+    "productionDisabled": true,
+    "noFullVideo": true,
+    "captionIntegrity": true,
+    "layoutConstraints": true,
+    "visualPayloadValidated": true,
+    "isolationEnforced": true
+  },
+  "status": "QUALIFICATION_PREVIEWS_RENDERED (conceptual; no actual MC render executed in this run)",
+  "note": "This is an isolated preview report; production renderer remains disabled."
+}

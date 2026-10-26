@@ -1,0 +1,254 @@
+{
+ "schema_version": 1,
+ "created": "2026-10-15",
+ "records": [
+  {
+   "ref": "REF-001",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "hook(question)->concept-per-scene->build-up->payoff",
+   "visual_techniques": [
+    "custom vector animation (manim, open-source)",
+    "one diagram per concept",
+    "progressive reveal synchronized to narration",
+    "typography as diagram labels, not titles"
+   ],
+   "grammar_patterns": [
+    "curiosity-opening",
+    "conceptual-comparison",
+    "stepwise-process"
+   ],
+   "support_not_duplicate": "diagrams show what words cannot: network topology transforming",
+   "analysis_id": "REF-001-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-002",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "hook->definition->examples->bridge-to-next",
+   "visual_techniques": [
+    "coordinate-plane diagrams",
+    "arrow/vector entities with consistent color language",
+    "paced reveals (~1 visual change per 10-20s)"
+   ],
+   "grammar_patterns": [
+    "curiosity-opening",
+    "entity-relationship",
+    "stepwise-process"
+   ],
+   "support_not_duplicate": "visual defines vector-ness spatially; narration defines it verbally",
+   "analysis_id": "REF-002-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-003",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "hook(confusion)->live demo->stack/queue visualization->recap",
+   "visual_techniques": [
+    "live-coded event-loop visualizer",
+    "call-stack as vertical queue diagram",
+    "interface-demonstration of invisible runtime"
+   ],
+   "grammar_patterns": [
+    "curiosity-opening",
+    "interface-demonstration",
+    "stepwise-process"
+   ],
+   "support_not_duplicate": "animation makes the invisible runtime visible",
+   "analysis_id": "REF-003-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-004",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "hook(paradox)->candidate solutions enumerated->evidence each->open ending",
+   "visual_techniques": [
+    "consistent flat illustration language",
+    "enumerated solution cards",
+    "scale diagrams (stars/galaxies)"
+   ],
+   "grammar_patterns": [
+    "curiosity-opening",
+    "evidence-led",
+    "escalating-sequence"
+   ],
+   "support_not_duplicate": "illustrations concretize scales narration can only name",
+   "analysis_id": "REF-004-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-005",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "hook->stepwise construction->scale escalation->implication",
+   "visual_techniques": [
+    "step-by-step construction animation",
+    "scale escalation shots",
+    "before/after energy comparisons"
+   ],
+   "grammar_patterns": [
+    "stepwise-process",
+    "escalating-sequence",
+    "before-after"
+   ],
+   "support_not_duplicate": "construction sequence shows assembly narration describes",
+   "analysis_id": "REF-005-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-006",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "chronological sweep past->present->future",
+   "visual_techniques": [
+    "timeline spine with era cards",
+    "consistent icon language across eras",
+    "temporal zoom transitions"
+   ],
+   "grammar_patterns": [
+    "chronological-timeline",
+    "escalating-sequence",
+    "synthesis-summary"
+   ],
+   "support_not_duplicate": "timeline spatializes time; narration walks it",
+   "analysis_id": "REF-006-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-007",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "hook->before(world pre-agriculture)->after->consequences->bridge",
+   "visual_techniques": [
+    "presenter plus graphic cutaways",
+    "map animations",
+    "before/after comparison frames"
+   ],
+   "grammar_patterns": [
+    "before-after",
+    "map-based",
+    "synthesis-summary"
+   ],
+   "support_not_duplicate": "maps ground narration claims geographically",
+   "analysis_id": "REF-007-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-008",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "playground setup->physics gag sequence->escalating concepts",
+   "visual_techniques": [
+    "character-entity animation",
+    "physics diagrams embedded in story",
+    "cause-effect chains visualized"
+   ],
+   "grammar_patterns": [
+    "entity-relationship",
+    "escalating-sequence",
+    "stepwise-process"
+   ],
+   "support_not_duplicate": "story carries abstraction; diagrams formalize it",
+   "analysis_id": "REF-008-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-009",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "hook(scale)->follow-the-package journey->system reveal",
+   "visual_techniques": [
+    "map-based package journey",
+    "facility/process diagrams",
+    "flow overlays on geography"
+   ],
+   "grammar_patterns": [
+    "stepwise-process",
+    "map-based",
+    "entity-relationship"
+   ],
+   "support_not_duplicate": "map traces the journey narration narrates",
+   "analysis_id": "REF-009-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-010",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "hook(problem)->model->simulation->verdict",
+   "visual_techniques": [
+    "traffic simulation visuals",
+    "conceptual comparison (lanes/throughput)",
+    "diagram-led policy argument"
+   ],
+   "grammar_patterns": [
+    "conceptual-comparison",
+    "evidence-led",
+    "synthesis-summary"
+   ],
+   "support_not_duplicate": "simulation shows dynamics words cannot",
+   "analysis_id": "REF-010-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-011",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "enumeration with per-entity beats",
+   "visual_techniques": [
+    "choropleth-style map fills",
+    "per-state fact cards",
+    "consistent comparison template varied by content"
+   ],
+   "grammar_patterns": [
+    "map-based",
+    "conceptual-comparison",
+    "structured-endcard"
+   ],
+   "support_not_duplicate": "map is the content; narration annotates it",
+   "analysis_id": "REF-011-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-012",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "thesis->chart evidence chain->implication",
+   "visual_techniques": [
+    "chart-led argument (inflation curves)",
+    "annotated data visualizations",
+    "evidence callouts"
+   ],
+   "grammar_patterns": [
+    "evidence-led",
+    "data-chart",
+    "synthesis-summary"
+   ],
+   "support_not_duplicate": "charts prove; narration interprets",
+   "analysis_id": "REF-012-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  },
+  {
+   "ref": "REF-013",
+   "observation_level": "metadata+documented-method",
+   "narrative_structure": "counter-intuitive hook->mechanism chain->verdict",
+   "visual_techniques": [
+    "mechanism diagrams",
+    "chart support",
+    "structured recap"
+   ],
+   "grammar_patterns": [
+    "curiosity-opening",
+    "evidence-led",
+    "synthesis-summary"
+   ],
+   "support_not_duplicate": "mechanism diagrams unpack the causal chain",
+   "analysis_id": "REF-013-AN",
+   "retention": "unknown",
+   "temporal_claim": "structure inferred from documented format + metadata; no timestamped viewing claimed"
+  }
+ ]
+}

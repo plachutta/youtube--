@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-15T11:49:03.479647Z",
+  "baseline": "b9_34",
+  "video": {
+    "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_35_draft.mp4",
+    "sha256": "37073e0a98dea54704c8021db65bb05f7ce180c019aa53dd9595bd967047e97a",
+    "duration_sec": 126.6,
+    "resolution": "1920x1080",
+    "fps": "30/1",
+    "size_bytes": 3085912
+  },
+  "captions": "data/captions/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_35_narration.srt",
+  "status": {
+    "assembled": true,
+    "technically_validated": true,
+    "pending_human_review": true
+  },
+  "notes": "Deterministic per-scene diagrams; narration preserved."
+}

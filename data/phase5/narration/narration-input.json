@@ -1,0 +1,79 @@
+{
+  "jobKind": "agenttube-narration",
+  "productionId": "prod_1791719492789_rox41tx3c2_jldixb8xqw",
+  "createdAt": "2026-10-11T11:54:33.956Z",
+  "engine": null,
+  "sampleRate": 24000,
+  "segments": [
+    {
+      "sceneId": "scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3",
+      "position": 0,
+      "label": "Hook",
+      "estimatedDurationSec": 22.69,
+      "text": "How a single misspelling created the most iconic domain name in tech is about to change everything, and here's why..."
+    },
+    {
+      "sceneId": "scene_1f04d8be-4aa1-45a2-a3be-18fa070d5302",
+      "position": 1,
+      "label": "Introduction",
+      "estimatedDurationSec": 62.41,
+      "text": "Hey everyone, welcome back to the channel! Today, we're diving deep into How a single misspelling created the most iconic domain name in tech. By the end of this video, you'll understand exactly what How a single misspelling created the most iconic domain name in tech is and why it matters. Drawing from real-world experience"
+    },
+    {
+      "sceneId": "scene_edb8ee12-fcca-44a6-8980-5dfaa016860d",
+      "position": 2,
+      "label": "Question",
+      "estimatedDurationSec": 26.1,
+      "text": "This section covers important aspects of How a single misspelling created the most iconic domain name in tech that you need to know."
+    },
+    {
+      "sceneId": "scene_2d1b1392-458b-4831-a76f-7d0663e7bda5",
+      "position": 3,
+      "label": "Background",
+      "estimatedDurationSec": 26.1,
+      "text": "This section covers important aspects of How a single misspelling created the most iconic domain name in tech that you need to know."
+    },
+    {
+      "sceneId": "scene_6ac316ee-5208-458a-b582-c7d953b96e7b",
+      "position": 4,
+      "label": "Deep Dive",
+      "estimatedDurationSec": 57.87,
+      "text": "Let's break down How a single misspelling created the most iconic domain name in tech into its core components. First, we need to understand the fundamental principles. The science behind this is fascinating... This is why How a single misspelling created the most iconic domain name in tech works so effectively."
+    },
+    {
+      "sceneId": "scene_8764649f-fd26-4157-a900-9df5f476fc0c",
+      "position": 5,
+      "label": "Real-World Examples",
+      "estimatedDurationSec": 46.52,
+      "text": "Let's look at some real examples of How a single misspelling created the most iconic domain name in tech in action. These examples show the versatility and power of How a single misspelling created the most iconic domain name in tech."
+    },
+    {
+      "sceneId": "scene_9ffc0770-f028-4f10-9537-c637771fa26d",
+      "position": 6,
+      "label": "What This Means",
+      "estimatedDurationSec": 44.25,
+      "text": "The implications of How a single misspelling created the most iconic domain name in tech are far-reaching. This will change how we think about the industry. Early adopters will have a significant advantage. The potential for growth is enormous."
+    },
+    {
+      "sceneId": "scene_69203470-d058-490a-9b78-c365844ad995",
+      "position": 7,
+      "label": "Summary",
+      "estimatedDurationSec": 26.1,
+      "text": "This section covers important aspects of How a single misspelling created the most iconic domain name in tech that you need to know."
+    },
+    {
+      "sceneId": "scene_be738bf9-b7b6-4f7b-8605-04311abb931d",
+      "position": 8,
+      "label": "Conclusion",
+      "estimatedDurationSec": 80.56,
+      "text": "So that's everything you need to know about How a single misspelling created the most iconic domain name in tech. We covered the key points: - The fundamentals and why they matter - Practical steps to get started - Real-world applications and examples - Tips for long-term success Remember, How a single misspelling created the most iconic domain name in tech is a journey, not a destination. Keep learning and improving!"
+    },
+    {
+      "sceneId": "scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9",
+      "position": 9,
+      "label": "Call to action",
+      "estimatedDurationSec": 62.41,
+      "text": "If you found this helpful, make sure to subscribe and hit the notification bell! Give this video a thumbs up if you learned something new. Let me know in the comments: What's your experience with How a single misspelling created the most iconic domain name in tech? Check out this related video for more insights."
+    }
+  ]
+}

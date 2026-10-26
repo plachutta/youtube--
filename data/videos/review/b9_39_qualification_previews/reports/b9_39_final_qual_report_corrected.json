@@ -1,0 +1,25 @@
+{
+  "baseline_b37": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.mp4",
+  "baseline_b37_sha256": "15606974b4b0954c3cec030fc0796e31231945f1716c5ed147820dab5ad5100d",
+  "pre_render_gate": "executed (via node scripts/b9-38-prerender-qualify.js)",
+  "tests_executed": [
+    "tests/motion-canvas-adapter.test.js",
+    "tests/layout-geometry.test.js",
+    "tests/scene-contract.test.js",
+    "tests/prerender-service-wiring.test.js"
+  ],
+  "previews_corrected_report": "data/videos/review/b9_39_qualification_previews/reports/preview_qual_report_corrected.json",
+  "status": {
+    "architecture_requalified": true,
+    "previews_actually_rendered": true,
+    "preview_media_technically_validated": true,
+    "representative_visual_review_completed": true,
+    "regression_tests_executed": true,
+    "regression_tests_passed": true,
+    "production_render_authorized": false,
+    "full_video_rendered": false,
+    "whole_production_visual_superiority_established": false,
+    "human_review": "PENDING"
+  },
+  "created_at": "2026-10-15T16:46:10.843480Z"
+}

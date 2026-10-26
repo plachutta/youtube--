@@ -4,6 +4,11 @@ const path = require('path');
 const sharp = require('sharp');
 const { getMediaDuration, runFFmpeg } = require('./ffmpeg');
 const { ProvenanceService } = require('./provenance-service');
+const prerenderGate = require('./prerender-gate');
+const { createTextMeasurer } = require('./layout-engine');
+const { segmentTranscriptToCues } = require('./caption-contract');
+const { MotionCanvasAdapter } = require('./renderers/motion-canvas-adapter');
+const { BACKEND_MODES } = require('./renderers/backend-contract');
 
 const VIDEO_EXTENSIONS = new Set(['.mp4']);
 const IMAGE_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.webp']);
@@ -551,6 +556,20 @@ class SceneRepairService {
     }
     if (missing.length) throw this.error(`Cannot rebuild: ${missing.join('; ')}`, 409, 'SCENE_REBUILD_BLOCKED', { blockers: missing });
 
+    // B9.38 pre-render qualification on the real production path.
+    // Contract-governed bundles (scenes carrying typed visual payloads or an
+    // accepted narration contract) must pass the pre-render gate before any
+    // rendering work starts (fail-closed). Legacy bundles receive an honest
+    // assessment that never claims PRE_RENDER_GATE_PASSED.
+    let preRenderGate = null;
+    const contractGoverned = scenes.some(scene => scene.visual) || Boolean(bundle.preRenderContract || bundle.narrationContract);
+    if (contractGoverned) {
+      preRenderGate = await this.evaluatePreRenderGate(scenes);
+      prerenderGate.assertPass(preRenderGate);
+    } else {
+      preRenderGate = prerenderGate.assessLegacyBundle({ sceneCount: scenes.length });
+    }
+
     const timestamp = Date.now();
     const visualPath = path.join(this.dataRoot, 'videos', `${productionId}_repair_${timestamp}_visual.mp4`);
     const finalPath = path.join(this.dataRoot, 'videos', `${productionId}_repair_${timestamp}.mp4`);
@@ -590,7 +609,16 @@ class SceneRepairService {
         duration: scenes.reduce((sum, scene) => sum + scene.duration, 0), simulated: false,
         provider: { actualProvider: 'scene-repair', model: 'mixed-assets', scenes: scenes.length }
       },
-      sceneManifest: { count: scenes.length, version: 1, updatedAt: new Date().toISOString() }
+      sceneManifest: { count: scenes.length, version: 1, updatedAt: new Date().toISOString() },
+      preRenderGate: {
+        mode: preRenderGate.mode || 'full',
+        passed: Boolean(preRenderGate.passed),
+        claimable: preRenderGate.mode === 'legacy' ? false : Boolean(preRenderGate.passed),
+        statuses: preRenderGate.statuses || {},
+        blockingFindings: (preRenderGate.findings || []).filter(item => item.severity === 'critical'),
+        evaluatedAt: new Date().toISOString(),
+        note: preRenderGate.note || null
+      }
     };
     const timeline = { ...bundle.timeline, sceneRepairAt: new Date().toISOString(), captionsGenerated: new Date().toISOString(), readyForUpload: new Date().toISOString() };
     await this.db.updateProductionData({
@@ -606,7 +634,51 @@ class SceneRepairService {
       after: { finalVideo: finalPath, captions: captionsPath },
       costEvidence: { billed: false, reusedScenes: scenes.length }
     });
-    return { productionId, finalVideo: finalPath, previousVideo: previousPath, captions: captionsPath, scenes: scenes.length };
+    return {
+      productionId, finalVideo: finalPath, previousVideo: previousPath, captions: captionsPath,
+      scenes: scenes.length,
+      preRenderGate: { mode: preRenderGate.mode || 'full', passed: Boolean(preRenderGate.passed), statuses: preRenderGate.statuses || {} }
+    };
+  }
+
+  /**
+   * B9.38: run the pre-render qualification for a contract-governed bundle.
+   * Uses the scene records themselves (typed visual payloads produced by the
+   * semantic planner) plus each scene's approved transcript, and validates
+   * against the Motion Canvas adapter without rendering anything.
+   */
+  async evaluatePreRenderGate(scenes) {
+    const ordered = [...scenes].sort((a, b) => (a.position || 0) - (b.position || 0));
+    let cursor = 0;
+    const gateScenes = ordered.map(scene => {
+      const timing = { startSec: cursor, durationSec: Number(scene.duration) || 1 };
+      cursor += timing.durationSec;
+      return {
+        sceneId: scene.id,
+        productionLabel: scene.label,
+        purpose: scene.visual?.purpose || scene.purpose || scene.scriptText,
+        keyTakeaway: scene.visual?.keyTakeaway || scene.keyTakeaway || scene.scriptText,
+        narration: { transcript: scene.scriptText, acceptedAudioRef: scene.audioPath || null },
+        visual: scene.visual || undefined,
+        timing
+      };
+    });
+    const transcript = gateScenes.map(scene => scene.narration.transcript).join(' ');
+    let captionCues = [];
+    for (const scene of gateScenes) {
+      captionCues.push(...segmentTranscriptToCues({
+        transcript: scene.narration.transcript,
+        startSec: scene.timing.startSec,
+        endSec: scene.timing.startSec + scene.timing.durationSec
+      }));
+    }
+    const measurer = await createTextMeasurer();
+    try {
+      const adapter = new MotionCanvasAdapter({ mode: BACKEND_MODES.VALIDATE_ONLY });
+      return await prerenderGate.evaluate({ scenes: gateScenes, captionCues, transcript, backend: adapter, measurer });
+    } finally {
+      await measurer.close();
+    }
   }
 
   async rebuildNarration(productionId, scenes, fallbackAudioPath, timestamp) {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt>
+  <producer id="vid0">
+    <property name="title">test</property>
+    mlt_service="color"
+    <property name="color">0x0b1020</property>
+    <property name="duration"> 30</property>
+    <property name="in">0</property>
+    <property name="out"> 30</property>
+  </producer>
+  <playlist id="play0">
+    <entry producer="vid0" in="0" out="30"/>
+  </playlist>
+  <tractor id="tractor0" title="test" in="0" out="-1">
+    <track producer="vid0"/>
+  </tractor>
+</mlt>

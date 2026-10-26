@@ -1,0 +1,28 @@
+{
+  "gate": "pre-render",
+  "passed": true,
+  "statuses": {
+    "CONTENT_VALIDATED": "PASSED",
+    "SCENE_PLAN_VALIDATED": "PASSED",
+    "VISUAL_PAYLOAD_VALIDATED": "PASSED",
+    "ASSET_PROVENANCE_VALIDATED": "PASSED",
+    "CAPTION_INTEGRITY_VALIDATED": "PASSED",
+    "LAYOUT_CONSTRAINTS_VALIDATED": "PASSED",
+    "ENGINE_INPUT_VALIDATED": "PASSED",
+    "RENDER_EXECUTED": "NOT_PERFORMED",
+    "MEDIA_TECHNICALLY_VALIDATED": "NOT_PERFORMED",
+    "VISUAL_QUALITY_REVIEWED": "NOT_PERFORMED",
+    "FACTUALITY_AND_RIGHTS_REVIEWED": "NOT_PERFORMED",
+    "PENDING_HUMAN_REVIEW": "PENDING",
+    "HUMAN_ACCEPTED": "NOT_ESTABLISHED"
+  },
+  "findings": [],
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "measurement": {
+    "backend": "chromium"
+  },
+  "note": "A passed pre-render gate means inputs meet established contracts. It does not prove rendered output is good."
+}

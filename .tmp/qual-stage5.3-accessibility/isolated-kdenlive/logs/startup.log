@@ -1,0 +1,845 @@
+kf.config.core: Created a KConfigGroup on an inaccessible config location "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config" "General"
+kf.config.core: Created a KConfigGroup on an inaccessible config location "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config" "Icons"
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+:::::::::: CREATING SPLASH SCREEN SPLASH
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+profilePath from appDir/../share:  "/usr/share/mlt-7/profiles"
+meltPath from KdenliveSetting::meltPath:  ""
+meltPath from profilePath/../../../bin:  "/usr/bin/melt-7"
+kf.config.core: Watching absolute paths is not supported "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+Starting render server
+ZZZZZZZZZZZZZZZZZZZZZZZ
+
+STARTING TASKMANAGER CLOSURE, ACTIVE THREADS:  0 
+EXCEPTIONS:  QList() 
+
+ZZZZZZZZZZZZZZZZZZZZZZZ
+org.kde.kdenlive: Profile  "" not found. Returning default profile instead.
+::: FOUND EFFECT TAG:  "affine"  ==  "affine"
+::: FOUND EFFECT TAG:  "composite"  ==  "composite"
+::: FOUND EFFECT TAG:  "luma"  ==  "dissolve"
+::: FOUND EFFECT TAG:  "frei0r.addition"  ==  "frei0r.addition"
+::: FOUND EFFECT TAG:  "frei0r.addition_alpha"  ==  "frei0r.addition_alpha"
+::: FOUND EFFECT TAG:  "frei0r.alphaatop"  ==  "frei0r.alphaatop"
+::: FOUND EFFECT TAG:  "frei0r.alphain"  ==  "frei0r.alphain"
+::: FOUND EFFECT TAG:  "frei0r.alphaout"  ==  "frei0r.alphaout"
+::: FOUND EFFECT TAG:  "frei0r.alphaover"  ==  "frei0r.alphaover"
+::: FOUND EFFECT TAG:  "frei0r.alphaxor"  ==  "frei0r.alphaxor"
+::: FOUND EFFECT TAG:  "frei0r.burn"  ==  "frei0r.burn"
+::: FOUND EFFECT TAG:  "frei0r.cairoaffineblend"  ==  "frei0r.cairoaffineblend"
+::: FOUND EFFECT TAG:  "frei0r.cairoblend"  ==  "frei0r.cairoblend"
+::: FOUND EFFECT TAG:  "frei0r.color_only"  ==  "frei0r.color_only"
+::: FOUND EFFECT TAG:  "frei0r.darken"  ==  "frei0r.darken"
+::: FOUND EFFECT TAG:  "frei0r.difference"  ==  "frei0r.difference"
+::: FOUND EFFECT TAG:  "frei0r.divide"  ==  "frei0r.divide"
+::: FOUND EFFECT TAG:  "frei0r.dodge"  ==  "frei0r.dodge"
+::: FOUND EFFECT TAG:  "frei0r.euclid_eraser"  ==  "frei0r.euclid_eraser"
+::: FOUND EFFECT TAG:  "frei0r.grain_extract"  ==  "frei0r.grain_extract"
+::: FOUND EFFECT TAG:  "frei0r.grain_merge"  ==  "frei0r.grain_merge"
+::: FOUND EFFECT TAG:  "frei0r.hardlight"  ==  "frei0r.hardlight"
+::: FOUND EFFECT TAG:  "frei0r.hue"  ==  "frei0r.hue"
+::: FOUND EFFECT TAG:  "frei0r.lighten"  ==  "frei0r.lighten"
+::: FOUND EFFECT TAG:  "frei0r.multiply"  ==  "frei0r.multiply"
+::: FOUND EFFECT TAG:  "frei0r.overlay"  ==  "frei0r.overlay"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_push-down"  ==  "frei0r.sleid0r_push-down"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_push-left"  ==  "frei0r.sleid0r_push-left"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_push-right"  ==  "frei0r.sleid0r_push-right"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_push-up"  ==  "frei0r.sleid0r_push-up"
+::: FOUND EFFECT TAG:  "frei0r.saturation"  ==  "frei0r.saturation"
+::: FOUND EFFECT TAG:  "frei0r.screen"  ==  "frei0r.screen"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_slide-down"  ==  "frei0r.sleid0r_slide-down"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_slide-left"  ==  "frei0r.sleid0r_slide-left"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_slide-up"  ==  "frei0r.sleid0r_slide-up"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_slide-right"  ==  "frei0r.sleid0r_slide-right"
+::: FOUND EFFECT TAG:  "frei0r.softlight"  ==  "frei0r.softlight"
+::: FOUND EFFECT TAG:  "frei0r.subtract"  ==  "frei0r.subtract"
+::: FOUND EFFECT TAG:  "frei0r.uvmap"  ==  "frei0r.uvmap"
+::: FOUND EFFECT TAG:  "frei0r.value"  ==  "frei0r.value"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_wipe-barn-door-h"  ==  "frei0r.sleid0r_wipe-barn-door-h"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_wipe-barn-door-v"  ==  "frei0r.sleid0r_wipe-barn-door-v"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_wipe-circle"  ==  "frei0r.sleid0r_wipe-circle"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_wipe-down"  ==  "frei0r.sleid0r_wipe-down"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_wipe-left"  ==  "frei0r.sleid0r_wipe-left"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_wipe-rect"  ==  "frei0r.sleid0r_wipe-rect"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_wipe-right"  ==  "frei0r.sleid0r_wipe-right"
+::: FOUND EFFECT TAG:  "frei0r.sleid0r_wipe-up"  ==  "frei0r.sleid0r_wipe-up"
+::: FOUND EFFECT TAG:  "luma"  ==  "luma"
+::: FOUND EFFECT TAG:  "matte"  ==  "matte"
+::: FOUND EFFECT TAG:  "mix"  ==  "mix"
+::: FOUND EFFECT TAG:  "qtblend"  ==  "qtblend"
+=============
+
+FOUND FEATURES FOR ASSET:  "Composite and transform"
+=============
+
+FOUND EFFECT FEATURE:  "tenbit" 
+
+=================
+::: FOUND EFFECT TAG:  "region"  ==  "region"
+plugin not available: "region"
+::: FOUND EFFECT TAG:  "affine"  ==  "slide"
+::: FOUND EFFECT TAG:  "vqm"  ==  "vqm"
+::: FOUND EFFECT TAG:  "composite"  ==  "wipe"
+:::: LOADING LAYOUT:  "editing" , VERTICAL:  false
+:::: LOADING LAYOUT:  "effects" , VERTICAL:  false
+:::: LOADING LAYOUT:  "logging" , VERTICAL:  false
+:::: LOADING LAYOUT:  "editing" , VERTICAL:  true
+:::: LOADING LAYOUT:  "color" , VERTICAL:  false
+:::: LOADING LAYOUT:  "audio" , VERTICAL:  false
+:::::: ADDING LAYOUT:  "logging"
+:::::: ADDING LAYOUT:  "editing"
+:::::: ADDING LAYOUT:  "audio"
+:::::: ADDING LAYOUT:  "effects"
+:::::: ADDING LAYOUT:  "color"
+Empty metadata for  "glsl.manager"
+Empty metadata for  "telecide"
+kf.i18n: Trying to convert empty KLocalizedString to QString.
+::: FOUND EFFECT TAG:  "avfilter.acompressor"  ==  ""
+plugin not available: "avfilter.acompressor"
+::: FOUND EFFECT TAG:  "avfilter.aecho"  ==  ""
+plugin not available: "avfilter.aecho"
+::: FOUND EFFECT TAG:  "avfilter.agate"  ==  ""
+plugin not available: "avfilter.agate"
+::: FOUND EFFECT TAG:  "panner"  ==  "audiobalance"
+::: FOUND EFFECT TAG:  "audiolevelgraph"  ==  "audiolevelgraph"
+::: FOUND EFFECT TAG:  "audiomap"  ==  "audiomap"
+::: FOUND EFFECT TAG:  "panner"  ==  "audiopan"
+::: FOUND EFFECT TAG:  "audiospectrum"  ==  "audiospectrum"
+::: FOUND EFFECT TAG:  "audiowave"  ==  "audiowave"
+::: FOUND EFFECT TAG:  "audiowaveform"  ==  "audiowaveform"
+::: FOUND EFFECT TAG:  "avfilter.acontrast"  ==  "avfilter.acontrast"
+::: FOUND EFFECT TAG:  "avfilter.acrusher"  ==  "avfilter.acrusher"
+::: FOUND EFFECT TAG:  "avfilter.alimiter"  ==  "avfilter.alimiter"
+::: FOUND EFFECT TAG:  "avfilter.allpass"  ==  "avfilter.allpass"
+::: FOUND EFFECT TAG:  "avfilter.aphaser"  ==  "avfilter.aphaser"
+::: FOUND EFFECT TAG:  "avfilter.apulsator"  ==  "avfilter.apulsator"
+::: FOUND EFFECT TAG:  "avfilter.atadenoise"  ==  "avfilter.atadenoise"
+plugin not available: "avfilter.atadenoise"
+::: FOUND EFFECT TAG:  "avfilter.avgblur"  ==  "avfilter.avgblur"
+::: FOUND EFFECT TAG:  "avfilter.bandpass"  ==  "avfilter.bandpass"
+::: FOUND EFFECT TAG:  "avfilter.bandreject"  ==  "avfilter.bandreject"
+::: FOUND EFFECT TAG:  "avfilter.bass"  ==  "avfilter.bass"
+::: FOUND EFFECT TAG:  "avfilter.bilateral"  ==  "avfilter.bilateral"
+::: FOUND EFFECT TAG:  "avfilter.boxblur"  ==  "avfilter.boxblur"
+::: FOUND EFFECT TAG:  "avfilter.bs2b"  ==  "avfilter.bs2b"
+::: FOUND EFFECT TAG:  "avfilter.bwdif"  ==  "avfilter.bwdif"
+plugin not available: "avfilter.bwdif"
+::: FOUND EFFECT TAG:  "avfilter.cas"  ==  "avfilter.cas"
+::: FOUND EFFECT TAG:  "avfilter.chromahold"  ==  "avfilter.chromahold"
+::: FOUND EFFECT TAG:  "avfilter.chromanr"  ==  "avfilter.chromanr"
+::: FOUND EFFECT TAG:  "avfilter.chromashift"  ==  "avfilter.chromashift"
+::: FOUND EFFECT TAG:  "avfilter.ciescope"  ==  "avfilter.ciescope"
+::: FOUND EFFECT TAG:  "avfilter.colorbalance"  ==  "avfilter.colorbalance"
+::: FOUND EFFECT TAG:  "avfilter.colorchannelmixer"  ==  "avfilter.colorchannelmixer"
+::: FOUND EFFECT TAG:  "avfilter.colorcontrast"  ==  "avfilter.colorcontrast"
+::: FOUND EFFECT TAG:  "avfilter.colorcorrect"  ==  "avfilter.colorcorrect"
+::: FOUND EFFECT TAG:  "avfilter.colorhold"  ==  "avfilter.colorhold"
+::: FOUND EFFECT TAG:  "avfilter.colorize"  ==  "avfilter.colorize"
+::: FOUND EFFECT TAG:  "avfilter.colorlevels"  ==  "avfilter.colorlevels"
+::: FOUND EFFECT TAG:  "avfilter.colormatrix"  ==  "avfilter.colormatrix"
+::: FOUND EFFECT TAG:  "avfilter.colorspace"  ==  "avfilter.colorspace"
+::: FOUND EFFECT TAG:  "avfilter.colortemperature"  ==  "avfilter.colortemperature"
+::: FOUND EFFECT TAG:  "avfilter.compand"  ==  "avfilter.compand"
+::: FOUND EFFECT TAG:  "avfilter.compensationdelay"  ==  "avfilter.compensationdelay"
+::: FOUND EFFECT TAG:  "avfilter.crossfeed"  ==  "avfilter.crossfeed"
+::: FOUND EFFECT TAG:  "avfilter.crystalizer"  ==  "avfilter.crystalizer"
+::: FOUND EFFECT TAG:  "avfilter.datascope"  ==  "avfilter.datascope"
+::: FOUND EFFECT TAG:  "avfilter.dblur"  ==  "avfilter.dblur"
+::: FOUND EFFECT TAG:  "avfilter.dcshift"  ==  "avfilter.dcshift"
+::: FOUND EFFECT TAG:  "avfilter.dctdnoiz"  ==  "avfilter.dctdnoiz"
+::: FOUND EFFECT TAG:  "avfilter.deband"  ==  "avfilter.deband"
+::: FOUND EFFECT TAG:  "avfilter.deblock"  ==  "avfilter.deblock"
+plugin not available: "avfilter.deblock"
+::: FOUND EFFECT TAG:  "avfilter.dedot"  ==  "avfilter.dedot"
+plugin not available: "avfilter.dedot"
+::: FOUND EFFECT TAG:  "avfilter.deesser"  ==  "avfilter.deesser"
+::: FOUND EFFECT TAG:  "avfilter.deflate"  ==  "avfilter.deflate"
+plugin not available: "avfilter.deflate"
+::: FOUND EFFECT TAG:  "avfilter.delogo"  ==  "avfilter.delogo"
+::: FOUND EFFECT TAG:  "avfilter.derain"  ==  "avfilter.derain"
+plugin not available: "avfilter.derain"
+::: FOUND EFFECT TAG:  "avfilter.despill"  ==  "avfilter.despill"
+::: FOUND EFFECT TAG:  "avfilter.dilation"  ==  "avfilter.dilation"
+::: FOUND EFFECT TAG:  "avfilter.doubleweave"  ==  "avfilter.doubleweave"
+plugin not available: "avfilter.doubleweave"
+::: FOUND EFFECT TAG:  "avfilter.drawbox"  ==  "avfilter.drawbox"
+::: FOUND EFFECT TAG:  "avfilter.drawgrid"  ==  "avfilter.drawgrid"
+::: FOUND EFFECT TAG:  "avfilter.edgedetect"  ==  "avfilter.edgedetect"
+::: FOUND EFFECT TAG:  "avfilter.elbg"  ==  "avfilter.elbg"
+::: FOUND EFFECT TAG:  "avfilter.epx"  ==  "avfilter.epx"
+::: FOUND EFFECT TAG:  "avfilter.eq"  ==  ""
+::: FOUND EFFECT TAG:  "avfilter.equalizer"  ==  ""
+::: FOUND EFFECT TAG:  "avfilter.erosion"  ==  "avfilter.erosion"
+::: FOUND EFFECT TAG:  "avfilter.exposure"  ==  "avfilter.exposure"
+::: FOUND EFFECT TAG:  "avfilter.extrastereo"  ==  "avfilter.extrastereo"
+::: FOUND EFFECT TAG:  "avfilter.fftdnoiz"  ==  "avfilter.fftdnoiz"
+::: FOUND EFFECT TAG:  "avfilter.fftfilt"  ==  "avfilter.fftfilt"
+::: FOUND EFFECT TAG:  "avfilter.field"  ==  "avfilter.field"
+plugin not available: "avfilter.field"
+::: FOUND EFFECT TAG:  "avfilter.fieldorder"  ==  "avfilter.fieldorder"
+::: FOUND EFFECT TAG:  "avfilter.fillborders"  ==  "avfilter.fillborders"
+::: FOUND EFFECT TAG:  "avfilter.flanger"  ==  "avfilter.flanger"
+::: FOUND EFFECT TAG:  "avfilter.framestep"  ==  "avfilter.framestep"
+plugin not available: "avfilter.framestep"
+::: FOUND EFFECT TAG:  "avfilter.fspp"  ==  "avfilter.fspp"
+plugin not available: "avfilter.fspp"
+::: FOUND EFFECT TAG:  "avfilter.gblur"  ==  "avfilter.gblur"
+::: FOUND EFFECT TAG:  "avfilter.gradfun"  ==  "avfilter.gradfun"
+::: FOUND EFFECT TAG:  "avfilter.graphmonitor"  ==  "avfilter.graphmonitor"
+plugin not available: "avfilter.graphmonitor"
+::: FOUND EFFECT TAG:  "avfilter.haas"  ==  "avfilter.haas"
+::: FOUND EFFECT TAG:  "avfilter.hflip"  ==  "avfilter.hflip"
+::: FOUND EFFECT TAG:  "avfilter.highpass"  ==  "avfilter.highpass"
+::: FOUND EFFECT TAG:  "avfilter.highshelf"  ==  "avfilter.highshelf"
+::: FOUND EFFECT TAG:  "avfilter.histeq"  ==  "avfilter.histeq"
+::: FOUND EFFECT TAG:  "avfilter.histogram"  ==  "avfilter.histogram"
+::: FOUND EFFECT TAG:  "avfilter.hqdn3d"  ==  "avfilter.hqdn3d"
+plugin not available: "avfilter.hqdn3d"
+::: FOUND EFFECT TAG:  "avfilter.hqx"  ==  "avfilter.hqx"
+::: FOUND EFFECT TAG:  "avfilter.hsvhold"  ==  "avfilter.hsvhold"
+::: FOUND EFFECT TAG:  "avfilter.hsvkey"  ==  "avfilter.hsvkey"
+::: FOUND EFFECT TAG:  "avfilter.huesaturation"  ==  "avfilter.huesaturation"
+::: FOUND EFFECT TAG:  "avfilter.il"  ==  "avfilter.il"
+::: FOUND EFFECT TAG:  "avfilter.inflate"  ==  "avfilter.inflate"
+plugin not available: "avfilter.inflate"
+::: FOUND EFFECT TAG:  "avfilter.kerndeint"  ==  "avfilter.kerndeint"
+::: FOUND EFFECT TAG:  "avfilter.kirsch"  ==  "avfilter.kirsch"
+::: FOUND EFFECT TAG:  "avfilter.lagfun"  ==  "avfilter.lagfun"
+plugin not available: "avfilter.lagfun"
+::: FOUND EFFECT TAG:  "avfilter.lenscorrection"  ==  "avfilter.lenscorrection"
+::: FOUND EFFECT TAG:  "avfilter.limiter"  ==  "avfilter.limiter"
+::: FOUND EFFECT TAG:  "avfilter.loudnorm"  ==  ""
+plugin not available: "avfilter.loudnorm"
+::: FOUND EFFECT TAG:  "avfilter.lowpass"  ==  "avfilter.lowpass"
+::: FOUND EFFECT TAG:  "avfilter.lowshelf"  ==  "avfilter.lowshelf"
+::: FOUND EFFECT TAG:  "avfilter.lut3d"  ==  "avfilter.lut3d"
+::: FOUND EFFECT TAG:  "avfilter.mcdeint"  ==  "avfilter.mcdeint"
+::: FOUND EFFECT TAG:  "avfilter.median"  ==  "avfilter.median"
+::: FOUND EFFECT TAG:  "avfilter.monochrome"  ==  "avfilter.monochrome"
+::: FOUND EFFECT TAG:  "avfilter.negate"  ==  "avfilter.negate"
+::: FOUND EFFECT TAG:  "avfilter.noise"  ==  "avfilter.noise"
+::: FOUND EFFECT TAG:  "avfilter.normalize"  ==  "avfilter.normalize"
+::: FOUND EFFECT TAG:  "avfilter.oscilloscope"  ==  "avfilter.oscilloscope"
+::: FOUND EFFECT TAG:  "avfilter.phase"  ==  "avfilter.phase"
+::: FOUND EFFECT TAG:  "avfilter.photosensitivity"  ==  "avfilter.photosensitivity"
+::: FOUND EFFECT TAG:  "avfilter.pixelize"  ==  "avfilter.pixelize"
+::: FOUND EFFECT TAG:  "avfilter.prewitt"  ==  "avfilter.prewitt"
+::: FOUND EFFECT TAG:  "avfilter.random"  ==  "avfilter.random"
+plugin not available: "avfilter.random"
+::: FOUND EFFECT TAG:  "avfilter.removegrain"  ==  "avfilter.removegrain"
+plugin not available: "avfilter.removegrain"
+::: FOUND EFFECT TAG:  "avfilter.rgbashift"  ==  "avfilter.rgbashift"
+::: FOUND EFFECT TAG:  "avfilter.roberts"  ==  "avfilter.roberts"
+::: FOUND EFFECT TAG:  "avfilter.sab"  ==  "avfilter.sab"
+::: FOUND EFFECT TAG:  "avfilter.scharr"  ==  "avfilter.scharr"
+::: FOUND EFFECT TAG:  "avfilter.scroll"  ==  "avfilter.scroll"
+::: FOUND EFFECT TAG:  "avfilter.selectivecolor"  ==  "avfilter.selectivecolor"
+::: FOUND EFFECT TAG:  "avfilter.separatefields"  ==  "avfilter.separatefields"
+plugin not available: "avfilter.separatefields"
+::: FOUND EFFECT TAG:  "avfilter.setrange"  ==  "avfilter.setrange"
+::: FOUND EFFECT TAG:  "avfilter.shear"  ==  "avfilter.shear"
+::: FOUND EFFECT TAG:  "avfilter.shuffleplanes"  ==  "avfilter.shuffleplanes"
+plugin not available: "avfilter.shuffleplanes"
+::: FOUND EFFECT TAG:  "avfilter.smartblur"  ==  "avfilter.smartblur"
+::: FOUND EFFECT TAG:  "avfilter.sobel"  ==  "avfilter.sobel"
+::: FOUND EFFECT TAG:  "avfilter.sofalizer"  ==  "avfilter.sofalizer"
+::: FOUND EFFECT TAG:  "avfilter.sr"  ==  "avfilter.sr"
+plugin not available: "avfilter.sr"
+::: FOUND EFFECT TAG:  "avfilter.stereo3d"  ==  "avfilter.stereo3d"
+::: FOUND EFFECT TAG:  "avfilter.stereotools"  ==  "avfilter.stereotools"
+::: FOUND EFFECT TAG:  "avfilter.stereowiden"  ==  "avfilter.stereowiden"
+::: FOUND EFFECT TAG:  "avfilter.tmix"  ==  "avfilter.tmix"
+plugin not available: "avfilter.tmix"
+::: FOUND EFFECT TAG:  "avfilter.transpose"  ==  "avfilter.transpose"
+::: FOUND EFFECT TAG:  "avfilter.unsharp"  ==  ""
+::: FOUND EFFECT TAG:  "avfilter.vaguedenoiser"  ==  "avfilter.vaguedenoiser"
+::: FOUND EFFECT TAG:  "avfilter.vectorscope"  ==  "avfilter.vectorscope"
+::: FOUND EFFECT TAG:  "avfilter.vflip"  ==  "avfilter.vflip"
+::: FOUND EFFECT TAG:  "avfilter.vibrance"  ==  "avfilter.vibrance"
+::: FOUND EFFECT TAG:  "avfilter.vibrato"  ==  "avfilter.vibrato"
+::: FOUND EFFECT TAG:  "avfilter.w3fdif"  ==  "avfilter.w3fdif"
+plugin not available: "avfilter.w3fdif"
+::: FOUND EFFECT TAG:  "avfilter.waveform"  ==  "avfilter.waveform"
+::: FOUND EFFECT TAG:  "avfilter.weave"  ==  "avfilter.weave"
+plugin not available: "avfilter.weave"
+::: FOUND EFFECT TAG:  "avfilter.xbr"  ==  "avfilter.xbr"
+::: FOUND EFFECT TAG:  "avfilter.yadif"  ==  "avfilter.yadif"
+plugin not available: "avfilter.yadif"
+::: FOUND EFFECT TAG:  "avfilter.zoompan"  ==  "avfilter.zoompan"
+::: FOUND EFFECT TAG:  "box_blur"  ==  "box_blur"
+::: FOUND EFFECT TAG:  "box_blur"  ==  "box_blur"
+::: FOUND EFFECT TAG:  "boxblur"  ==  "boxblur"
+::: FOUND EFFECT TAG:  "brightness"  ==  "brightness"
+::: FOUND EFFECT TAG:  "BurningTV"  ==  "BurningTV"
+::: FOUND EFFECT TAG:  "channelcopy"  ==  "channelcopy"
+::: FOUND EFFECT TAG:  "charcoal"  ==  "charcoal"
+::: FOUND EFFECT TAG:  "chroma"  ==  "chroma"
+::: FOUND EFFECT TAG:  "chroma_hold"  ==  "chroma_hold"
+::: FOUND EFFECT TAG:  "channelswap"  ==  "channelswap"
+::: FOUND EFFECT TAG:  "crop"  ==  "crop"
+::: FOUND EFFECT TAG:  "dance"  ==  "dance"
+::: FOUND EFFECT TAG:  "dropshadow"  ==  "dropshadow"
+::: FOUND EFFECT TAG:  "dust"  ==  "dust"
+::: FOUND EFFECT TAG:  "dynamic_loudness"  ==  "dynamic_loudness"
+::: FOUND EFFECT TAG:  "dynamictext"  ==  "dynamictext"
+::: FOUND EFFECT TAG:  "brightness"  ==  "fade_from_black"
+::: FOUND EFFECT TAG:  "brightness"  ==  "fade_to_black"
+::: FOUND EFFECT TAG:  "volume"  ==  "fadein"
+::: FOUND EFFECT TAG:  "volume"  ==  "fadeout"
+::: FOUND EFFECT TAG:  "freeze"  ==  "freeze"
+::: FOUND EFFECT TAG:  "frei0r.aech0r"  ==  "frei0r.aech0r"
+::: FOUND EFFECT TAG:  "frei0r.alpha0ps"  ==  "frei0r.alpha0ps"
+::: FOUND EFFECT TAG:  "frei0r.alpha0ps"  ==  "frei0r.alpha0ps"
+::: FOUND EFFECT TAG:  "frei0r.alpha0ps_alpha0ps"  ==  "frei0r.alpha0ps_alpha0ps"
+::: FOUND EFFECT TAG:  "frei0r.alpha0ps_alphagrad"  ==  "frei0r.alpha0ps_alphagrad"
+::: FOUND EFFECT TAG:  "frei0r.alpha0ps_alphaspot"  ==  "frei0r.alpha0ps_alphaspot"
+::: FOUND EFFECT TAG:  "frei0r.alphagrad"  ==  "frei0r.alphagrad"
+::: FOUND EFFECT TAG:  "frei0r.alphaspot"  ==  "frei0r.alphaspot"
+::: FOUND EFFECT TAG:  "frei0r.B"  ==  "frei0r.B"
+::: FOUND EFFECT TAG:  "frei0r.balanc0r"  ==  "frei0r.balanc0r"
+::: FOUND EFFECT TAG:  "frei0r.balanc0r"  ==  "frei0r.balanc0r"
+::: FOUND EFFECT TAG:  "frei0r.baltan"  ==  "frei0r.baltan"
+plugin not available: "frei0r.baltan"
+::: FOUND EFFECT TAG:  "frei0r.curves"  ==  "frei0r.bezier_curves"
+::: FOUND EFFECT TAG:  "frei0r.bgsubtract0r"  ==  "frei0r.bgsubtract0r"
+plugin not available: "frei0r.bgsubtract0r"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_eq_cap"  ==  "frei0r.bigsh0t_eq_cap"
+plugin not available: "frei0r.bigsh0t_eq_cap"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_eq_mask"  ==  "frei0r.bigsh0t_eq_mask"
+plugin not available: "frei0r.bigsh0t_eq_mask"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_eq_to_rect"  ==  "frei0r.bigsh0t_eq_to_rect"
+plugin not available: "frei0r.bigsh0t_eq_to_rect"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_eq_to_stereo"  ==  "frei0r.bigsh0t_eq_to_stereo"
+plugin not available: "frei0r.bigsh0t_eq_to_stereo"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_eq_wrap"  ==  "frei0r.bigsh0t_eq_wrap"
+plugin not available: "frei0r.bigsh0t_eq_wrap"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_hemi_to_eq"  ==  "frei0r.bigsh0t_hemi_to_eq"
+plugin not available: "frei0r.bigsh0t_hemi_to_eq"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_rect_to_eq"  ==  "frei0r.bigsh0t_rect_to_eq"
+plugin not available: "frei0r.bigsh0t_rect_to_eq"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_stabilize_360"  ==  "frei0r.bigsh0t_stabilize_360"
+plugin not available: "frei0r.bigsh0t_stabilize_360"
+::: FOUND EFFECT TAG:  "frei0r.bigsh0t_transform_360"  ==  "frei0r.bigsh0t_transform_360"
+plugin not available: "frei0r.bigsh0t_transform_360"
+::: FOUND EFFECT TAG:  "frei0r.bluescreen0r"  ==  "frei0r.bluescreen0r"
+::: FOUND EFFECT TAG:  "frei0r.brightness"  ==  "frei0r.brightness"
+::: FOUND EFFECT TAG:  "frei0r.c0rners"  ==  "frei0r.c0rners"
+::: FOUND EFFECT TAG:  "frei0r.cairogradient"  ==  "frei0r.cairogradient"
+::: FOUND EFFECT TAG:  "frei0r.cairoimagegrid"  ==  "frei0r.cairoimagegrid"
+::: FOUND EFFECT TAG:  "frei0r.cartoon"  ==  "frei0r.cartoon"
+::: FOUND EFFECT TAG:  "frei0r.cluster"  ==  "frei0r.cluster"
+::: FOUND EFFECT TAG:  "frei0r.colgate"  ==  "frei0r.colgate"
+::: FOUND EFFECT TAG:  "frei0r.coloradj_RGB"  ==  "frei0r.coloradj_RGB"
+::: FOUND EFFECT TAG:  "frei0r.colordistance"  ==  "frei0r.colordistance"
+::: FOUND EFFECT TAG:  "frei0r.colorize"  ==  "frei0r.colorize"
+::: FOUND EFFECT TAG:  "frei0r.colortap"  ==  "frei0r.colortap"
+::: FOUND EFFECT TAG:  "frei0r.contrast0r"  ==  "frei0r.contrast0r"
+::: FOUND EFFECT TAG:  "frei0r.curves"  ==  "frei0r.curves"
+::: FOUND EFFECT TAG:  "frei0r.curves"  ==  "frei0r.curves"
+::: FOUND EFFECT TAG:  "frei0r.d90stairsteppingfix"  ==  "frei0r.d90stairsteppingfix"
+::: FOUND EFFECT TAG:  "frei0r.defish0r"  ==  "frei0r.defish0r"
+::: FOUND EFFECT TAG:  "frei0r.delay0r"  ==  "frei0r.delay0r"
+plugin not available: "frei0r.delay0r"
+::: FOUND EFFECT TAG:  "frei0r.delaygrab"  ==  "frei0r.delaygrab"
+plugin not available: "frei0r.delaygrab"
+::: FOUND EFFECT TAG:  "frei0r.denoise_hqdn3d"  ==  "frei0r.denoise_hqdn3d"
+::: FOUND EFFECT TAG:  "frei0r.distort0r"  ==  "frei0r.distort0r"
+::: FOUND EFFECT TAG:  "frei0r.dither"  ==  "frei0r.dither"
+::: FOUND EFFECT TAG:  "frei0r.edgeglow"  ==  "frei0r.edgeglow"
+::: FOUND EFFECT TAG:  "frei0r.elastic_scale"  ==  "frei0r.elastic_scale"
+::: FOUND EFFECT TAG:  "frei0r.emboss"  ==  "frei0r.emboss"
+::: FOUND EFFECT TAG:  "frei0r.equaliz0r"  ==  "frei0r.equaliz0r"
+::: FOUND EFFECT TAG:  "frei0r.facebl0r"  ==  "frei0r.facebl0r"
+::: FOUND EFFECT TAG:  "frei0r.facedetect"  ==  "frei0r.facedetect"
+::: FOUND EFFECT TAG:  "frei0r.filmgrain"  ==  "frei0r.filmgrain"
+::: FOUND EFFECT TAG:  "frei0r.flippo"  ==  "frei0r.flippo"
+::: FOUND EFFECT TAG:  "frei0r.G"  ==  "frei0r.G"
+::: FOUND EFFECT TAG:  "frei0r.glitch0r"  ==  "frei0r.glitch0r"
+::: FOUND EFFECT TAG:  "frei0r.glow"  ==  "frei0r.glow"
+::: FOUND EFFECT TAG:  "frei0r.hqdn3d"  ==  "frei0r.hqdn3d"
+::: FOUND EFFECT TAG:  "frei0r.hueshift0r"  ==  "frei0r.hueshift0r"
+::: FOUND EFFECT TAG:  "frei0r.IIRblur"  ==  "frei0r.IIRblur"
+::: FOUND EFFECT TAG:  "frei0r.kaleid0sc0pe"  ==  "frei0r.kaleid0sc0pe"
+::: FOUND EFFECT TAG:  "frei0r.keyspillm0pup"  ==  "frei0r.keyspillm0pup"
+::: FOUND EFFECT TAG:  "frei0r.lenscorrection"  ==  "frei0r.lenscorrection"
+::: FOUND EFFECT TAG:  "frei0r.letterb0xed"  ==  "frei0r.letterb0xed"
+::: FOUND EFFECT TAG:  "frei0r.levels"  ==  "frei0r.levels"
+::: FOUND EFFECT TAG:  "frei0r.levels"  ==  "frei0r.levels"
+::: FOUND EFFECT TAG:  "frei0r.levels"  ==  "frei0r.levels"
+::: FOUND EFFECT TAG:  "frei0r.lightgraffiti"  ==  "frei0r.lightgraffiti"
+plugin not available: "frei0r.lightgraffiti"
+::: FOUND EFFECT TAG:  "frei0r.lightgraffiti"  ==  "frei0r.lightgraffiti"
+plugin not available: "frei0r.lightgraffiti"
+::: FOUND EFFECT TAG:  "frei0r.luminance"  ==  "frei0r.luminance"
+::: FOUND EFFECT TAG:  "frei0r.mask0mate"  ==  "frei0r.mask0mate"
+::: FOUND EFFECT TAG:  "frei0r.measure_pr0be"  ==  "frei0r.measure_pr0be"
+::: FOUND EFFECT TAG:  "frei0r.measure_pr0file"  ==  "frei0r.measure_pr0file"
+::: FOUND EFFECT TAG:  "frei0r.medians"  ==  "frei0r.medians"
+::: FOUND EFFECT TAG:  "frei0r.mirr0r"  ==  "frei0r.mirr0r"
+::: FOUND EFFECT TAG:  "frei0r.nervous"  ==  "frei0r.nervous"
+::: FOUND EFFECT TAG:  "frei0r.normaliz0r"  ==  "frei0r.normaliz0r"
+::: FOUND EFFECT TAG:  "frei0r.nosync0r"  ==  "frei0r.nosync0r"
+::: FOUND EFFECT TAG:  "frei0r.ntsc"  ==  "frei0r.ntsc"
+::: FOUND EFFECT TAG:  "frei0r.pixeliz0r"  ==  "frei0r.pixeliz0r"
+::: FOUND EFFECT TAG:  "frei0r.pixs0r"  ==  "frei0r.pixs0r"
+::: FOUND EFFECT TAG:  "frei0r.posterize"  ==  "frei0r.posterize"
+::: FOUND EFFECT TAG:  "frei0r.pr0be"  ==  "frei0r.pr0be"
+::: FOUND EFFECT TAG:  "frei0r.pr0file"  ==  "frei0r.pr0file"
+::: FOUND EFFECT TAG:  "frei0r.primaries"  ==  "frei0r.primaries"
+::: FOUND EFFECT TAG:  "frei0r.R"  ==  "frei0r.R"
+::: FOUND EFFECT TAG:  "frei0r.rgbnoise"  ==  "frei0r.rgbnoise"
+::: FOUND EFFECT TAG:  "frei0r.rgbparade"  ==  "frei0r.rgbparade"
+::: FOUND EFFECT TAG:  "frei0r.rgbsplit0r"  ==  "frei0r.rgbsplit0r"
+::: FOUND EFFECT TAG:  "frei0r.saturat0r"  ==  "frei0r.saturat0r"
+::: FOUND EFFECT TAG:  "frei0r.scale0tilt"  ==  "frei0r.scale0tilt"
+::: FOUND EFFECT TAG:  "frei0r.scanline0r"  ==  "frei0r.scanline0r"
+::: FOUND EFFECT TAG:  "frei0r.select0r"  ==  "frei0r.select0r"
+::: FOUND EFFECT TAG:  "frei0r.select0r"  ==  "frei0r.select0r"
+::: FOUND EFFECT TAG:  "frei0r.sharpness"  ==  "frei0r.sharpness"
+::: FOUND EFFECT TAG:  "frei0r.sigmoidaltransfer"  ==  "frei0r.sigmoidaltransfer"
+::: FOUND EFFECT TAG:  "frei0r.sobel"  ==  "frei0r.sobel"
+::: FOUND EFFECT TAG:  "frei0r.softglow"  ==  "frei0r.softglow"
+::: FOUND EFFECT TAG:  "frei0r.sopsat"  ==  "frei0r.sopsat"
+::: FOUND EFFECT TAG:  "frei0r.sopsat"  ==  "frei0r.sopsat"
+::: FOUND EFFECT TAG:  "frei0r.squareblur"  ==  "frei0r.squareblur"
+::: FOUND EFFECT TAG:  "frei0r.tehRoxx0r"  ==  "frei0r.tehRoxx0r"
+plugin not available: "frei0r.tehRoxx0r"
+::: FOUND EFFECT TAG:  "frei0r.three_point_balance"  ==  "frei0r.three_point_balance"
+::: FOUND EFFECT TAG:  "frei0r.threelay0r"  ==  "frei0r.threelay0r"
+::: FOUND EFFECT TAG:  "frei0r.threshold0r"  ==  "frei0r.threshold0r"
+::: FOUND EFFECT TAG:  "frei0r.timeout"  ==  "frei0r.timeout"
+::: FOUND EFFECT TAG:  "frei0r.tint0r"  ==  "frei0r.tint0r"
+::: FOUND EFFECT TAG:  "frei0r.transparency"  ==  "frei0r.transparency"
+::: FOUND EFFECT TAG:  "frei0r.twolay0r"  ==  "frei0r.twolay0r"
+::: FOUND EFFECT TAG:  "frei0r.vectorscope"  ==  "frei0r.vectorscope"
+::: FOUND EFFECT TAG:  "frei0r.vertigo"  ==  "frei0r.vertigo"
+::: FOUND EFFECT TAG:  "frei0r.vertigo"  ==  "frei0r.vertigo"
+::: FOUND EFFECT TAG:  "frei0r.vignette"  ==  "frei0r.vignette"
+::: FOUND EFFECT TAG:  "volume"  ==  "gain"
+::: FOUND EFFECT TAG:  "gamma"  ==  "gamma"
+::: FOUND EFFECT TAG:  "gpsgraphic"  ==  "gpsgraphic"
+::: FOUND EFFECT TAG:  "gpstext"  ==  "gpstext"
+::: FOUND EFFECT TAG:  "gradientmap"  ==  "gradientmap"
+::: FOUND EFFECT TAG:  "grain"  ==  "grain"
+::: FOUND EFFECT TAG:  "avfilter.greyedge"  ==  "avfilter.greyedge"
+plugin not available: "avfilter.greyedge"
+::: FOUND EFFECT TAG:  "greyscale"  ==  "greyscale"
+::: FOUND EFFECT TAG:  "hslprimaries"  ==  "hslprimaries"
+::: FOUND EFFECT TAG:  "hslrange"  ==  "hslrange"
+::: FOUND EFFECT TAG:  "invert"  ==  "invert"
+::: FOUND EFFECT TAG:  "ladspa.2141"  ==  "ladspa.2141"
+plugin not available: "ladspa.2141"
+::: FOUND EFFECT TAG:  "ladspa.2142"  ==  "ladspa.2142"
+plugin not available: "ladspa.2142"
+::: FOUND EFFECT TAG:  "ladspa.2143"  ==  "ladspa.2143"
+plugin not available: "ladspa.2143"
+::: FOUND EFFECT TAG:  "ladspa.2144"  ==  "ladspa.2144"
+plugin not available: "ladspa.2144"
+::: FOUND EFFECT TAG:  "ladspa.2145"  ==  "ladspa.2145"
+plugin not available: "ladspa.2145"
+::: FOUND EFFECT TAG:  "ladspa.2146"  ==  "ladspa.2146"
+plugin not available: "ladspa.2146"
+::: FOUND EFFECT TAG:  "ladspa.2147"  ==  "ladspa.2147"
+plugin not available: "ladspa.2147"
+::: FOUND EFFECT TAG:  "ladspa.2148"  ==  "ladspa.2148"
+plugin not available: "ladspa.2148"
+::: FOUND EFFECT TAG:  "ladspa.2149"  ==  "ladspa.2149"
+plugin not available: "ladspa.2149"
+::: FOUND EFFECT TAG:  "ladspa.2150"  ==  "ladspa.2150"
+plugin not available: "ladspa.2150"
+::: FOUND EFFECT TAG:  "ladspa.2151"  ==  "ladspa.2151"
+plugin not available: "ladspa.2151"
+::: FOUND EFFECT TAG:  "ladspa.2152"  ==  "ladspa.2152"
+plugin not available: "ladspa.2152"
+::: FOUND EFFECT TAG:  "ladspa.2153"  ==  "ladspa.2153"
+plugin not available: "ladspa.2153"
+::: FOUND EFFECT TAG:  "ladspa.2154"  ==  "ladspa.2154"
+plugin not available: "ladspa.2154"
+::: FOUND EFFECT TAG:  "ladspa.2155"  ==  "ladspa.2155"
+plugin not available: "ladspa.2155"
+::: FOUND EFFECT TAG:  "ladspa.2156"  ==  "ladspa.2156"
+plugin not available: "ladspa.2156"
+::: FOUND EFFECT TAG:  "ladspa.2157"  ==  "ladspa.2157"
+plugin not available: "ladspa.2157"
+::: FOUND EFFECT TAG:  "ladspa.2158"  ==  "ladspa.2158"
+plugin not available: "ladspa.2158"
+::: FOUND EFFECT TAG:  "ladspa.2159"  ==  "ladspa.2159"
+plugin not available: "ladspa.2159"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "declipper"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "equalizer"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "equalizer_15"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa.9354877"  ==  "ladspa.9354877"
+plugin not available: "ladspa.9354877"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "limiter"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "phaser"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "pitch_shift"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "pitch_scale"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "rate_scale"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "reverb"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "room_reverb"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "ladspa"  ==  "vinyl"
+plugin not available: "ladspa"
+::: FOUND EFFECT TAG:  "lift_gamma_gain"  ==  "lift_gamma_gain"
+::: FOUND EFFECT TAG:  "lightshow"  ==  "lightshow"
+::: FOUND EFFECT TAG:  "loudness"  ==  "loudness"
+::: FOUND EFFECT TAG:  "luma"  ==  "luma"
+::: FOUND EFFECT TAG:  "lumaliftgaingamma"  ==  "lumaliftgaingamma"
+::: FOUND EFFECT TAG:  "mask_apply"  ==  "mask_apply"
+::: FOUND EFFECT TAG:  "mask_start"  ==  "mask_start"
+::: FOUND EFFECT TAG:  "mask_start"  ==  "mask_start-frei0r.alphaspot"
+::: FOUND EFFECT TAG:  "mask_start"  ==  "mask_start-frei0r.select0r"
+::: FOUND EFFECT TAG:  "mask_start"  ==  "mask_start-rotoscoping"
+::: FOUND EFFECT TAG:  "mask_start"  ==  "mask_start-shape"
+::: FOUND EFFECT TAG:  "mirror"  ==  "mirror"
+::: FOUND EFFECT TAG:  "mono"  ==  "mono"
+::: FOUND EFFECT TAG:  "movit.blur"  ==  "movit.blur"
+::: FOUND EFFECT TAG:  "movit.sharpen"  ==  "movit.sharpen"
+::: FOUND EFFECT TAG:  "movit.diffusion"  ==  "movit.diffusion"
+::: FOUND EFFECT TAG:  "movit.flip"  ==  "movit.flip"
+::: FOUND EFFECT TAG:  "movit.glow"  ==  "movit.glow"
+::: FOUND EFFECT TAG:  "movit.lift_gamma_gain"  ==  "movit.lift_gamma_gain"
+::: FOUND EFFECT TAG:  "movit.mirror"  ==  "movit.mirror"
+::: FOUND EFFECT TAG:  "movit.opacity"  ==  "movit.opacity"
+::: FOUND EFFECT TAG:  "movit.rect"  ==  "movit.rect"
+::: FOUND EFFECT TAG:  "movit.saturation"  ==  "movit.saturation"
+::: FOUND EFFECT TAG:  "movit.unsharp_mask"  ==  "movit.unsharp_mask"
+plugin not available: "movit.unsharp_mask"
+::: FOUND EFFECT TAG:  "movit.vignette"  ==  "movit.vignette"
+::: FOUND EFFECT TAG:  "movit.white_balance"  ==  "movit.white_balance"
+::: FOUND EFFECT TAG:  "volume"  ==  "mute"
+::: FOUND EFFECT TAG:  "volume"  ==  "normalise"
+::: FOUND EFFECT TAG:  "obscure"  ==  "obscure"
+::: FOUND EFFECT TAG:  "oldfilm"  ==  "oldfilm"
+::: FOUND EFFECT TAG:  "affine"  ==  "pan_zoom"
+::: FOUND EFFECT TAG:  "pillar_echo"  ==  "pillar_echo"
+::: FOUND EFFECT TAG:  "qtblend"  ==  "qtblend"
+::: FOUND EFFECT TAG:  "qtblend"  ==  "qtblend"
+=============
+
+FOUND FEATURES FOR ASSET:  "Transform"
+=============
+
+FOUND EFFECT FEATURE:  "tenbit" 
+
+=================
+::: FOUND EFFECT TAG:  "qtcrop"  ==  "qtcrop"
+::: FOUND EFFECT TAG:  "rbpitch"  ==  "rboctaveshift"
+::: FOUND EFFECT TAG:  "rbpitch"  ==  "rbpitch"
+::: FOUND EFFECT TAG:  "affine"  ==  "3wayrotate"
+::: FOUND EFFECT TAG:  "affine"  ==  "affine"
+::: FOUND EFFECT TAG:  "affine"  ==  "affinerotate"
+::: FOUND EFFECT TAG:  "rotoscoping"  ==  "rotoscoping"
+::: FOUND EFFECT TAG:  "lines"  ==  "lines"
+::: FOUND EFFECT TAG:  "sepia"  ==  "sepia"
+::: FOUND EFFECT TAG:  "shape"  ==  "shape"
+::: FOUND EFFECT TAG:  "affine"  ==  "affineshear"
+::: FOUND EFFECT TAG:  "sox"  ==  "sox_band"
+::: FOUND EFFECT TAG:  "sox"  ==  "sox_bass"
+::: FOUND EFFECT TAG:  "sox"  ==  "sox_echo"
+::: FOUND EFFECT TAG:  "sox"  ==  "sox_flanger"
+::: FOUND EFFECT TAG:  "sox"  ==  "sox_gain"
+::: FOUND EFFECT TAG:  "sox"  ==  "sox_phaser"
+::: FOUND EFFECT TAG:  "sox"  ==  "sox_stretch"
+::: FOUND EFFECT TAG:  "timewarp"  ==  "speed"
+plugin not available: "timewarp"
+::: FOUND EFFECT TAG:  "spot_remover"  ==  "spot_remover"
+::: FOUND EFFECT TAG:  "strobe"  ==  "strobe"
+::: FOUND EFFECT TAG:  "avfilter.subtitles"  ==  ""
+::: FOUND EFFECT TAG:  "channelswap"  ==  "swapchannels"
+::: FOUND EFFECT TAG:  "tcolor"  ==  "tcolor"
+::: FOUND EFFECT TAG:  "threshold"  ==  "threshold"
+::: FOUND EFFECT TAG:  "timer"  ==  "timer"
+::: FOUND EFFECT TAG:  "opencv.tracker"  ==  "opencv.tracker"
+::: FOUND EFFECT TAG:  "typewriter"  ==  "typewriter"
+::: FOUND EFFECT TAG:  "vidstab"  ==  "vidstab"
+::: FOUND EFFECT TAG:  "vignette"  ==  "vignette"
+::: FOUND EFFECT TAG:  "volume"  ==  "volume"
+::: FOUND EFFECT TAG:  "wave"  ==  "wave"
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+qt.core.qobject.connect: QObject::connect(Core, GuidesProxyModel): signal not found
+spaVisitChoice: parse error "Object: size 136, type Spa:Pod:Object:Param:Format (262147), id Spa:Enum:ParamId:EnumFormat (3)" "  Prop: key Spa:Pod:Object:Param:Format:mediaType (1), flags 00000000" "    Id 1        (Spa:Enum:MediaType:audio)" "  Prop: key Spa:Pod:Object:Param:Format:mediaSubtype (2), flags 00000000" "    Id 1        (Spa:Enum:MediaSubtype:raw)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:format (65537), flags 00000000" "    Id 518      (Spa:Enum:AudioFormat:F32P)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:channels (65540), flags 00000000" "    Int 1" "  Prop: key Spa:Pod:Object:Param:Format:Audio:position (65541), flags 00000000" "    Array: child.size 4, child.type Spa:Id" "      Id 2        (Spa:Enum:AudioChannel:MONO)"
+spaVisitChoice: parse error "Object: size 136, type Spa:Pod:Object:Param:Format (262147), id Spa:Enum:ParamId:EnumFormat (3)" "  Prop: key Spa:Pod:Object:Param:Format:mediaType (1), flags 00000000" "    Id 1        (Spa:Enum:MediaType:audio)" "  Prop: key Spa:Pod:Object:Param:Format:mediaSubtype (2), flags 00000000" "    Id 1        (Spa:Enum:MediaSubtype:raw)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:format (65537), flags 00000000" "    Id 518      (Spa:Enum:AudioFormat:F32P)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:channels (65540), flags 00000000" "    Int 2" "  Prop: key Spa:Pod:Object:Param:Format:Audio:position (65541), flags 00000000" "    Array: child.size 4, child.type Spa:Id" "      Id 3        (Spa:Enum:AudioChannel:FL)" "      Id 4        (Spa:Enum:AudioChannel:FR)"
+spaVisitChoice: parse error "Object: size 144, type Spa:Pod:Object:Param:Format (262147), id Spa:Enum:ParamId:EnumFormat (3)" "  Prop: key Spa:Pod:Object:Param:Format:mediaType (1), flags 00000000" "    Id 1        (Spa:Enum:MediaType:audio)" "  Prop: key Spa:Pod:Object:Param:Format:mediaSubtype (2), flags 00000000" "    Id 3        (Spa:Enum:MediaSubtype:iec958)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:iec958Codec (65542), flags 00000000" "    Choice: type Spa:Enum:Choice:Enum, flags 00000000 24 4" "      Id 1        (Spa:Enum:AudioIEC958Codec:PCM)" "      Id 1        (Spa:Enum:AudioIEC958Codec:PCM)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:rate (65539), flags 00000000" "    Choice: type Spa:Enum:Choice:Range, flags 00000000 28 4" "      Int 48000" "      Int 32000" "      Int 48000"
+:::: UPDATING MONITOR DISPLAY INFO!!!!!!!!!!!!!!
+XXXXXXXXXXXXXXXXXXX
+
+Building dock:  "timeline"
+Building dock:  "project_bin"
+Building dock:  "library"
+Building dock:  "subtitles"
+Building dock:  "textedit"
+Building dock:  "timeremap"
+Building dock:  "markers"
+Building dock:  "screengrab"
+Building dock:  "audiospectrum"
+Building dock:  "clipmonitor"
+Building dock:  "projectmonitor"
+Building dock:  "clip_properties"
+Building dock:  "notes_widget"
+Creating dock:  "notes_widget"
+Building dock:  "media_browser"
+Building dock:  "onlineresources"
+Building dock:  "effect_stack"
+Building dock:  "effect_list"
+Creating dock:  "effect_list"
+Building dock:  "transition_list"
+Creating dock:  "transition_list"
+Building dock:  "undo_history"
+Creating dock:  "undo_history"
+Building dock:  "mixer"
+Creating dock:  "mixer"
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+Found FFMpeg binary:  "/usr/bin/ffmpeg"
+qt.core.qfuture.continuations: Parent future has 2 result(s), but only the first result will be handled in the continuation.
+==========
+FOUND SUPPORTED CODECS:  QList("h264_vaapi")
+// FFMPEG ARGS:  QList("-hide_banner", "-filters")
+/// ++ SCALE_NPP NOT SUPPORTED
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+Building dock:  "vectorscope"
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+Building dock:  "waveform"
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+Building dock:  "rgb_parade"
+kf.config.core: Couldn't write to config: "/home/gachiemeshackson/Videos/youtube/.tmp/qual-stage5.3-accessibility/isolated-kdenlive/config"
+Building dock:  "histogram"
+begin
+OpenGL vendor "Intel"
+OpenGL renderer "Mesa Intel(R) HD Graphics 520 (SKL GT2)"
+OpenGL threaded? true
+OpenGL ES? false
+OpenGL maximum texture size = 16384
+OpenGL maximum viewport size = 16384 x 16384
+end
+begin
+OpenGL vendor "Intel"
+OpenGL renderer "Mesa Intel(R) HD Graphics 520 (SKL GT2)"
+OpenGL threaded? true
+OpenGL ES? false
+OpenGL maximum texture size = 16384
+OpenGL maximum viewport size = 16384 x 16384
+end
+ZZZZZZZZZZZZZZZZZZZZZZZ
+
+STARTING TASKMANAGER CLOSURE, ACTIVE THREADS:  0 
+EXCEPTIONS:  QList() 
+
+ZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZ
+
+STARTING TASKMANAGER CLOSURE, ACTIVE THREADS:  0 
+EXCEPTIONS:  QList() 
+
+ZZZZZZZZZZZZZZZZZZZZZZZ
+:::: NOT FOUND DOCUMENT GUIDES !!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!
+==== NO PREVIOUS TIMELINE
+::::::::::: connecting timeline:  QUuid("{3806e054-b330-459d-9d6d-ed16464df927}") , DUR:  0
+root context get sub model new function
+HHHHHHHHHHHH
+INVALID BIN PLAYLIST...
+++++++++++ ININT VIEW WITH TYPE:  0
+=== OPENING FILE WITH TRACKS:  5
+:::: FOUND TRACTOR WITH TRACKS:  2 
+
+___________________________
+=== MODEL DATA CHANGED: MUTE DONE TRACK NOT FOUND!!!
+:::: FOUND TRACTOR WITH TRACKS:  2 
+
+___________________________
+=== MODEL DATA CHANGED: MUTE DONE TRACK NOT FOUND!!!
+:::: FOUND TRACTOR WITH TRACKS:  2 
+
+___________________________
+=== MODEL DATA CHANGED: MUTE DONE TRACK NOT FOUND!!!
+:::: FOUND TRACTOR WITH TRACKS:  2 
+
+___________________________
+=== MODEL DATA CHANGED: MUTE DONE TRACK NOT FOUND!!!
+===== QUERYING TRANSITION:  "mix"
+===== QUERYING TRANSITION:  "mix"
+===== QUERYING TRANSITION:  "qtblend"
+===== QUERYING TRANSITION:  "qtblend"
+// WARNING EMPTY CLIP HASH: 
+555555555555555555
+
+BUILDING SEQUENCE CLIP
+
+555555555555555555555555555
+===== ACTIVATING DOCUMENT:  QUuid("{3806e054-b330-459d-9d6d-ed16464df927}") 
+::::::::::::::::::::::
+/////////// creatclipsfromlist QList(QUrl("file:///tmp/agenttube_test.mlt")) true "-1"
+/////////// createClipFromFile "/tmp/agenttube_test.mlt" "-1"
+/////////// final xml "<producer>\n <property name=\"resource\">/tmp/agenttube_test.mlt</property>\n</producer>\n"
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load transition \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load transition \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load transition \"\""
+################### ProjectClip::setproducer #################
+################### ClipController::updateProducer
+################### ClipController::addmasterproducer FOR:  "4"
+------------
+FRAME HAS AUDIO:  false  /  true 
+------------------------
+::::::::::
+RETAIN LIST INVALID
+
+::
+:::: READING XMLROOT: 
+=== GOT THUMB FOR:  -1 x -1 , UUID:  QUuid("{00000000-0000-0000-0000-000000000000}") 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ACTION:  "My Custom job"  =  "custom;"
+:::: COMPARING ACTIONTYPE:  ""  =  ClipType::Playlist
+ACTION:  "Automatic Scene Split…"  =  "scenesplit;v"
+:::: COMPARING ACTIONTYPE:  "v"  =  ClipType::Playlist
+ACTION:  "Stabilize"  =  "stabilize;v"
+:::: COMPARING ACTIONTYPE:  "v"  =  ClipType::Playlist
+ACTION:  "Duplicate Clip with Speed Change…"  =  "timewarp;av"
+:::: COMPARING ACTIONTYPE:  "av"  =  ClipType::Playlist
+ACTION:  "Configure Clip Jobs…"  =  ""
+:::: COMPARING ACTIONTYPE:  ""  =  ClipType::Playlist
+=======
+
+SETTING AUDIO DATA IN MONITOR EMPTY!!!
+:::: UPDATING TREE HEIGHT....
+:::: UPDATING TREE HEIGHT, TOTAL:  0 , CURRENTR:  0
+qt.dbus.integration: QDBusConnection: couldn't handle call to introspect, no slot matched
+qt.dbus.integration: QDBusConnection: couldn't handle call to introspect, no slot matched
+qt.dbus.integration: Could not find slot QApplication::introspect
+qt.accessibility.atspi: AtSpiAdaptor::applicationInterface does not implement "GetApplicationBusAddress" "/org/a11y/atspi/accessible/root"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotShowPreferencePage" : Type not registered with QtDBus in parameter list: Kdenlive::ConfigPage
+Skipped method "slotInitSubtitle" : Type not registered with QtDBus in parameter list: QUuid
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "manageClipJobs" : Type not registered with QtDBus in parameter list: AbstractTask::JOBTYPE
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Skipped method "slotClipInProjectTree" : Type not registered with QtDBus in parameter list: ObjectId
+Unsupported return type 4097 QPixmap in method "grab"
+Unsupported return type 4097 QPixmap in method "grab"
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load transition \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load transition \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load producer \"\""
+MLT: "[producer_xml] failed to load transition \"\""
+################### ProjectClip::setproducer #################
+################### ClipController::updateProducer
+------------
+FOUND PRESET CTYPE:  2 
+------------------------
+// replace finished:  "4"  :  /tmp/agenttube_test.mlt
+::::::::::
+RETAIN LIST INVALID
+
+::
+:::: READING XMLROOT: 
+=======
+
+SETTING AUDIO DATA IN MONITOR EMPTY!!!
+=== GOT THUMB FOR:  -1 x -1 , UUID:  QUuid("{00000000-0000-0000-0000-000000000000}") 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

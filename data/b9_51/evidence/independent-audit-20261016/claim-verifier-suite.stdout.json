@@ -1,0 +1,2402 @@
+{
+  "suite": "claim-verifier adversarial qualification",
+  "result": "PASS",
+  "cases": 51,
+  "results": [
+    {
+      "name": "status-summary placeholder structurally rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "evidence": [
+        "stage 0 must appear exactly once with its canonical title",
+        "stage 1 must appear exactly once with its canonical title",
+        "stage 2 must appear exactly once with its canonical title",
+        "stage 3 must appear exactly once with its canonical title",
+        "stage 4 must appear exactly once with its canonical title",
+        "stage 5 must appear exactly once with its canonical title",
+        "stage 6 must appear exactly once with its canonical title",
+        "stage 7 must appear exactly once with its canonical title",
+        "stage 8 must appear exactly once with its canonical title",
+        "stage 9 must appear exactly once with its canonical title",
+        "stage 10 must appear exactly once with its canonical title",
+        "roadmap must contain exactly 11 canonical stage headings"
+      ]
+    },
+    {
+      "name": "empty required sections structurally rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "evidence": [
+        "stage 0 subsection \"Objective\" is empty or placeholder-only",
+        "stage 0 subsection \"Entry conditions\" is empty or placeholder-only",
+        "stage 0 subsection \"Scope\" is empty or placeholder-only",
+        "stage 0 subsection \"Explicit non-goals\" is empty or placeholder-only"
+      ]
+    },
+    {
+      "name": "repeated generic deliverables remain semantic review",
+      "expected": "REVIEW_REQUIRED",
+      "actual": "REVIEW_REQUIRED",
+      "evidence": {
+        "structural": "PASS",
+        "traceability": "PASS",
+        "semantic": "REVIEW_REQUIRED"
+      }
+    },
+    {
+      "name": "B9.49 unique-marker roadmap cannot derive PASS",
+      "expected": "REVIEW_REQUIRED",
+      "actual": "REVIEW_REQUIRED",
+      "evidence": {
+        "fixtureBytes": 44803,
+        "fixtureSha256": "abc613ec56861de82e3a2b3d6fe963ea86988fd0ad9b2925552e48c5f7dbd109",
+        "criterion": {
+          "status": "REVIEW_REQUIRED",
+          "structuralStatus": "PASS",
+          "structuralErrors": [],
+          "traceabilityStatus": "PASS",
+          "traceabilityErrors": [],
+          "semanticStatus": "REVIEW_REQUIRED",
+          "ownerAcceptance": "PENDING",
+          "semanticLimitation": "The verifier checks section structure and source-bound stage-level links; it does not establish that objectives, deliverables, criteria, or methods are substantively adequate.",
+          "stageCount": 11,
+          "traceabilityGraph": {
+            "schemaVersion": 1,
+            "mappingGranularity": "stage-exit",
+            "roadmapSha256": "abc613ec56861de82e3a2b3d6fe963ea86988fd0ad9b2925552e48c5f7dbd109",
+            "stages": [
+              {
+                "stageId": "S00",
+                "heading": "## Stage 0 — Baseline, scope, and acceptance authority",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "b9c58b436b4215b00b6f66fa069910aeebd91be27ad489d95681ea41147061de",
+                      "id": "S00-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "a34face5e2dcbb28e918b66c439080ed6bfd2965190ebcc77c4bc7e559789ae8",
+                      "id": "S00-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "6728a5c5349f9471528c30fbac7fe400c09b6ecee57649a4515e7619b786b95f",
+                      "id": "S00-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "6401d57efd8305b43215794c631a646618408c18202864484d340f3210927c26",
+                      "id": "S00-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "a082d48e2bb792d407a453fe3ac81bb5eb37010a978f74917d092166641869ec",
+                      "id": "S00-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "c11a9a86977f20f068ecd2e76c8a52f67123aa2d0a0ebcdbdf7480b45747992f",
+                      "id": "S00-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "28ddb51d5e8f263c962d800c558dcfbedb5a7fcabaf6a683679ea77ea103fe87",
+                      "id": "S00-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S00-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "0a39ec7a53dec90970283a4edc70f62fb8210e0c2c7b4754f5964c8a634ce244",
+                      "id": "S00-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "cafbf087d3893176e20f4663a58714b54b3dc5703f05a2c0206cc6265051aa98",
+                      "id": "S00-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "9e91622873244f2caa96dabd5e22694e1e0b4fd19af5d3e8be08661a3a5b3b41",
+                      "id": "S00-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "dfd60695a56a008a1dbb2e4bd32f608edac67768b44bca770e71e4c12925d6b3",
+                      "id": "S00-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "577e5b496db88d2661490b29017092ea42a0621c5150c59b8d73f1c402e12468",
+                      "id": "S00-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "16d959ded2741a879ac46d9c802b4042ed0548a888a4b93f1515ee0f60dbbd7a",
+                      "id": "S00-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "01490bc7463ccdfec5174e6b8da3c08dfc8a298c41b23374acd32e50ba79eb4a",
+                      "id": "S00-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "edf4101790257cf869176537142ee11d0767b8200d4f8d1f935f8583e1a77cb7",
+                      "id": "S00-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "00c6d30fff59b46947ddf72eb543d71e70a33b741091ba30c9cb476960053f7a",
+                      "id": "S00-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S00-AC-01",
+                    "objectiveIds": [
+                      "S00-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S00-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S00-D-01",
+                      "S00-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S00-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S00-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S00-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S00-AC-01"
+                ]
+              },
+              {
+                "stageId": "S01",
+                "heading": "## Stage 1 — Claim verifier qualification",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "7d6752dbd42a6a3d0034ba96a65e9bb3dcd040282b53cc5b00671b7e79ddfcbb",
+                      "id": "S01-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "c63d8cf328501cf34e105cc7b23122687098979882263a7c0de8246ee8bc3daa",
+                      "id": "S01-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "4047a15f565c50d1b40dd83f5f433fb4757bdb57efe1aaaf6a0050e28cf40457",
+                      "id": "S01-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "9a16a3643b5ac072dfe1a1bbe1c3c40b89b70a302f5a627207d7710deb116355",
+                      "id": "S01-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "8d0c938958b7372655ccede264b8b2fe4db95d593d9b5d7f2a7eb9c1774ca725",
+                      "id": "S01-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "52c676f994db05c310ec50c05c8b88e0899c3149f660d77b2f5c048ca5469b00",
+                      "id": "S01-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "52107741248556effca7b45fd50d5f6278e43f6aba69e9c55ae21843ec53d3c4",
+                      "id": "S01-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S01-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "d106112bfd9575b1c1830f70c9081eda138ee0ebbcad8c41cc4a2e8ca1f1e4b5",
+                      "id": "S01-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "6da43b212f10a6819c2ee763bfe88a17654b78198818b2136766d7d6a284dd2e",
+                      "id": "S01-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "0d601ff1c68fc0e00987b498d4cdf08ef883cfa88e16a146565600bcb5d459db",
+                      "id": "S01-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "fe6c427517108d125b3628180038503643e881fcbc4bea36d60a13ca3b25efcb",
+                      "id": "S01-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "e6e43dac07a177bb0b9e841af79e74e8676673edc9273fb8727d1e76ca72a9f9",
+                      "id": "S01-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "561ee3d38ec73d14c1cd01ad63d76870329b358553bb606371fff8aad992bad5",
+                      "id": "S01-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "4e0071d819f7c4926d651e080cada1bd66a141b8c6e1ac3428d4fec6d41bd82e",
+                      "id": "S01-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "19da2d0588b5aa78a532926c5d5c3f36ae0d8c3a87654cbb857ab0e05d50448e",
+                      "id": "S01-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "a53bdafdc0f2ce19b41542c1a8903008e5634bd4e232e20d2249dae4031dc53d",
+                      "id": "S01-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S01-AC-01",
+                    "objectiveIds": [
+                      "S01-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S01-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S01-D-01",
+                      "S01-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S01-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S01-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S01-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S01-AC-01"
+                ]
+              },
+              {
+                "stageId": "S02",
+                "heading": "## Stage 2 — Open-source foundation and adoption decision",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "029dd100387ab3af70d25778d5c4a47cd0f80df7e3982660b1a72f71babb6012",
+                      "id": "S02-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "ed3368f57fdb94df10acaf294812e8a40855b83dd50c9e40d918864b8f2f444b",
+                      "id": "S02-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "b29c31a3ac1d52141ff0dcef44aac3ad637696e6a7cff9a5f83a0dfe9417a77e",
+                      "id": "S02-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "8ed347c1811ff280e821776288a2e4f341ea47a13426de2b5260820d8734c109",
+                      "id": "S02-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "c35a0d503db1d1e9a2fe01c9b6644d91a05a6bf8f3ef83c1c4f308748aaf40c4",
+                      "id": "S02-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "c525b1a07634508dd50c3c258e78e0b2b57a3a49637e6372f909ec1bc77bcbc4",
+                      "id": "S02-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "03213e4e6eebe24076bfe8adc04fe1269e3211642f1571ed44a0064f0c6b8b79",
+                      "id": "S02-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S02-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "6cda3912556dcb21f7f373dd12eae265d4623ae0b0bb8a9321de62f02ab900f6",
+                      "id": "S02-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "7cc09013648b737d68c8c18399a54a9113640567bfd4b1cec0f8c3c0bdbb2483",
+                      "id": "S02-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "f9bf42cca3bd5ba4fd44f73337dab0fffbd863f8c70907a5532b8cba64dd14e2",
+                      "id": "S02-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "7fadd616b2d6299f40facf04a5855466e695c7103147a3a82eb1cef573680aa7",
+                      "id": "S02-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "5d7ac468aff583c8d0db6c777ef490f8c69ca532d4aa33f058c322928e906585",
+                      "id": "S02-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "6bdb80f0b6e07a8f7ceb93d9485a966f76c35413a30910cbfb3d5638bd5b0026",
+                      "id": "S02-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "7bef10d3f0f5b9c74155bf41d81af36f8f8cbb73d071e0076514d0a0cffbcbe7",
+                      "id": "S02-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "db417b524a63365123f6ff9eb2ad1615b78e34af34a942ba77db7e716f3d243f",
+                      "id": "S02-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "b2767e5d960fa8ef7981d06cc7f711e1b4092e03bdf22ad1fd32e8ead9233de7",
+                      "id": "S02-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S02-AC-01",
+                    "objectiveIds": [
+                      "S02-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S02-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S02-D-01",
+                      "S02-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S02-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S02-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S02-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S02-AC-01"
+                ]
+              },
+              {
+                "stageId": "S03",
+                "heading": "## Stage 3 — Provider-agnostic engineering control plane",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "afc6bf24b082f79f1683c713b4e119b8aa5b06b1876057eff63455cc092c2c5b",
+                      "id": "S03-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "a5ebbc941cdbd06d158fdd1c2bedbf6459f795c177b0be688778306d13d700d8",
+                      "id": "S03-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "178d1fd91d70e1350f215abd433d2ac36daffd62e1f6b800f3fa51a6f62be726",
+                      "id": "S03-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "064c67caf40859f9d45eab39bb69a09cb7063ec439ff070308b852e468170049",
+                      "id": "S03-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "b77d1f5a3b2c5b03f493a1fc4a4ab35d4858f30e06aea4569654109cdaa33539",
+                      "id": "S03-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "ba8f8c697463d40b4ae26c04fcca05c278b8fd5ce5f0779291f9adc0e62d4df3",
+                      "id": "S03-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "669e6c615946b9caff95bcf57f0d5442664c616047a2b52b0969fc60174a3bba",
+                      "id": "S03-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S03-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "43d1ff6c06804f5e2183147f90812b33059a418a9abe879d4f0d56be702add03",
+                      "id": "S03-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "e99bf06062e482ec887913b3fa0633e66c6c18000a7a443e8c15fe99a2e2dddf",
+                      "id": "S03-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "ffc9e1825831da74310cb038e7dfad0346cbca798eb574fdb9ee583d0529d21a",
+                      "id": "S03-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "9dc6b844faaad344a733400c047008f53d3df9a91b7a6d6881d9240f49ce597d",
+                      "id": "S03-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "ebee8c4660f074625459577de04a65e8181a344613d69604fca584b91b1db4e8",
+                      "id": "S03-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "a00088d26f502d9fdccb2bed659f400eef9e51583d7848663244e030c1e6d1e0",
+                      "id": "S03-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "418d71ca1d0d780cebe750bbd06723df6575982cea23873bd4f952934f14608a",
+                      "id": "S03-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "1ab8b74e20e3fde5679ebef17ec2958c5429ad675df3c699695837f30ec7ffd7",
+                      "id": "S03-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "e0cec429964de35c52971822614e6a4e1364e49ea9520116b5320f4c29fa808b",
+                      "id": "S03-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S03-AC-01",
+                    "objectiveIds": [
+                      "S03-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S03-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S03-D-01",
+                      "S03-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S03-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S03-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S03-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S03-AC-01"
+                ]
+              },
+              {
+                "stageId": "S04",
+                "heading": "## Stage 4 — Visual capability contracts and registry",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "a9de0b2a43d870463d89ffe549cbe20b2953f70994b9ded143b567f2170599f6",
+                      "id": "S04-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "ba18ce8d2bebd3c0cf66fab206ccd8511296ccbe76d2030626dab128e51de639",
+                      "id": "S04-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "807de07569c6ae9a2a55c74e16daef4eb6bc1ab605ffae3f95c85e55cffa007b",
+                      "id": "S04-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "1589ee36509e2d6ea181600717392b1d93c1b1e17bd8ee45e4840fe4dc13e00a",
+                      "id": "S04-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "3b9bb12d3d2cbe90189419541c959a6b7a0b06aa584050cb21102ee458ac2fbe",
+                      "id": "S04-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "0625c24d9ea6b16208b984ce4a5349c0467ae779b54bc33179e743e81ac2a292",
+                      "id": "S04-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "40def814fb91a468dd4135355935b629ba7ed25d07891fe800b035ef7d678a8c",
+                      "id": "S04-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S04-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "e93e56f3f54124d21f185c636bc17e586b00db8b5c43bdc9372fdbfe060a1948",
+                      "id": "S04-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "e9d4fdcb71be45afc6913e174848a7b5774385ebef30a1a4b9efdb77c404c56e",
+                      "id": "S04-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "3e105e7f212ece95c31db84b77aa65b791bc7039be98ec495e069d3f5ab0b105",
+                      "id": "S04-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "ce76de5d42bc4bd89660342b4454374d9a8eb3ff15aff67bfd6477841d882c40",
+                      "id": "S04-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "6e3a718cf62ea8fe6a21fb96776fc38f6848e6bd1d11e53e32cb727616707d68",
+                      "id": "S04-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "c68cf3f90de224ee079fe6add5e6c62886b7c58b742914c4aa7cd57c06733edc",
+                      "id": "S04-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "154fa1a9902069dd1f77877733f4948702eaa82e6c9d1c1953beb020c60166cf",
+                      "id": "S04-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "2e8d60b97d8f6e5853d83aa6fc9365593f80ed95aa83341d03efdeb3cdeef920",
+                      "id": "S04-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "78d701bf297b81d5161d0e3f3663dd53560cbfb1089ffb647c75eebd225382e1",
+                      "id": "S04-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S04-AC-01",
+                    "objectiveIds": [
+                      "S04-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S04-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S04-D-01",
+                      "S04-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S04-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S04-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S04-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S04-AC-01"
+                ]
+              },
+              {
+                "stageId": "S05",
+                "heading": "## Stage 5 — Real renderer execution and qualification",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "17c31e1d8fdb2a97ec9436a9e9475e6a91bc8ca375473f7b624e073aca2aec33",
+                      "id": "S05-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "65e10de1574647e2e695ab7246df5e7f664539c3b2f68965f4e9e3ebab2e0092",
+                      "id": "S05-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "c358672a72540dd256948fa505dc5983058e1e7b65c9bbef047456a95a1cda81",
+                      "id": "S05-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "42bb7d28045dfef022ef2e19addc5a2178893e1e15080cec502cb228c20318dc",
+                      "id": "S05-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "e6de7509a168b4e9ed9ed275e1b656209d43d99aa4eba2a648933c13f209b76d",
+                      "id": "S05-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "f80f645efbe033c0eebd16eaf9f50c1e6976f92af7c352c587887a6ced5b2562",
+                      "id": "S05-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "a26e170c1e7aac62eddaaaf5a5352a39c53936ad7031f3688e1e4ce453d3d71d",
+                      "id": "S05-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S05-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "f2dd6c25d22d6a6d1cedad3aeaa740298f7a941d3fdb698a2fd1b5c1bcbefc91",
+                      "id": "S05-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "b85fe8b1741e5e16ef06781b5313ac9fe601778c6420fb2bc99d9df90fcac596",
+                      "id": "S05-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "877f22b2890be085789a95fe7ba107813deaf04448f83d18d9c65f37b7c48cd2",
+                      "id": "S05-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "1c9999919f37bdf408d1aa4cce6522c92da71126decce363d44044135d81c6e0",
+                      "id": "S05-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "6be60d0f62d3b7db6e8b8e3fa35405b4af0809004758889df2eda1238841d732",
+                      "id": "S05-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "96745680858dd28656013cd4cd2b6d955dc15a38f5a8f9cd3f923e186f8c029a",
+                      "id": "S05-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "dad83c156deaade30d0bbab3d66a5c8dd145d6ca6580b31c894372f50b9db044",
+                      "id": "S05-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "40e49f8316717d1a46de217fe75322d2fd4703013a429973b272dbf2b1f5d7c9",
+                      "id": "S05-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "96943302aae4319a510aad91ded22d5cccd69e0de30d64ea1414fc02eaa1ec4d",
+                      "id": "S05-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S05-AC-01",
+                    "objectiveIds": [
+                      "S05-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S05-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S05-D-01",
+                      "S05-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S05-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S05-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S05-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S05-AC-01"
+                ]
+              },
+              {
+                "stageId": "S06",
+                "heading": "## Stage 6 — First complete visual-capability vertical slice",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "8fc117cf74b05c42170e8209ee28505da4d11f4976c20054f4f3bb77ccc0d8d1",
+                      "id": "S06-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "eb833506ef6e17f2c3114b0df98d544b9f8cb6cfcefde20b77e621a97e2351d4",
+                      "id": "S06-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "74609dcbad79f66cf18b9f37b183f9dfd0c1f6a8448d21b38014a6b2debcafd2",
+                      "id": "S06-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "e1d495b83ae96afc105b32cdcd374d4c37d86836c180ba0964575cdd3c011fce",
+                      "id": "S06-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "331e3dbf9f48e046503cc4805076d089dcf830374787373aa7f443e76ff3ea2f",
+                      "id": "S06-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "34de5d04b3bdad2c5f00faf9f07fd3c709330b0bdd0e367830d9ff431273fd88",
+                      "id": "S06-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "511f2ae2996468ae83f68579d4f5eea9d27bba903fb1c855e843967459a020f2",
+                      "id": "S06-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S06-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "424a47458c68d996f7d3799dd69d6316b3624e9049cd7b4c474846a1d3dd6395",
+                      "id": "S06-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "43fc17e608f2243f4af244196f1170a7558702d88faf6b2c3634160481762b12",
+                      "id": "S06-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "c847a0fe0736ddfb5e27d1b7b3c1d45839b3a864f7887303b69588980abdd332",
+                      "id": "S06-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "b30cc39acada29ecae0930c640bd5af38f048fdd3655de8d8c1e0587c614122a",
+                      "id": "S06-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "79f1527c2372270bcce08a79613f19c28f250d563d852dbd7354414b27fd68e2",
+                      "id": "S06-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "049faeee447ca251c1347e5671720ff4a1efec7222ceffde8cd17adb31819835",
+                      "id": "S06-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "5f2205e9d2db758870f00937d2b860cf2cde73d1b6f3f1276dffda992329adeb",
+                      "id": "S06-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "899cf90119ed484b2d837ae5eece6414847e0c28277b54272cc2adabae4dd190",
+                      "id": "S06-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "485f1817871a9b6c79950179db09c53f8e43c426fbb1ada8139eca52f6c2546e",
+                      "id": "S06-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S06-AC-01",
+                    "objectiveIds": [
+                      "S06-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S06-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S06-D-01",
+                      "S06-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S06-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S06-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S06-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S06-AC-01"
+                ]
+              },
+              {
+                "stageId": "S07",
+                "heading": "## Stage 7 — Controlled remote compute and Colab",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "fc60c3217c71e1c07f722fa2219ef34d6b7de7ecdcf85ac32ac04d24e93a018a",
+                      "id": "S07-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "6e26453c42981eaa96a945deb78667e448bcbd4c43b36a1aa652afd678f8c69e",
+                      "id": "S07-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "39063a5d79296bf260de6ee07658ea5eb7fa820d9399234ad6afe1bcfa77dde5",
+                      "id": "S07-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "467a062dda5e75f8953d71b3c52cba03a0d82ca1aeebdba26efccdc83759b4a4",
+                      "id": "S07-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "306d855e00dec16571c8b7707739b31570ac6e46e613851eea18b223305a92c4",
+                      "id": "S07-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "4c55bdb06ab81b7e65edc50316da3a5cd56919f4316f9b5d7902e696e167b551",
+                      "id": "S07-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "5fc605aa50496c1f874954d52b2542473cdcb13788632ca42d40d6372c8337cb",
+                      "id": "S07-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S07-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "4581bc2e2f4701bb8ba56ab92d40c645d525a875d4f4ca0a378be324c6caca57",
+                      "id": "S07-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "d697e76dd4eaf4e650661deafb486a29724e40c8feb124dc1a441f17b05c38d8",
+                      "id": "S07-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "31ccdd7b3adcdc3468e30fe9eae914bebbad19d162fd2d10d5d6f14e740d794d",
+                      "id": "S07-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "f5d2953903ccfd8a3261893399ba5776029be67de0afd1f7c2e400ac6142d89d",
+                      "id": "S07-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "af8ff8df72b11219e979050e94058e5f45e58b8556587c37eac7eda533d37c44",
+                      "id": "S07-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "81819a687f21c0079a089b328031adaeef9e31fa7493166d21bb9596021a83b6",
+                      "id": "S07-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "3af57200fe06890597ffeaa18c0c72ed8a4ab9d676f2ffa8d3bca2994df5e33d",
+                      "id": "S07-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "42e023b5fc5ef72300737a165b79ec2e1b4877f887456427ca522c0ed081ee31",
+                      "id": "S07-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "e90a5e5644469cc470ef440e3aafd06146e0dd9f7136cdf65db90d42dfd6830d",
+                      "id": "S07-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S07-AC-01",
+                    "objectiveIds": [
+                      "S07-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S07-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S07-D-01",
+                      "S07-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S07-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S07-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S07-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S07-AC-01"
+                ]
+              },
+              {
+                "stageId": "S08",
+                "heading": "## Stage 8 — Specialist visual capabilities and multi-industry qualification",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "44aad172040b0bd56bc389c5b883bfc87c4ff9bf83fa086a37823d6084f389af",
+                      "id": "S08-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "3bbfd717b3375d20c363ab170210686c15a1ba390972cde5579c31d1c29b48b5",
+                      "id": "S08-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "ed52225ced6cc441d79f2cfc88e72d7592e7fdd1e19b43255a413af219c26cf5",
+                      "id": "S08-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "9ed7c86b7c090a5a5ea36cbd5ff156a7cbdd0217fa31b0e7e559efb4c7d76bda",
+                      "id": "S08-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "d904f563be63a814e06df11d1b88ab92d684692781d1050e76c5c89ad43419bc",
+                      "id": "S08-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "c97f23a1f08c7f1280c1051404101851e2f8f4786561fc010b291865587ee016",
+                      "id": "S08-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "691e48e3d8ac6770b8fd6df444573ce32c910b8ade8a9465d974d356d5b96a6c",
+                      "id": "S08-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S08-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "b3f76257c49010d5c67c730f540de9c32d18ebde1f964f6beee8bea6dbddbaa6",
+                      "id": "S08-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "1516bc649ff80ffd8aa5abfe5ae7e9192ef48f7f676343db0ae9c503cf8bf82e",
+                      "id": "S08-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "633f0d1fded30655240d47b2e3afd25ead07c19421b22ac4ff32ccb69cf3a494",
+                      "id": "S08-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "f88e0fecf0ac8c19ef51b9568cfb5cd2e50f454e3ec23f09ab7f606076878c06",
+                      "id": "S08-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "a1d2002d824cab6d626c8be2c7188e98f753d163f365d6c1f414cff21b434602",
+                      "id": "S08-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "6496c4dbcb97f12f71a881a1ccfccd8ac6ea70f564ec0c545a7142d4a6f222cb",
+                      "id": "S08-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "f1638a7e47d12dc5f00645dee13607bb917842512a35c0397feb9d24080ed015",
+                      "id": "S08-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "e6a3119a5440021203b2651021805a5e18e0c8b7a436e4dd72f824d1bb467328",
+                      "id": "S08-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "8f80abe2d6c21f003886c5bfc83ec008ef70035fe75538831db29249f72cb74d",
+                      "id": "S08-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S08-AC-01",
+                    "objectiveIds": [
+                      "S08-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S08-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S08-D-01",
+                      "S08-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S08-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S08-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S08-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S08-AC-01"
+                ]
+              },
+              {
+                "stageId": "S09",
+                "heading": "## Stage 9 — Coherent composition and complete-video quality",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "1f4aa9e6975a2e006fac5d8502c382252359f53015b94349ad100c47ec19810f",
+                      "id": "S09-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "9c9f512b0085e3387967c01e9dafe641fc8f15580ea10d66d7aa0235ca036279",
+                      "id": "S09-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "81ae65095cb0fb6e145cce1909a404b77334c5f6543437f999d0300a8ab92221",
+                      "id": "S09-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "da0f041f5b93f713f933f7d9fe052043fbe299e2959bf5b4b6ebc191e9754307",
+                      "id": "S09-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "1af2e672b6b83ef9bf86d3aefd68656e2ea516a42da46ff64b60aab8f3567cb3",
+                      "id": "S09-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "7d502f55303941576f2a11819b022fa9422d053cfaa498bf3dee5da6b2c4d11f",
+                      "id": "S09-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "1dd721412e7cf43bcd62f7bfd3d900c94bf372392ddeb4f857ae8b412331ec7c",
+                      "id": "S09-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S09-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "58259384383dfd8b7e030e71527b78177d031dd4a0700b69d1dda1dd60d43f95",
+                      "id": "S09-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "bb8ba2feb97b3ba734d2c6007c5a4e75e57490a467cc7ac15bc9b89fc0fdb08b",
+                      "id": "S09-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "be0fd63a1a9e2c02616d0b92049128da6063091168da897d9ec957bd9385f7ef",
+                      "id": "S09-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "9a265fe37d4b8bdd420466d4dcd5ef0c1a0099f6112e1cbc3bd5d2bb8640c42f",
+                      "id": "S09-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "fc6d4363064c51260b75173057e6f7d59c1fb8343dd2b1010088641496662210",
+                      "id": "S09-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "fbdf3fb450e8a4873f930755dcf48d12b8611dbad821676058dd8868b250ba29",
+                      "id": "S09-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "f837bc42f9e13bd56d09b48d4918362d40b07c5160f3e1c5cab1f805b6ba38f8",
+                      "id": "S09-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "2702a48af944771dd9df2ec090f25a62ce8e102f7efaf5be9b4f88330f5aa75e",
+                      "id": "S09-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "44b917134a89653d22da4aafe525c0ec7b627ece7244e8f81e5b1aa7e4409e9d",
+                      "id": "S09-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S09-AC-01",
+                    "objectiveIds": [
+                      "S09-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S09-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S09-D-01",
+                      "S09-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S09-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S09-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S09-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S09-AC-01"
+                ]
+              },
+              {
+                "stageId": "S10",
+                "heading": "## Stage 10 — Production qualification and throughput",
+                "fields": {
+                  "objective": [
+                    {
+                      "section": "Objective",
+                      "unitIndex": 0,
+                      "sha256": "fc061c4ea3c3ba8cd4c5d462a2f7edd227f45c4a4d53c30e1c8d00faeb941903",
+                      "id": "S10-OBJ-01"
+                    }
+                  ],
+                  "entryConditions": [
+                    {
+                      "section": "Entry conditions",
+                      "unitIndex": 0,
+                      "sha256": "ec9da11ab35b78f9f26507053f39afc7b78a594c49beba739f57fb9572d54db8",
+                      "id": "S10-ENTRY-01"
+                    }
+                  ],
+                  "scope": [
+                    {
+                      "section": "Scope",
+                      "unitIndex": 0,
+                      "sha256": "5e763aaabb23f00b6c058ceebfb45a170de15cf8d905cea47eec97c6494695b1",
+                      "id": "S10-SCOPE-01"
+                    }
+                  ],
+                  "exclusions": [
+                    {
+                      "section": "Explicit non-goals",
+                      "unitIndex": 0,
+                      "sha256": "a86292ffe874e3a8bdd9cd066e9df04f311b15ad85319ef8e37a15ed67f086b6",
+                      "id": "S10-NON-GOAL-01"
+                    }
+                  ],
+                  "dependencies": [
+                    {
+                      "section": "Dependencies",
+                      "unitIndex": 0,
+                      "sha256": "5bb7bf014bbf1dcd822d728d933135229bd238be9f390824dbe7e8a2891db41c",
+                      "id": "S10-DEP-01"
+                    }
+                  ],
+                  "implementationSequence": [
+                    {
+                      "section": "Tasks and implementation sequence",
+                      "unitIndex": 0,
+                      "sha256": "79f3e488f694c205e5898bd051564273c3e56cdf532a410265b4a39d02431495",
+                      "id": "S10-PLAN-01"
+                    }
+                  ],
+                  "deliverables": [
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 0,
+                      "sha256": "34a8808bbb49f93512a793acb157f54fccaa1cbe2259737bb30fb9060b8defdd",
+                      "id": "S10-D-01"
+                    },
+                    {
+                      "section": "Deliverables",
+                      "unitIndex": 1,
+                      "sha256": "a9378849e28076880a7e88b05bac02fdd746dd5e2d509fe26004282ff8f6e134",
+                      "id": "S10-D-02"
+                    }
+                  ],
+                  "acceptanceCriteria": [
+                    {
+                      "section": "Acceptance criteria",
+                      "unitIndex": 0,
+                      "sha256": "44b96fccaec93b499edec0f0ec51781d67b93e52fcc1b260bc20d946af3999c8",
+                      "id": "S10-AC-01"
+                    }
+                  ],
+                  "validationMethods": [
+                    {
+                      "section": "Required tests",
+                      "unitIndex": 0,
+                      "sha256": "d78af7fe99565cd100f7202f783ef6b103fe8ae14c45fed360649fa8c3edcf35",
+                      "id": "S10-TEST-01"
+                    }
+                  ],
+                  "evidence": [
+                    {
+                      "section": "Required evidence",
+                      "unitIndex": 0,
+                      "sha256": "97b7d7cf0dd0e5e3b9049bdafb34227927f4d7f38edef65de5014f0f2353576d",
+                      "id": "S10-EVID-01"
+                    }
+                  ],
+                  "resources": [
+                    {
+                      "section": "Resource and compute considerations",
+                      "unitIndex": 0,
+                      "sha256": "9474cc20ce1ae988283d45b507ff78d1f472045a65910e34ffe7328732b6183e",
+                      "id": "S10-RESOURCE-01"
+                    }
+                  ],
+                  "risks": [
+                    {
+                      "section": "Risks and failure modes",
+                      "unitIndex": 0,
+                      "sha256": "3b75ac921946b9b887dd13f157114229f93ba054345e44165d7b079830695f1b",
+                      "id": "S10-RISK-01"
+                    }
+                  ],
+                  "hardStops": [
+                    {
+                      "section": "Hard-stop conditions",
+                      "unitIndex": 0,
+                      "sha256": "a20552c49f9a62ce19efadf4e723efb5a33e8e1a249ae4c399f3d279fca5c17c",
+                      "id": "S10-STOP-01"
+                    }
+                  ],
+                  "exitCondition": [
+                    {
+                      "section": "Exit gate",
+                      "unitIndex": 0,
+                      "sha256": "031ffcd02a1dfe4ca762b93e5518c482a03be1775e478fea67d25cec8d1a93bb",
+                      "id": "S10-EXIT-01"
+                    }
+                  ],
+                  "currentState": [
+                    {
+                      "section": "Current state / blocked status",
+                      "unitIndex": 0,
+                      "sha256": "93b91e90fbf842bac244a06f0b0724de41f76ce2f9ed405712288e23dba66563",
+                      "id": "S10-STATE-01"
+                    }
+                  ],
+                  "subsequentAuthorization": [
+                    {
+                      "section": "Subsequent work authorized after the gate passes",
+                      "unitIndex": 0,
+                      "sha256": "d18ac268568a9e77cb6b21cd2cf3d3cc44f691bb57ebf2690882f5de2b535d5e",
+                      "id": "S10-NEXT-01"
+                    }
+                  ]
+                },
+                "acceptanceLinks": [
+                  {
+                    "id": "S10-AC-01",
+                    "objectiveIds": [
+                      "S10-OBJ-01"
+                    ],
+                    "dependencyIds": [
+                      "S10-DEP-01"
+                    ],
+                    "deliverableIds": [
+                      "S10-D-01",
+                      "S10-D-02"
+                    ],
+                    "validationMethodIds": [
+                      "S10-TEST-01"
+                    ],
+                    "evidenceIds": [
+                      "S10-EVID-01"
+                    ],
+                    "exitConditionIds": [
+                      "S10-EXIT-01"
+                    ]
+                  }
+                ],
+                "exitRequiresCriterionIds": [
+                  "S10-AC-01"
+                ]
+              }
+            ]
+          },
+          "path": "fixtures/b949-unique-generic-roadmap.md",
+          "sha256": "abc613ec56861de82e3a2b3d6fe963ea86988fd0ad9b2925552e48c5f7dbd109",
+          "bytes": 44803,
+          "semanticReviewCriterionId": null,
+          "ownerAcceptanceCriterionId": null
+        }
+      }
+    },
+    {
+      "name": "complete headings with non-observable criteria require semantic review",
+      "expected": "REVIEW_REQUIRED",
+      "actual": "REVIEW_REQUIRED",
+      "evidence": {
+        "structural": "PASS",
+        "traceability": "PASS",
+        "semantic": "REVIEW_REQUIRED"
+      }
+    },
+    {
+      "name": "invented validation method identifier rejected",
+      "expected": false,
+      "actual": false,
+      "evidence": [
+        "unresolved validation method identifier: S99-TEST-99",
+        "acceptance criterion S00-AC-01 does not resolve to every declared stage validation method",
+        "traceability graph does not match the verifier-derived source map"
+      ]
+    },
+    {
+      "name": "invented traceability policy prevents overall PASS",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "evidence": [
+        {
+          "code": "ROADMAP_TRACEABILITY_INVALID",
+          "message": "unresolved validation method identifier: S99-TEST-99; acceptance criterion S00-AC-01 does not resolve to every declared stage validation method; traceability graph does not match the verifier-derived source map"
+        }
+      ]
+    },
+    {
+      "name": "planned deliverable paths need not exist before execution",
+      "expected": "PASS/REVIEW_REQUIRED",
+      "actual": "PASS/REVIEW_REQUIRED",
+      "evidence": [
+        {
+          "section": "Deliverables",
+          "unitIndex": 0,
+          "sha256": "3fcb9ca6ac5fff89b7e7e3b0fb2a8126cefd714d6612121baf8ac4400ceae129",
+          "id": "S00-D-01"
+        },
+        {
+          "section": "Deliverables",
+          "unitIndex": 1,
+          "sha256": "b4abed0f0955327d04e29f2f8b3bbcf47cac3af6c1e217c83fd0838f579a7adb",
+          "id": "S00-D-02"
+        }
+      ]
+    },
+    {
+      "name": "untraced valid-looking deliverable path rejected",
+      "expected": false,
+      "actual": false,
+      "evidence": [
+        "acceptance criterion S00-AC-01 must link to objectives, deliverables, validation methods, evidence, and exit conditions",
+        "acceptance criterion S00-AC-01 does not cover every stage deliverable",
+        "untraced deliverable identifier: S00-D-01",
+        "untraced deliverable identifier: S00-D-02",
+        "traceability graph does not match the verifier-derived source map"
+      ]
+    },
+    {
+      "name": "missing claimed deliverable rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "EVIDENCE_MISSING",
+          "message": "evidence path does not exist: evidence/report.md"
+        }
+      ]
+    },
+    {
+      "name": "defined test without verifier execution rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "TEST_NOT_EXECUTED",
+          "message": "test file exists but no fresh verifier-owned execution receipt exists"
+        }
+      ]
+    },
+    {
+      "name": "unrelated fresh command cannot attest test file",
+      "expected": "INVALID_POLICY",
+      "actual": "INVALID_POLICY",
+      "evidence": "test command fixture-pass must directly execute tests/unit.test.js with Node.js; wrapper/eval commands are not accepted as test evidence"
+    },
+    {
+      "name": "Node eval cannot masquerade as test-file execution",
+      "expected": "INVALID_POLICY",
+      "actual": "INVALID_POLICY",
+      "evidence": "test command fixture-eval-with-test-argument must directly execute tests/unit.test.js with Node.js; wrapper/eval commands are not accepted as test evidence"
+    },
+    {
+      "name": "Node option-shaped test path rejected",
+      "expected": "INVALID_POLICY",
+      "actual": "INVALID_POLICY",
+      "evidence": "test criterion option-path requires a safe workspace-relative testPath"
+    },
+    {
+      "name": "stale historical PASS rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "TEST_NOT_EXECUTED",
+          "message": "test file exists but no fresh verifier-owned execution receipt exists"
+        }
+      ]
+    },
+    {
+      "name": "test source changed after execution rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "TEST_SOURCE_HASH_MISMATCH",
+          "message": "test source does not match the verifier-owned approved hash and execution snapshot"
+        }
+      ]
+    },
+    {
+      "name": "caller cannot forge or replace verifier execution receipts",
+      "expected": "TypeError",
+      "actual": "TypeError",
+      "evidence": {
+        "verifierFrozen": true
+      }
+    },
+    {
+      "name": "test source replaced before execution rejected",
+      "expected": "TEST_SOURCE_HASH_MISMATCH",
+      "actual": "TEST_SOURCE_HASH_MISMATCH",
+      "evidence": "test source does not match verifier-owned approved hash: tests/unit.test.js"
+    },
+    {
+      "name": "stub component rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "STUB_IMPLEMENTATION",
+          "message": "stub marker detected in components/timeline.js: /not implemented/i"
+        }
+      ]
+    },
+    {
+      "name": "renderer claim without actual execution rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "RENDER_NOT_EXECUTED",
+          "message": "native render execution lacks a fresh successful verifier-owned receipt"
+        }
+      ]
+    },
+    {
+      "name": "successful command with missing output rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "EVIDENCE_MISSING",
+          "message": "evidence path does not exist: missing-render.json"
+        }
+      ]
+    },
+    {
+      "name": "artifact hash mismatch independently detected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "RENDER_HASH_MISMATCH",
+          "message": "render manifest hash does not match the actual artifact"
+        }
+      ]
+    },
+    {
+      "name": "render evidence reference must match policy",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "INVALID_EVIDENCE_REFERENCE",
+          "message": "render evidence reference does not match verifier policy"
+        }
+      ]
+    },
+    {
+      "name": "technical render does not imply subjective visual acceptance",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "evidence": {
+        "renderStatus": "pass",
+        "humanReviewStatus": "fail"
+      }
+    },
+    {
+      "name": "contradictory PASS blocked by mandatory failure",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "evidence": {
+        "failedRequiredCriteria": [
+          "mandatory-failure"
+        ],
+        "failureReceiptExitCode": 7
+      }
+    },
+    {
+      "name": "unverified human acceptance claim rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "EVIDENCE_MISSING",
+          "message": "evidence path does not exist: review.json"
+        }
+      ]
+    },
+    {
+      "name": "agent-created human review rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "HUMAN_REVIEW_UNVERIFIED",
+          "message": "human acceptance record is missing reviewer identity or accepted decision"
+        }
+      ]
+    },
+    {
+      "name": "cryptographically signed artifact-bound human review accepted",
+      "expected": "pass",
+      "actual": "pass",
+      "evidence": []
+    },
+    {
+      "name": "human review for different artifact rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "HUMAN_REVIEW_ARTIFACT_MISMATCH",
+          "message": "human review does not bind to the current artifact hash"
+        }
+      ]
+    },
+    {
+      "name": "direct ClaimVerifier caller cannot inject roadmap reviewer trust keys",
+      "expected": "UNTRUSTED_ROADMAP_POLICY",
+      "actual": "UNTRUSTED_ROADMAP_POLICY",
+      "evidence": "roadmap semantic/owner review policies must be created by the pinned canonical roadmap policy factory"
+    },
+    {
+      "name": "constructed verifier policy cannot be replaced after creation",
+      "expected": "TypeError",
+      "actual": "TypeError",
+      "evidence": {
+        "frozen": true,
+        "criteriaFrozen": true
+      }
+    },
+    {
+      "name": "direct unreviewed roadmap assertion cannot overall PASS",
+      "expected": "REVIEW_REQUIRED",
+      "actual": "REVIEW_REQUIRED",
+      "evidence": {
+        "status": "REVIEW_REQUIRED",
+        "structuralStatus": "PASS",
+        "structuralErrors": [],
+        "traceabilityStatus": "REVIEW_REQUIRED",
+        "traceabilityErrors": [
+          "no verifier-owned traceability index is configured for this roadmap"
+        ],
+        "semanticStatus": "REVIEW_REQUIRED",
+        "ownerAcceptance": "PENDING",
+        "semanticLimitation": "The verifier checks section structure and source-bound stage-level links; it does not establish that objectives, deliverables, criteria, or methods are substantively adequate.",
+        "stageCount": 11,
+        "traceabilityGraph": null,
+        "path": "video_platform_roadmap.md",
+        "sha256": "3fb8206d813214513faa08f21d7ae5499a467c0c37349e1af2494daa8f769bbf",
+        "bytes": 45851,
+        "semanticReviewCriterionId": null,
+        "ownerAcceptanceCriterionId": null
+      }
+    },
+    {
+      "name": "verified result and nested criteria cannot be mutated after derivation",
+      "expected": "TypeError",
+      "actual": "TypeError",
+      "evidence": {
+        "resultFrozen": true,
+        "criteriaFrozen": true,
+        "criterionFrozen": true,
+        "retainedStatus": "review_required"
+      }
+    },
+    {
+      "name": "roadmap criterion cannot be downgraded to optional",
+      "expected": "INVALID_POLICY",
+      "actual": "INVALID_POLICY",
+      "evidence": "roadmap criterion optional-roadmap cannot be optional"
+    },
+    {
+      "name": "review bound to stale roadmap hash rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "HUMAN_REVIEW_ARTIFACT_MISMATCH",
+          "message": "human review does not bind to the current artifact hash"
+        }
+      ]
+    },
+    {
+      "name": "untrusted review key cannot authorize acceptance",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "HUMAN_REVIEW_SIGNATURE_INVALID",
+          "message": "human acceptance signature does not match verifier-owned reviewer key"
+        }
+      ]
+    },
+    {
+      "name": "unauthorized command refused",
+      "expected": "UNAUTHORIZED_COMMAND",
+      "actual": "UNAUTHORIZED_COMMAND",
+      "evidence": "command is not in the verifier-owned allowlist: rm -rf /"
+    },
+    {
+      "name": "missing evidence reference rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        "evidence reference is missing"
+      ]
+    },
+    {
+      "name": "parent traversal evidence reference rejected",
+      "expected": "fail",
+      "actual": "fail",
+      "evidence": [
+        {
+          "code": "INVALID_EVIDENCE_REFERENCE",
+          "message": "file evidence reference does not match verifier policy"
+        }
+      ]
+    },
+    {
+      "name": "self-reported PASS without policy observation rejected",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "evidence": [
+        {
+          "criterionId": "self-pass",
+          "required": true,
+          "reportedStatus": "PASS",
+          "status": "fail",
+          "evidence": null,
+          "errors": [
+            {
+              "code": "EVIDENCE_MISSING",
+              "message": "evidence path does not exist: evidence/missing-self-asserted.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "valid isolated test evidence derives PASS despite stale reported FAIL",
+      "expected": "PASS",
+      "actual": "PASS",
+      "evidence": []
+    },
+    {
+      "name": "structural and traceable roadmap without owner review is not PASS",
+      "expected": "REVIEW_REQUIRED",
+      "actual": "REVIEW_REQUIRED",
+      "evidence": {
+        "status": "REVIEW_REQUIRED",
+        "structuralStatus": "PASS",
+        "structuralErrors": [],
+        "traceabilityStatus": "REVIEW_REQUIRED",
+        "traceabilityErrors": [
+          "no verifier-owned traceability index is configured for this roadmap"
+        ],
+        "semanticStatus": "REVIEW_REQUIRED",
+        "ownerAcceptance": "PENDING",
+        "semanticLimitation": "The verifier checks section structure and source-bound stage-level links; it does not establish that objectives, deliverables, criteria, or methods are substantively adequate.",
+        "stageCount": 11,
+        "traceabilityGraph": null,
+        "path": "video_platform_roadmap.md",
+        "sha256": "3fb8206d813214513faa08f21d7ae5499a467c0c37349e1af2494daa8f769bbf",
+        "bytes": 45851,
+        "semanticReviewCriterionId": null,
+        "ownerAcceptanceCriterionId": null
+      }
+    },
+    {
+      "name": "actual canonical roadmap has structural and traceability PASS",
+      "expected": "PASS/PASS",
+      "actual": "PASS/PASS",
+      "evidence": []
+    },
+    {
+      "name": "actual canonical roadmap remains semantic REVIEW_REQUIRED",
+      "expected": "REVIEW_REQUIRED",
+      "actual": "REVIEW_REQUIRED",
+      "evidence": "PENDING"
+    },
+    {
+      "name": "canonical roadmap without verifier-owned traceability index is not traceability PASS",
+      "expected": "REVIEW_REQUIRED",
+      "actual": "REVIEW_REQUIRED",
+      "evidence": [
+        "no verifier-owned traceability index is configured for this roadmap"
+      ]
+    },
+    {
+      "name": "canonical reviewer trust store has no implementation-supplied trust anchor",
+      "expected": 0,
+      "actual": 0,
+      "evidence": {
+        "policyPath": "tools/claim-verifier/policies/video-roadmap-reviewers.json",
+        "policySha256": "e59a53ada5d6e8bab6382dee114bed2a53b18250bf1d1dbb99f354d70827b60a",
+        "trustedReviewers": {}
+      }
+    },
+    {
+      "name": "reviewer trust file cannot be altered without verifier policy update",
+      "expected": "REVIEW_TRUST_POLICY_HASH_MISMATCH",
+      "actual": "REVIEW_TRUST_POLICY_HASH_MISMATCH",
+      "evidence": "roadmap reviewer trust policy differs from verifier-pinned policy"
+    },
+    {
+      "name": "canonical verifier policy cannot be replaced by caller",
+      "expected": "TypeError",
+      "actual": "TypeError",
+      "evidence": {
+        "verifierFrozen": true,
+        "criteriaFrozen": true
+      }
+    },
+    {
+      "name": "canonical policy keeps semantic review and owner acceptance pending",
+      "expected": "REVIEW_REQUIRED",
+      "actual": "REVIEW_REQUIRED",
+      "evidence": {
+        "structural": "PASS",
+        "traceability": "PASS",
+        "semantic": "REVIEW_REQUIRED",
+        "owner": "PENDING"
+      }
+    },
+    {
+      "name": "compatibility pointer is not mistaken for canonical roadmap",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "evidence": [
+        "stage 0 must appear exactly once with its canonical title",
+        "stage 1 must appear exactly once with its canonical title",
+        "stage 2 must appear exactly once with its canonical title",
+        "stage 3 must appear exactly once with its canonical title",
+        "stage 4 must appear exactly once with its canonical title",
+        "stage 5 must appear exactly once with its canonical title",
+        "stage 6 must appear exactly once with its canonical title",
+        "stage 7 must appear exactly once with its canonical title",
+        "stage 8 must appear exactly once with its canonical title",
+        "stage 9 must appear exactly once with its canonical title",
+        "stage 10 must appear exactly once with its canonical title",
+        "roadmap must contain exactly 11 canonical stage headings"
+      ]
+    },
+    {
+      "name": "claim-selected executable rejected by verifier policy",
+      "expected": "INVALID_POLICY",
+      "actual": "INVALID_POLICY",
+      "evidence": "criterion not-allowed must use a verifier-registered command"
+    }
+  ]
+}

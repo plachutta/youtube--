@@ -1,0 +1,107 @@
+{
+  "milestone": "B9.51 independent audit",
+  "created_at": "2026-10-16",
+  "repository": "/home/gachiemeshackson/Videos/youtube",
+  "overall_disposition": "FAIL",
+  "disposition_reason": "The reproduced code-level bypasses were remediated and the captured 51-case suite passed, but the authoritative roadmap still records B9.51 as FAIL/requalification pending while the current captured suite reports pass, and the pre-existing B9.51 report/evidence describe a different artifact snapshot. The acceptance state must be reconciled before owner review.",
+  "baseline": {
+    "head": "e26792ae00dc1ec2434faf32632896609396dfad",
+    "branch": "master",
+    "modified_tracked_paths": ["package-lock.json", "package.json", "test.js", "utils/scene-repair-service.js"],
+    "modified_tracked_count": 4,
+    "untracked_status_entries": 134,
+    "staged_entries": 0,
+    "captured_before_target_reads_or_tests": true,
+    "initial_hashes": {
+      "video_platform_roadmap.md": "728de6c3ef7adb4a096921f24dda83fe33935908cefb472bc0d00d43297b2c32",
+      "docs/AGENTTUBE-B9-50-CLAIM-VERIFIER-SEMANTIC-ACCEPTANCE-REPORT.md": "8c1be48e3cc6eda6b09017dea553fc5bd158265767b5c354f6dcf7fa85591313",
+      "data/b9_50/evidence/CLAIM-VERIFIER-SEMANTIC-ACCEPTANCE.json": "ab3bdf6cc900360afad6a628117713048f790588a60ca1e5599f52cbf501b01f",
+      "tools/claim-verifier/claim-verifier.js": "5ec13b49f6a09b87db726bf5110116bc4e54c6cf2b247786900597f0bcce20d6",
+      "tools/claim-verifier/tests/claim-verifier.test.js": "50abaaa7c29d60be12d3663fe17d48eaa68098608deb1b0cc4a9d404f75185d7",
+      "tools/claim-verifier/policies/video-roadmap-reviewers.json": "e59a53ada5d6e8bab6382dee114bed2a53b18250bf1d1dbb99f354d70827b60a",
+      "tools/claim-verifier/verifier.py": "100b6dd1402f5fc60183bc33c7c958972746ad34c6b2213e71a10f857907b979"
+    }
+  },
+  "b950_integrity": {
+    "recorded_roadmap_hash_matches_initial_audit_snapshot": true,
+    "recorded_verifier_hash_matches_initial_audit_snapshot": true,
+    "recorded_suite_hash_matches_initial_audit_snapshot": true,
+    "recorded_policy_hash_matches_initial_audit_snapshot": true,
+    "legacy_python_not_run": true
+  },
+  "b951_prior_record_reconciliation": {
+    "prior_report_and_evidence_preserved": true,
+    "initial_audit_porcelain_status": {"modified_tracked": 4, "untracked_entries": 134, "staged": 0},
+    "later_observed_status": {"modified_tracked": 5, "untracked_entries": 135, "staged": 0},
+    "later_tracked_delta": ".github/workflows/ci.yml added npm run test:claim-verifier; absent from initial audit status and not edited by this audit",
+    "counting_note": "Prior B9.51 evidence uses recursive untracked path counts and reports five tracked paths; those are not directly comparable to this audit's porcelain-entry counts. A concurrent workflow modification appeared after baseline.",
+    "roadmap_digest_conflict": {"prior_b951_recorded": "3cc40bd857022c4547f085fe3072ffe60d6888ef3fbbc35208719fd3df409ecb", "audit_validator_observed": "099ae17ca07cc4bde3c67279632d5a02c7358637c09bc4fa3be4f0c44d77264d", "explanation": "The canonical Stage 1 status paragraph changed between snapshots; no exact final-byte hash was recaptured after all audit outputs. Treat both values as version-specific, not interchangeable."},
+    "canonical_status_discrepancy": "Roadmap says B9.51 audit FAIL / requalification pending; this audit's captured 51-case suite passes the tested boundary. Update the current-state paragraph and rehash only through a governed roadmap change."
+  },
+  "pre_fix_findings": [
+    {
+      "id": "B949-LEXICAL-ROADMAP",
+      "fixture_bytes": 44803,
+      "fixture_sha256": "abc613ec56861de82e3a2b3d6fe963ea86988fd0ad9b2925552e48c5f7dbd109",
+      "pre_fix_result": "PASS; roadmapValid true; no errors",
+      "post_fix_regression": "REVIEW_REQUIRED; structural PASS; traceability PASS; semantic REVIEW_REQUIRED; owner PENDING",
+      "permanent_case": "B9.49 unique-marker roadmap cannot derive PASS",
+      "raw_suite_path": "data/b9_51/evidence/independent-audit-20261016/claim-verifier-suite.stdout.json"
+    },
+    {
+      "id": "B951-DIRECT-REVIEWER-POLICY-INJECTION",
+      "pre_fix_result": "Caller-generated Ed25519 semantic and owner keys, signed review records, matching artifact hash, and caller-supplied roadmap policy returned overall PASS / semantic PASS / owner ACCEPTED.",
+      "post_fix_result": "Direct canonical roadmap policy construction rejected with UNTRUSTED_ROADMAP_POLICY; suite case passes.",
+      "raw_reproduction_path": "data/b9_51/evidence/independent-audit-20261016/direct-reviewer-policy-injection-reproduction.json"
+    },
+    {
+      "id": "B951-FABRICATED-RECEIPT",
+      "pre_fix_result": "Caller inserted a zero-exit receipt for an intentionally failing test never run; verifier returned PASS.",
+      "post_fix_result": "Receipt map moved to private WeakMap; public mutation throws TypeError; permanent test passes."
+    }
+  ],
+  "canonical_roadmap_observed": {
+    "structural": "PASS",
+    "traceability": "PASS when source-hash-bound graph supplied",
+    "semantic": "REVIEW_REQUIRED",
+    "owner_acceptance": "PENDING",
+    "overall": "REVIEW_REQUIRED",
+    "validator_observed_hash_at_audit_check": "099ae17ca07cc4bde3c67279632d5a02c7358637c09bc4fa3be4f0c44d77264d",
+    "roadmap_owner_accepted": false
+  },
+  "entrypoint_inventory": {
+    "authoritative_production_ClaimVerifier_consumer": "none found in repository executable source/config",
+    "test_only": ["tools/claim-verifier/tests/claim-verifier.test.js", "tools/claim-verifier/tests/engineering-team-pilot.fixture.test.js", "tests/engineering-agent-provider.test.js"],
+    "ci_test_only": ["package.json test:claim-verifier", ".github/workflows/ci.yml verifier regression step"],
+    "legacy_python_directly_executable": true,
+    "legacy_python_package_or_ci_caller_found": false,
+    "legacy_python_execution": "not run",
+    "historical_outputs": ["tools/claim-verifier/data/VERIFIER_REPORT.md", "tools/claim-verifier/data/ADVERSARIAL_REPORT.md", "tools/claim-verifier/data/adv_report.json", "tools/claim-verifier/data/verifier_result.json"],
+    "external_or_manual_consumers": "unknown; repository search cannot enumerate out-of-repository usage"
+  },
+  "tests": {
+    "claim_verifier": {"command": "node tools/claim-verifier/tests/claim-verifier.test.js", "exit_code": 0, "cases": 51, "matched": 51, "failures": 0, "raw_stdout": "data/b9_51/evidence/independent-audit-20261016/claim-verifier-suite.stdout.json", "raw_stderr": "data/b9_51/evidence/independent-audit-20261016/claim-verifier-suite.stderr.txt"},
+    "provider_runtime": {"command": "node tests/engineering-agent-provider.test.js", "exit_code": 0, "result": "8/8 fixture groups", "raw_stdout": "data/b9_51/evidence/independent-audit-20261016/provider-runtime.stdout.txt"},
+    "disposable_workflow": {"command": "node tools/claim-verifier/tests/engineering-team-pilot.fixture.test.js", "exit_code": 0, "provider": "deterministic test fixture, not live agent", "raw_stdout": "data/b9_51/evidence/independent-audit-20261016/disposable-workflow.stdout.json"},
+    "syntax_verifier": {"command": "node --check tools/claim-verifier/claim-verifier.js", "exit_code": 0},
+    "syntax_tests": {"command": "node --check tools/claim-verifier/tests/claim-verifier.test.js", "exit_code": 0},
+    "targeted_eslint": {"command": "./node_modules/.bin/eslint tools/claim-verifier/claim-verifier.js tools/claim-verifier/tests/claim-verifier.test.js", "exit_code": 0},
+    "git_diff_check": {"command": "git diff --check", "exit_code": 0},
+    "full_npm_test": "not run; mutates SQLite/production test rows",
+    "final_status_recount_after_new_report": "not captured"
+  },
+  "stage0_acceptance_packet": {
+    "roadmap_version": "1.0",
+    "artifact_path": "video_platform_roadmap.md",
+    "hash_observed": "099ae17ca07cc4bde3c67279632d5a02c7358637c09bc4fa3be4f0c44d77264d",
+    "hash_reconciliation_required": true,
+    "what_acceptance_authorizes": "Only permits proposing Stage 1 after owner acceptance; no automatic implementation or later stage authorization.",
+    "structural_and_traceability": "PASS at audit observation",
+    "semantic": "REVIEW_REQUIRED",
+    "owner_decision": "PENDING",
+    "consequences": {"accept": "records approval of exact bytes and permits proposing Stage 1 only", "reject": "Stage 0 remains; revise under change control; no stage advances", "defer": "owner status remains pending; no stage advances"},
+    "missing_prerequisites": ["Reconcile the canonical roadmap's current Stage 1 status with the successful bounded test run.", "Recompute and record the exact hash of the final bytes presented to the owner.", "Establish the separately authorized owner review/trust process; the pinned reviewer registry remains empty."]
+  },
+  "openhands": {"adoption": "DEFERRED", "installation": false, "live_pilot": false},
+  "safety": {"legacy_python_executed": false, "npm_test_executed": false, "database_mutation": false, "phase5_inject_executed": false, "accepted_b9_30_modified": false, "production_render": false, "paid_calls": false, "local_ai_inference": false, "gpu_or_container": false, "staged_or_committed": false, "later_roadmap_stage_authorized": false}
+}

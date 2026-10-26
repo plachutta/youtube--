@@ -1,0 +1,25 @@
+{
+  "fixtureWorkspaceTemporary": true,
+  "recordedAt": "2026-10-16T08:11:44.863Z",
+  "roadmapArtifactSha256": "5543d61306bd063e40a185cb02275a46cd985559c7d4164822dd0332b2eb27d4",
+  "roadmapPolicyInjection": {
+    "overall": "REJECTED",
+    "errorCode": "UNTRUSTED_ROADMAP_POLICY"
+  },
+  "receiptForgery": {
+    "mutation": "TypeError",
+    "publicReceiptStore": null
+  },
+  "genericCallerOwnedHumanPolicyProbe": {
+    "workspace": "disposable OS temporary directory; removed after probe",
+    "construction": "direct ClaimVerifier with one human owner_acceptance criterion and trustedReviewers map containing a caller-generated Ed25519 public key",
+    "record": "signed in-process for the temporary artifact hash with caller-generated key and observation",
+    "expected": "reject caller-established trust root or remain non-PASS",
+    "observed": {
+      "overall": "PASS",
+      "criterionStatus": "pass",
+      "reviewerId": "attacker-chosen"
+    },
+    "classification": "B9.52 trust-root bypass reproduced before code changes. This is separate from the canonical roadmap factory guard: direct generic human criteria still accept caller-defined trustedReviewers. No genuine external trust root is configured."
+  }
+}

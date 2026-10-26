@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-10-15T11:32:46.395854Z",
+  "baseline": "b9_33",
+  "video": {
+    "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_34_draft.mp4",
+    "sha256": "dd64c7393fcfe6af6bea4465663e8787e6a92989f326cc0043610a2ee9391dc0",
+    "duration_sec": 123.733333,
+    "size_bytes": 1866530,
+    "resolution": "1920x1080",
+    "fps": "30/1"
+  },
+  "captions": "data/captions/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_34_narration.srt",
+  "scene_spec": [
+    {
+      "pos": 0,
+      "scene": "scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3",
+      "label": "Hook",
+      "treatment": "info-panel",
+      "communicates": "If you have ever wondered how a single misspelling created the most iconic domai"
+    },
+    {
+      "pos": 1,
+      "scene": "scene_1f04d8be-4aa1-45a2-a3be-18fa070d5302",
+      "label": "Introduction",
+      "treatment": "info-panel",
+      "communicates": "Hey everyone, welcome back to the channel. Today we are walking through how one "
+    },
+    {
+      "pos": 2,
+      "scene": "scene_edb8ee12-fcca-44a6-8980-5dfaa016860d",
+      "label": "The Setup",
+      "treatment": "info-panel",
+      "communicates": "Every domain name starts the same way. Someone picks the words they want, types "
+    },
+    {
+      "pos": 3,
+      "scene": "scene_2d1b1392-458b-4831-a76f-7d0663e7bda5",
+      "label": "The Mistake",
+      "treatment": "info-panel",
+      "communicates": "The misspelling happened in that check. The person intended one word, but typed "
+    },
+    {
+      "pos": 4,
+      "scene": "scene_6ac316ee-5208-458a-b582-c7d953b96e7b",
+      "label": "The Registration",
+      "treatment": "info-panel",
+      "communicates": "So the registration went through. The fee was paid, the record was written, and "
+    },
+    {
+      "pos": 5,
+      "scene": "scene_8764649f-fd26-4157-a900-9df5f476fc0c",
+      "label": "Why It Stuck",
+      "treatment": "info-panel",
+      "communicates": "A misspelled domain is memorable precisely because it is unexpected. People read"
+    },
+    {
+      "pos": 6,
+      "scene": "scene_9ffc0770-f028-4f10-9537-c637771fa26d",
+      "label": "The Trade-off",
+      "treatment": "info-panel",
+      "communicates": "There is a cost, though. A misspelled domain is easy to remember but easy to mis"
+    },
+    {
+      "pos": 7,
+      "scene": "scene_69203470-d058-490a-9b78-c365844ad995",
+      "label": "The Lesson",
+      "treatment": "info-panel",
+      "communicates": "The lesson is not that misspellings are good strategy. It is that the system rec"
+    },
+    {
+      "pos": 8,
+      "scene": "scene_be738bf9-b7b6-4f7b-8605-04311abb931d",
+      "label": "Conclusion",
+      "treatment": "info-panel",
+      "communicates": "So that is how a single mistyped word became the most recognizable domain name i"
+    },
+    {
+      "pos": 9,
+      "scene": "scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9",
+      "label": "Call to action",
+      "treatment": "info-panel",
+      "communicates": "If this was useful, subscribe and hit the notification bell. Let me know in the "
+    }
+  ],
+  "status": {
+    "assembled": true,
+    "technically_validated": true,
+    "pending_human_review": true
+  },
+  "notes": "Improved visuals with explanatory panels; narration preserved."
+}

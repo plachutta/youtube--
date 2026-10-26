@@ -1,0 +1,31 @@
+
+  VITE v4.5.14  ready in 764 ms
+
+  ➜  Local:   http://localhost:9017/
+  ➜  Network: use --host to expose
+✘ [ERROR] The entry point "preact" cannot be marked as external
+
+/home/gachiemeshackson/Videos/youtube/data/videos/review/b9_44_renderer_qual/proj/node_modules/esbuild/lib/main.js:1649
+  let error = new Error(`${text}${summary}`);
+              ^
+
+Error: Build failed with 1 error:
+error: The entry point "preact" cannot be marked as external
+    at failureErrorWithLog (/home/gachiemeshackson/Videos/youtube/data/videos/review/b9_44_renderer_qual/proj/node_modules/esbuild/lib/main.js:1649:15)
+    at /home/gachiemeshackson/Videos/youtube/data/videos/review/b9_44_renderer_qual/proj/node_modules/esbuild/lib/main.js:1058:25
+    at /home/gachiemeshackson/Videos/youtube/data/videos/review/b9_44_renderer_qual/proj/node_modules/esbuild/lib/main.js:1525:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  errors: [
+    {
+      detail: undefined,
+      id: '',
+      location: null,
+      notes: [],
+      pluginName: '',
+      text: 'The entry point "preact" cannot be marked as external'
+    }
+  ],
+  warnings: []
+}
+
+Node.js v24.20.0

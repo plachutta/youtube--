@@ -1,0 +1,877 @@
+[
+ {
+  "path": "data/videos/review/b9_37_contacts/scene1_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 1,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene1_frame1.jpg",
+  "bytes": 53470,
+  "sha256": "060b14f0dd41697b74fca77fdc495a4483d59b03c7df53c9e007cfeb2476b754",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 1,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene1_frame2.jpg",
+  "bytes": 53470,
+  "sha256": "060b14f0dd41697b74fca77fdc495a4483d59b03c7df53c9e007cfeb2476b754",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 1,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene2_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 2,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene2_frame1.jpg",
+  "bytes": 82506,
+  "sha256": "bb5b6902d4b7c2d6096bb2ea29e7e62bc58ff0809ec7ce6119256f35b8907ab3",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 2,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene2_frame2.jpg",
+  "bytes": 82714,
+  "sha256": "3a48667ac2ca193bc057813171b31a15ab47d8ce1b4792652296d28f630ba715",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 2,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene3_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 3,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene3_frame1.jpg",
+  "bytes": 70409,
+  "sha256": "f313e35a30c36ac48803c657d4c931dcb54e337f92e000274742645bb9e7cb0e",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 3,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene3_frame2.jpg",
+  "bytes": 70584,
+  "sha256": "3e3dd6f4aaa5a320eed14f17aac4bced12e19ea683ff0bf7ae3697d58077eaa3",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 3,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene4_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 4,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene4_frame1.jpg",
+  "bytes": 76876,
+  "sha256": "30e0e80df84d2f96e11724c02a79baf18b79b90f2df885e1e8353fd6b93e7100",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 4,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene4_frame2.jpg",
+  "bytes": 77202,
+  "sha256": "12c85edc7091f94619a1ecb6876a8df57c379ffe6b2e3f1a36c7cf60d50674cf",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 4,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene5_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 5,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene5_frame1.jpg",
+  "bytes": 75907,
+  "sha256": "a54577cfa0a39cfd697aa90f89e934b6fa6ac865a0b3a985fdb73a2e89d109f7",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 5,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene5_frame2.jpg",
+  "bytes": 76363,
+  "sha256": "707f7ec9d727f1f65751a2f389dbfb492295b67b83060d3ab2f272a06beac337",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 5,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene6_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 6,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene6_frame1.jpg",
+  "bytes": 74931,
+  "sha256": "247748df1ab0d29a5fcfd877409c4759081de8cc17bf6e77562eed2c022c1d00",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 6,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene6_frame2.jpg",
+  "bytes": 75056,
+  "sha256": "7141ef4b3e1b3f801226096aa25824621bbe6e6cf079bd50292cf1c1811d5833",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 6,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene7_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 7,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene7_frame1.jpg",
+  "bytes": 76161,
+  "sha256": "980044bf4509d1bc27f19b446e1be3ee3b4b853d00df299eaa3e0b5c31dfd92b",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 7,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene7_frame2.jpg",
+  "bytes": 76468,
+  "sha256": "8d8330feb7a986a2599a2abbf521f724fe6cfa88120968549e161458660d8540",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 7,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene8_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 8,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene8_frame1.jpg",
+  "bytes": 74873,
+  "sha256": "7ff8aa8e7013087c653560d676b11523f5695117f68118ce4a9e933344b652a6",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 8,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene8_frame2.jpg",
+  "bytes": 75248,
+  "sha256": "09e752d4da27626fa8fc8979c3849e367da7f506215c265f8709ea90c9b86b75",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 8,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene9_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 9,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene9_frame1.jpg",
+  "bytes": 82278,
+  "sha256": "4b9289e28087c1f055d0fbc2cac963c55829e15c4c0c1a55ee22b39b1eaf1631",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 9,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene9_frame2.jpg",
+  "bytes": 82685,
+  "sha256": "3c0f078ae5059c36a367ce5a03c0d22f9a80ef7cfc4dd5f17d35ba9b0f036b9c",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 9,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene10_frame0.jpg",
+  "bytes": 12461,
+  "sha256": "20b7b992d80a2d744df34059b840183d5f501b2c5e9195f9d05b78decb91f9cf",
+  "role": "rendered frame (extracted from b9_37 draft) - identical black boundary frame across all scenes",
+  "scene": 10,
+  "timestamp": "scene-start",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene10_frame1.jpg",
+  "bytes": 60812,
+  "sha256": "02d7e44531753120bd79457a90900d6dfc8d561c6317e9acfe1b18488cde4f11",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 10,
+  "timestamp": "mid/late sample 1",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/scene10_frame2.jpg",
+  "bytes": 61237,
+  "sha256": "1b5b65464921f0734c4b15cddd877cab1ba999945db992884a8b1e855af8d22d",
+  "role": "rendered frame (extracted from b9_37 draft)",
+  "scene": 10,
+  "timestamp": "mid/late sample 2",
+  "pixels": [
+   1920,
+   1080
+  ],
+  "mode": "RGB"
+ },
+ {
+  "path": "data/videos/review/b9_37_contacts/S.png",
+  "bytes": 215862,
+  "sha256": "a6582a78580560ce847e6f85b385d4fef577b1d625da881fe3340c84b1094744",
+  "role": "screenshot artifact (non-1920x1080 player/window capture of scene 5)",
+  "scene": 5,
+  "note": "1577x693 RGBA; not an extracted video frame",
+  "pixels": [
+   1577,
+   693
+  ],
+  "mode": "RGBA"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_31_draft.mp4",
+  "bytes": 2769446,
+  "sha256": "c86bc88498dc2696cb3d0fd2c9383f0d0a25ed262592f8c7f983659b42b04bd4",
+  "role": "rendered draft video",
+  "note": "revision b9_31",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "width": 1920,
+     "height": 1080,
+     "r_frame_rate": "30/1"
+    },
+    {
+     "codec_name": "aac",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "119.366667"
+   }
+  }
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_31_draft.review.json",
+  "bytes": 6995,
+  "sha256": "82b988092c7b5e40d40afbd6c9d6d59e699194009df6c3941a3836b215d885e2",
+  "role": "review manifest"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_32_draft.mp4",
+  "bytes": 1606509,
+  "sha256": "b9d08dbf4704121206812f2359572b463fa67bbde795ad5e514da8f0b2b2edbc",
+  "role": "rendered draft video",
+  "note": "revision b9_32",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "width": 1920,
+     "height": 1080,
+     "r_frame_rate": "30/1"
+    },
+    {
+     "codec_name": "aac",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "122.966667"
+   }
+  }
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_32_draft.review.json",
+  "bytes": 5709,
+  "sha256": "5e943ce0cd80dc7acb6c1c990edd06935007b3dcc4e4d46d2df09e21b7a17f00",
+  "role": "review manifest"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_33_draft.mp4",
+  "bytes": 1839387,
+  "sha256": "6260111897bd322e426c7a8dda67efbbe24066e346fd455fce7028e4faf8511b",
+  "role": "rendered draft video",
+  "note": "revision b9_33",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "width": 1920,
+     "height": 1080,
+     "r_frame_rate": "30/1"
+    },
+    {
+     "codec_name": "aac",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "126.600000"
+   }
+  }
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_33_draft.review.json",
+  "bytes": 3707,
+  "sha256": "f5be4094fa3f3ef34e386547d1e297956366334d7b02081cb722fe08a8c0efc9",
+  "role": "review manifest"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_34_draft.mp4",
+  "bytes": 1866530,
+  "sha256": "dd64c7393fcfe6af6bea4465663e8787e6a92989f326cc0043610a2ee9391dc0",
+  "role": "rendered draft video",
+  "note": "revision b9_34",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "width": 1920,
+     "height": 1080,
+     "r_frame_rate": "30/1"
+    },
+    {
+     "codec_name": "aac",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "123.733333"
+   }
+  }
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_34_draft.review.json",
+  "bytes": 3246,
+  "sha256": "4fb0638e2c4f5848a0b3d6167d7f7c62c6c8932ad0d0cf7bfb5210aecc419880",
+  "role": "review manifest"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_35_draft.mp4",
+  "bytes": 3085912,
+  "sha256": "37073e0a98dea54704c8021db65bb05f7ce180c019aa53dd9595bd967047e97a",
+  "role": "rendered draft video",
+  "note": "revision b9_35",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "width": 1920,
+     "height": 1080,
+     "r_frame_rate": "30/1"
+    },
+    {
+     "codec_name": "aac",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "126.600000"
+   }
+  }
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_35_draft.review.json",
+  "bytes": 630,
+  "sha256": "6dfadce8c8b50e6f49ab30e86861dce37d997692ead457900c63435d4a23f298",
+  "role": "review manifest"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_36_draft.mp4",
+  "bytes": 3561455,
+  "sha256": "20d2bcb08955b882440d80a2c9ec906f8cdc2a5e0bc37fb940239f140229f8c8",
+  "role": "rendered draft video",
+  "note": "revision b9_36",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "width": 1920,
+     "height": 1080,
+     "r_frame_rate": "30/1"
+    },
+    {
+     "codec_name": "aac",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "126.266667"
+   }
+  }
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_36_draft.review.json",
+  "bytes": 620,
+  "sha256": "a317e0311f79e37d79233791d39626fb8b95138d7ad623fa2008b2bbe79ef395",
+  "role": "review manifest"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.mp4",
+  "bytes": 3225912,
+  "sha256": "15606974b4b0954c3cec030fc0796e31231945f1716c5ed147820dab5ad5100d",
+  "role": "rendered draft video",
+  "note": "revision b9_37",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "width": 1920,
+     "height": 1080,
+     "r_frame_rate": "30/1"
+    },
+    {
+     "codec_name": "aac",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "126.600000"
+   }
+  }
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.review.json",
+  "bytes": 642,
+  "sha256": "7b2e508dc98fd9a378efce8b823ffdcb9c15a0acdfcab0405e314903c8ab5ae5",
+  "role": "review manifest"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_review_package.json",
+  "bytes": 2911,
+  "sha256": "b51a622412604a26e68847b089d933bbf253bafc59c7f09f578fafb9576c53ad",
+  "role": "candidate review package"
+ },
+ {
+  "path": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_candidate.index.json",
+  "bytes": 2234,
+  "sha256": "8773bdf7c5f049799b2ed95ae91ea50e92007bda15b20ad62b0b91932636f73c",
+  "role": "candidate index"
+ },
+ {
+  "path": "data/captions/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_narration.srt",
+  "bytes": 2369,
+  "sha256": "5e969c6760c52743db76fb8fc9965c9d574e6ace937d0018e4594a74e9a38254",
+  "role": "captions (accepted narration timing)"
+ },
+ {
+  "path": "data/scripts/1791719492789_script.json",
+  "bytes": 9364,
+  "sha256": "f6ecb3d2426c21ae3a9637aef6def568f618e59f4c042bb76d6d417ea4eb407f",
+  "role": "source script (templated filler content)"
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_1f04d8be-4aa1-45a2-a3be-18fa070d5302.wav",
+  "bytes": 740444,
+  "sha256": "c7a0471a8ed6d520c59954b743f93963975ae1ac94b688d2cf45d4b2ae3bf690",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "15.425000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_2d1b1392-458b-4831-a76f-7d0663e7bda5.wav",
+  "bytes": 582044,
+  "sha256": "1f8bdfad3d39e6bfe7bcd4b55c50ec650ef1d7bb09b23215f3c2dec906bf92e7",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "12.125000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_69203470-d058-490a-9b78-c365844ad995.wav",
+  "bytes": 590444,
+  "sha256": "657be217fa06baa9dc01c0030e30dab510cf824accf085fddb517f75a57b68cf",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "12.300000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_6ac316ee-5208-458a-b582-c7d953b96e7b.wav",
+  "bytes": 718844,
+  "sha256": "4b533e12bd9e61c104b6d7b39957a53864e5299a9762e7e66b5ed8bf45b57f80",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "14.975000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9.wav",
+  "bytes": 506444,
+  "sha256": "60da68c7dc470a2adf15e322a3df2829bfc87d17ff8e59aa469985538aa41683",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "10.550000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_8764649f-fd26-4157-a900-9df5f476fc0c.wav",
+  "bytes": 604844,
+  "sha256": "4efd05bae5e42f0b6fbad419793fc376ae613d0a395c5b774117f8bf35a8139f",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "12.600000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_9ffc0770-f028-4f10-9537-c637771fa26d.wav",
+  "bytes": 600044,
+  "sha256": "2c751ac73c03e4de67266e99a0dd66d21f3e99734b72a09eadd770ebf50978a0",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "12.500000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3.wav",
+  "bytes": 384044,
+  "sha256": "2accb6905a9471927caac8af49a074a91ca5fdcfdc498fe2c8689300f3b69387",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "8.000000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_be738bf9-b7b6-4f7b-8605-04311abb931d.wav",
+  "bytes": 710444,
+  "sha256": "559c60aa85525522f8b7434ba24b3ddefc5cabfc9fcecf8efc983b6663945843",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "14.800000"
+   }
+  }
+ },
+ {
+  "path": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/scene_edb8ee12-fcca-44a6-8980-5dfaa016860d.wav",
+  "bytes": 639644,
+  "sha256": "7626b20e516f0087f80a725ce6b8eaf0ea108804967fefc49f387d90f0bfa13f",
+  "role": "accepted narration audio (b9-30 kokoro run)",
+  "probe": {
+   "programs": [],
+   "stream_groups": [],
+   "streams": [
+    {
+     "codec_name": "pcm_s16le",
+     "sample_rate": "24000",
+     "channels": 1,
+     "r_frame_rate": "0/0"
+    }
+   ],
+   "format": {
+    "duration": "13.325000"
+   }
+  }
+ }
+]

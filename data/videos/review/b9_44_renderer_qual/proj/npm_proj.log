@@ -1,0 +1,12 @@
+npm warn deprecated @xmldom/xmldom@0.9.10: this version has critical issues, please update to the latest version
+npm warn deprecated fluent-ffmpeg@2.1.3: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated mathjax-full@3.2.2: Version 4 replaces this package with the scoped package @mathjax/src
+
+added 71 packages, and removed 10 packages in 28s
+npm warn install-scripts 3 packages have install scripts not yet covered by allowScripts:
+npm warn install-scripts   esbuild@0.18.20 (postinstall: node install.js)
+npm warn install-scripts   @ffmpeg-installer/linux-x64@4.1.0 (postinstall: chmod u+x ffmpeg)
+npm warn install-scripts   @ffprobe-installer/linux-x64@5.2.0 (postinstall: chmod u+x ffprobe)
+npm warn install-scripts
+npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+EXIT:0

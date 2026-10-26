@@ -1,0 +1,19 @@
+{
+  "baseline_b37": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.mp4",
+  "baseline_b37_sha256": "15606974b4b0954c3cec030fc0796e31231945f1716c5ed147820dab5ad5100d",
+  "evidence": "data/videos/review/b9_40_evidence.json",
+  "previews_corrected_report": "data/videos/review/b9_39_qualification_previews/reports/preview_qual_report_corrected.json",
+  "status_summary": {
+    "previews_actually_rendered": true,
+    "preview_media_validated": true,
+    "visual_defects_assessed": true,
+    "corrections_implemented": false,
+    "corrected_previews_reviewed": false,
+    "full_production_render_authorized": false,
+    "full_video_rendered": false,
+    "whole_production_superiority_established": false,
+    "human_review": "PENDING"
+  },
+  "conclusion": "Six representative scenes rendered and reviewed; renderer identity documented (preview path used). No material defects requiring correction identified in inspected frames. Full production superiority not established; further Motion Canvas native validation can proceed in separate milestone.",
+  "created_at": "2026-10-15T16:56:35.402836Z"
+}

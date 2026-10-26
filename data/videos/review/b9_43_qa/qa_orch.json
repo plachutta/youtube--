@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-15T17:24:11.578Z",
+  "candidate": "data/videos/review/b9_39_qualification_previews/scenes/scene_2d1b1392-458b-4831-a76f-7d0663e7bda5_preview.mp4",
+  "checks": [
+    {
+      "category": "file_integrity",
+      "checks": [
+        {
+          "name": "file_integrity",
+          "state": "PASS",
+          "evidence": {
+            "sha256": "1aa75d572b9fb768f53860e945e1356ba3da3ddcf5a45684916ee487bf3b96ab",
+            "size": 136927
+          }
+        }
+      ],
+      "overall": "PASS"
+    },
+    {
+      "category": "probe",
+      "checks": [
+        {
+          "name": "ffprobe_metadata",
+          "state": "PASS"
+        }
+      ],
+      "overall": "PASS",
+      "data": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"h264\",\n            \"codec_long_name\": \"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10\",\n            \"profile\": \"High\",\n            \"codec_type\": \"video\",\n            \"codec_tag_string\": \"avc1\",\n            \"codec_tag\": \"0x31637661\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 1920,\n            \"coded_height\": 1080,\n            \"has_b_frames\": 2,\n            \"sample_aspect_ratio\": \"179280:179297\",\n            \"display_aspect_ratio\": \"318720:179297\",\n            \"pix_fmt\": \"yuv420p\",\n            \"level\": 40,\n            \"chroma_location\": \"left\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"is_avc\": \"true\",\n            \"nal_length_size\": \"4\",\n            \"id\": \"0x1\",\n            \"r_frame_rate\": \"30/1\",\n            \"avg_frame_rate\": \"30/1\",\n            \"time_base\": \"1/15360\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 186368,\n            \"duration\": \"12.133333\",\n            \"bit_rate\": \"86826\",\n            \"bits_per_raw_sample\": \"8\",\n            \"nb_frames\": \"364\",\n            \"extradata_size\": 48,\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0,\n                \"non_diegetic\": 0,\n                \"captions\": 0,\n                \"descriptions\": 0,\n                \"metadata\": 0,\n                \"dependent\": 0,\n                \"still_image\": 0,\n                \"multilayer\": 0\n            },\n            \"tags\": {\n                \"language\": \"und\",\n                \"handler_name\": \"VideoHandler\",\n                \"vendor_id\": \"[0][0][0][0]\",\n                \"encoder\": \"Lavc62.11.100 libx264\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"data/videos/review/b9_39_qualification_previews/scenes/scene_2d1b1392-458b-4831-a76f-7d0663e7bda5_preview.mp4\",\n        \"nb_streams\": 1,\n        \"nb_programs\": 0,\n        \"nb_stream_groups\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"12.133333\",\n        \"size\": \"136927\",\n        \"bit_rate\": \"90281\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"isom\",\n            \"minor_version\": \"512\",\n            \"compatible_brands\": \"isomiso2avc1mp41\",\n            \"encoder\": \"Lavf62.3.100\"\n        }\n    }\n}\n"
+    },
+    {
+      "category": "decode",
+      "checks": [
+        {
+          "name": "full_decode",
+          "state": "PASS"
+        }
+      ],
+      "overall": "PASS"
+    }
+  ],
+  "overall": "PASS",
+  "gate": {
+    "human_accepted": false,
+    "production_render_authorized": false
+  },
+  "full_video_rendered": false
+}

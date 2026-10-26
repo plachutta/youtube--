@@ -1,0 +1,33 @@
+{
+  "source": "accepted-narration",
+  "narrationManifestRef": "b9_30_narration",
+  "sceneCount": 10,
+  "established": [
+    {
+      "claim": "A domain-registration availability check compares the exact string that was sent.",
+      "evidenceRef": "narration:scene_edb8ee12-fcca-44a6-8980-5dfaa016860d"
+    },
+    {
+      "claim": "The registration went through even though the submitted string was a misspelling of the intended word.",
+      "evidenceRef": "narration:scene_2d1b1392-458b-4831-a76f-7d0663e7bda5"
+    },
+    {
+      "claim": "The misspelled string became permanent in the public record.",
+      "evidenceRef": "narration:scene_6ac316ee-5208-458a-b582-c7d953b96e7b"
+    }
+  ],
+  "unresolved": [
+    {
+      "claim": "The actual domain name and the intended word are never named in the accepted narration.",
+      "decision": "visuals use structural descriptions only; no example strings may be shown"
+    },
+    {
+      "claim": "No registrar, registry or company is named in the accepted narration.",
+      "decision": "interface recreations must stay generic and marked illustrative"
+    },
+    {
+      "claim": "No dates, prices or other numeric specifics appear in the accepted narration.",
+      "decision": "no numeric claims may appear in any payload without new evidence"
+    }
+  ]
+}

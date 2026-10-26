@@ -1,0 +1,46 @@
+{
+  "worktrees": {
+    "wt-1792144276764-1": {
+      "branch": "fanatical-stegosaurus",
+      "path": "/home/gachiemeshackson/Videos/youtube/.kilo/worktrees/fanatical-stegosaurus",
+      "parentBranch": "master",
+      "createdAt": "2026-10-16T09:51:16.764Z",
+      "remote": "origin",
+      "branchOwned": true,
+      "autoNameSessionId": "ses_ebbe08179ffeLOPueRg2JIBkkz",
+      "autoNamePromptCount": 0
+    },
+    "wt-1792169659109-1": {
+      "branch": "aware-mist",
+      "path": "/home/gachiemeshackson/Videos/youtube/.kilo/worktrees/aware-mist",
+      "parentBranch": "master",
+      "createdAt": "2026-10-16T16:54:19.109Z",
+      "remote": "origin",
+      "branchOwned": true
+    }
+  },
+  "sessions": {
+    "ses_ebbe08179ffeLOPueRg2JIBkkz": {
+      "worktreeId": "wt-1792144276764-1",
+      "createdAt": "2026-10-16T09:51:17.145Z"
+    },
+    "ses_eba5d305cffe3USh5kJ7dBjOep": {
+      "worktreeId": "wt-1792169659109-1",
+      "createdAt": "2026-10-16T16:54:26.268Z"
+    }
+  },
+  "tabOrder": {
+    "local": [
+      "pending:961732e6-4ad1-483f-bbcb-9fab22b1720c"
+    ]
+  },
+  "worktreeOrder": [
+    "wt-1792144276764-1",
+    "wt-1792169659109-1"
+  ],
+  "sessionsCollapsed": true,
+  "activeTarget": {
+    "projectId": "prj-90382d8ea185",
+    "kind": "local"
+  }
+}

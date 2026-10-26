@@ -1,0 +1,42 @@
+{
+  "audit": "B9.51 independent evidence audit",
+  "disposition_basis": "The B9.49 lexical false-PASS was reproduced exactly and its permanent regression returned REVIEW_REQUIRED. A second direct policy-injection false PASS was independently reproduced and the current code now rejects it; a receipt-map tampering reproduction was independently observed before private-state hardening and the current suite asserts caller mutation is rejected. No active production caller was found. Some required related suite reruns and final artifact-hash comparisons were not available after concurrent workspace changes; see report.",
+  "critical_findings": [
+    {
+      "id": "B951-CRIT-01",
+      "finding": "Direct ClaimVerifier constructor accepted caller-supplied reviewer public keys, roles, criteria, and signed records, then returned overall PASS with semanticStatus PASS and ownerAcceptance ACCEPTED.",
+      "observed_before_fix": "PASS",
+      "remediation": "Module-private canonical-policy authority token; canonical fixed trust-policy factory; roadmap policies with semantic/owner links rejected unless built through the private authority factory; immutable criteria and instance.",
+      "regression": "direct ClaimVerifier caller cannot inject roadmap reviewer trust keys => UNTRUSTED_ROADMAP_POLICY",
+      "current_suite_result": "EXPECTED/ACTUAL MATCH"
+    },
+    {
+      "id": "B951-CRIT-02",
+      "finding": "Direct public receipt-map mutation enabled an unexecuted deliberately failing test to be represented by a hand-built zero-exit receipt and receive PASS.",
+      "observed_before_fix": "PASS",
+      "remediation": "Command catalog and receipts moved to a module-private WeakMap; verifier instance and nested policy frozen.",
+      "regression": "caller cannot forge or replace verifier execution receipts; assignment throws TypeError",
+      "current_suite_result": "EXPECTED/ACTUAL MATCH"
+    }
+  ],
+  "still_separate": {
+    "canonical_roadmap": {"structural": "PASS", "traceability": "PASS with exact source graph", "semantic": "REVIEW_REQUIRED", "owner_acceptance": "PENDING", "overall": "REVIEW_REQUIRED"},
+    "legacy_python_verifier": "NOT QUALIFIED; not executed",
+    "live_provider": "NOT VERIFIED",
+    "openhands": "DEFERRED",
+    "production_render": "NOT PERFORMED"
+  },
+  "entrypoint_classification": {
+    "authoritative_production_claimverifier_consumer": "NONE FOUND in repository executable source/config; cannot rule out external/manual consumers",
+    "test_only": ["tools/claim-verifier/tests/claim-verifier.test.js", "tools/claim-verifier/tests/engineering-team-pilot.fixture.test.js", "tests/engineering-agent-provider.test.js"],
+    "ci_test_only": ["package.json test:claim-verifier", ".github/workflows/ci.yml Claim verifier adversarial qualification step"],
+    "historical_outputs": ["tools/claim-verifier/data/VERIFIER_REPORT.md", "tools/claim-verifier/data/ADVERSARIAL_REPORT.md", "tools/claim-verifier/data/adv_report.json", "tools/claim-verifier/data/verifier_result.json"],
+    "legacy_python": "No package script, CI step, shell wrapper, test runner, or executable source caller found; the script itself remains directly executable and unsafe as an acceptance authority."
+  },
+  "unresolved_integrity_notes": [
+    "B9.51 pre-existing report/evidence files were present during the audit but not present in the first captured status listing; they were preserved, not rewritten.",
+    "A .github/workflows/ci.yml tracked modification appeared after the initial audit status capture. It adds a verifier test step; attribution is unknown and the file was not changed by this audit.",
+    "B9.51's published baseline reports 5 modified tracked paths, while the audit's initial captured status had 4; the extra CI workflow path was unmodified at the initial capture and appeared later. B9.51 untracked counts use a different/inconsistent counting basis than porcelain entries.",
+    "The B9.51 prior report/evidence are historical artifacts and contain earlier hashes/results; do not treat them as proof of current source bytes."
+  ]
+}

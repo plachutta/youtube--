@@ -1,0 +1,264 @@
+[
+  {
+    "start": 0,
+    "end": 4.869565217391305,
+    "lines": [
+      "If you have ever wondered how a single",
+      "misspelling created the most iconic domain"
+    ],
+    "text": "If you have ever wondered how a single misspelling created the most iconic domain"
+  },
+  {
+    "start": 4.869565217391305,
+    "end": 8,
+    "lines": [
+      "name in tech, here is how it actually",
+      "happened."
+    ],
+    "text": "name in tech, here is how it actually happened."
+  },
+  {
+    "start": 8,
+    "end": 13.39875,
+    "lines": [
+      "Hey everyone, welcome back to the channel.",
+      "Today we are walking through how one"
+    ],
+    "text": "Hey everyone, welcome back to the channel. Today we are walking through how one"
+  },
+  {
+    "start": 13.39875,
+    "end": 18.411875000000002,
+    "lines": [
+      "mistyped word turned into the most",
+      "recognizable domain name in technology. By",
+      "the"
+    ],
+    "text": "mistyped word turned into the most recognizable domain name in technology. By the"
+  },
+  {
+    "start": 18.411875000000002,
+    "end": 23.425,
+    "lines": [
+      "end, you will understand exactly how the",
+      "registration worked and why it stuck."
+    ],
+    "text": "end, you will understand exactly how the registration worked and why it stuck."
+  },
+  {
+    "start": 23.425,
+    "end": 29.135714285714286,
+    "lines": [
+      "Every domain name starts the same way.",
+      "Someone picks the words they want, types",
+      "them"
+    ],
+    "text": "Every domain name starts the same way. Someone picks the words they want, types them"
+  },
+  {
+    "start": 29.135714285714286,
+    "end": 34.085,
+    "lines": [
+      "into a registrar, and sends a request",
+      "across the internet. The registrar checks"
+    ],
+    "text": "into a registrar, and sends a request across the internet. The registrar checks"
+  },
+  {
+    "start": 34.085,
+    "end": 36.75,
+    "lines": [
+      "whether the exact string is already taken."
+    ],
+    "text": "whether the exact string is already taken."
+  },
+  {
+    "start": 36.75,
+    "end": 41.3860294117647,
+    "lines": [
+      "The misspelling happened in that check.",
+      "The person intended one word, but typed"
+    ],
+    "text": "The misspelling happened in that check. The person intended one word, but typed"
+  },
+  {
+    "start": 41.3860294117647,
+    "end": 45.66544117647059,
+    "lines": [
+      "something slightly different. The registry",
+      "looked at the string they actually sent,"
+    ],
+    "text": "something slightly different. The registry looked at the string they actually sent,"
+  },
+  {
+    "start": 45.66544117647059,
+    "end": 48.875,
+    "lines": [
+      "not the word they meant, and it was free."
+    ],
+    "text": "not the word they meant, and it was free."
+  },
+  {
+    "start": 48.875,
+    "end": 54.223214285714285,
+    "lines": [
+      "So the registration went through. The fee",
+      "was paid, the record was written, and the"
+    ],
+    "text": "So the registration went through. The fee was paid, the record was written, and the"
+  },
+  {
+    "start": 54.223214285714285,
+    "end": 59.21488095238095,
+    "lines": [
+      "domain pointed at a server. Nothing about",
+      "the process was unusual. What made it"
+    ],
+    "text": "domain pointed at a server. Nothing about the process was unusual. What made it"
+  },
+  {
+    "start": 59.21488095238095,
+    "end": 63.85,
+    "lines": [
+      "memorable was that the string was now",
+      "permanently misspelled in the public",
+      "record."
+    ],
+    "text": "memorable was that the string was now permanently misspelled in the public record."
+  },
+  {
+    "start": 63.85,
+    "end": 69.13387096774194,
+    "lines": [
+      "A misspelled domain is memorable precisely",
+      "because it is unexpected. People read it,"
+    ],
+    "text": "A misspelled domain is memorable precisely because it is unexpected. People read it,"
+  },
+  {
+    "start": 69.13387096774194,
+    "end": 75.23064516129033,
+    "lines": [
+      "pause, and remember it. That surprise is",
+      "the reason it spread through word of mouth"
+    ],
+    "text": "pause, and remember it. That surprise is the reason it spread through word of mouth"
+  },
+  {
+    "start": 75.23064516129033,
+    "end": 76.45,
+    "lines": [
+      "instead of advertising."
+    ],
+    "text": "instead of advertising."
+  },
+  {
+    "start": 76.45,
+    "end": 82.00555555555556,
+    "lines": [
+      "There is a cost, though. A misspelled",
+      "domain is easy to remember but easy to",
+      "mistype"
+    ],
+    "text": "There is a cost, though. A misspelled domain is easy to remember but easy to mistype"
+  },
+  {
+    "start": 82.00555555555556,
+    "end": 87.21388888888889,
+    "lines": [
+      "in the other direction. Users who hear the",
+      "name and type the correct spelling can"
+    ],
+    "text": "in the other direction. Users who hear the name and type the correct spelling can"
+  },
+  {
+    "start": 87.21388888888889,
+    "end": 88.95,
+    "lines": [
+      "end up somewhere else entirely."
+    ],
+    "text": "end up somewhere else entirely."
+  },
+  {
+    "start": 88.95,
+    "end": 94.22142857142858,
+    "lines": [
+      "The lesson is not that misspellings are",
+      "good strategy. It is that the system",
+      "records"
+    ],
+    "text": "The lesson is not that misspellings are good strategy. It is that the system records"
+  },
+  {
+    "start": 94.22142857142858,
+    "end": 99.14142857142858,
+    "lines": [
+      "what you actually send, not what you",
+      "intended. That gap between intention and",
+      "input"
+    ],
+    "text": "what you actually send, not what you intended. That gap between intention and input"
+  },
+  {
+    "start": 99.14142857142858,
+    "end": 101.25,
+    "lines": [
+      "is where the whole story lives."
+    ],
+    "text": "is where the whole story lives."
+  },
+  {
+    "start": 101.25,
+    "end": 106.8,
+    "lines": [
+      "So that is how a single mistyped word",
+      "became the most recognizable domain name",
+      "in"
+    ],
+    "text": "So that is how a single mistyped word became the most recognizable domain name in"
+  },
+  {
+    "start": 106.8,
+    "end": 111.24,
+    "lines": [
+      "tech. We covered how registration works,",
+      "where the misspelling entered the process,"
+    ],
+    "text": "tech. We covered how registration works, where the misspelling entered the process,"
+  },
+  {
+    "start": 111.24,
+    "end": 116.05,
+    "lines": [
+      "and why an unexpected string is easier to",
+      "remember than a correct one."
+    ],
+    "text": "and why an unexpected string is easier to remember than a correct one."
+  },
+  {
+    "start": 116.05,
+    "end": 120.9953125,
+    "lines": [
+      "If this was useful, subscribe and hit the",
+      "notification bell. Let me know in the"
+    ],
+    "text": "If this was useful, subscribe and hit the notification bell. Let me know in the"
+  },
+  {
+    "start": 120.9953125,
+    "end": 125.61093749999999,
+    "lines": [
+      "comments what other tech stories you want",
+      "broken down, and check out the related"
+    ],
+    "text": "comments what other tech stories you want broken down, and check out the related"
+  },
+  {
+    "start": 125.61093749999999,
+    "end": 126.6,
+    "lines": [
+      "video for more."
+    ],
+    "text": "video for more."
+  }
+]

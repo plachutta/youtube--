@@ -1,0 +1,10 @@
+midscene/scene1_t4.0.jpg         cyan=(99, 44, 480, 150) white=(179, 44, 1765, 375) overlap=106v x 301h ink=4.86%
+midscene/scene2_t16.0.jpg        cyan=(211, 170, 1076, 268) white=(278, 7, 1794, 474) overlap=98v x 798h ink=8.10%
+midscene/scene3_t30.0.jpg        cyan=(178, 97, 957, 229) white=(265, 7, 1806, 411) overlap=132v x 692h ink=6.65%
+midscene/scene4_t42.0.jpg        cyan=(86, 97, 1017, 202) white=(171, 7, 1861, 425) overlap=105v x 846h ink=8.14%
+midscene/scene5_t56.0.jpg        cyan=(86, 48, 1507, 652) white=(173, 404, 1874, 688) overlap=248v x 1334h ink=13.79%
+midscene/scene6_t69.0.jpg        cyan=(92, 97, 1075, 230) white=(174, 7, 1908, 425) overlap=133v x 901h ink=7.78%
+midscene/scene7_t82.0.jpg        cyan=(100, 96, 1127, 202) white=(185, 7, 1842, 425) overlap=106v x 942h ink=7.99%
+midscene/scene8_t94.0.jpg        cyan=(88, 97, 944, 202) white=(173, 7, 1892, 425) overlap=105v x 771h ink=7.69%
+midscene/scene9_t108.0.jpg       cyan=(160, 170, 920, 268) white=(235, 6, 1799, 461) overlap=98v x 685h ink=7.76%
+midscene/scene10_t121.0.jpg      cyan=(94, 46, 1115, 153) white=(178, 43, 1911, 365) overlap=107v x 937h ink=6.12%

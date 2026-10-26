@@ -1,0 +1,89 @@
+{
+  "milestone": "B9.47",
+  "created_at": "2026-10-15",
+  "baseline": {
+    "head": "e26792ae00dc1ec2434faf32632896609396dfad",
+    "branch": "master",
+    "upstream": "origin/master (behind 3)",
+    "preexisting_tracked_changes": ["package-lock.json", "utils/scene-repair-service.js"],
+    "preexisting_untracked_file_count": 226,
+    "resource_snapshot": {
+      "cpu_cores": 4,
+      "memory_total": "15 GiB",
+      "memory_available": "3.5 GiB",
+      "swap_total": "511 MiB",
+      "swap_used": "511 MiB",
+      "root_disk_available": "63 GiB",
+      "node": "v24.20.0",
+      "npm": "11.19.0",
+      "docker_cli": "29.8.1; daemon responded",
+      "kilo_cli": "not installed",
+      "kilo_vscode_extension": "7.8.8"
+    }
+  },
+  "results": [
+    {
+      "command": "node tests/engineering-agent-provider.test.js",
+      "exit_code": 0,
+      "result": "8/8 provider architecture qualification groups passed",
+      "coverage": [
+        "configuration registration and explicit Kilo adapter selection through injected process fixture",
+        "alternate adapter selected with same task and normalized result schema",
+        "unknown/disabled/missing provider fail without fallback",
+        "provider adapter can be removed while task contract and verifier still work",
+        "provider-supplied acceptance claim rejected",
+        "mandatory workspace isolation capability rejected when unavailable",
+        "provider-neutral partial checkpoint transferred and exact task mismatch rejected",
+        "independent verifier executes checks; exit 0 passes and exit 7 blocks acceptance",
+        "human-review criterion remains blocked",
+        "environment secret not inherited and credential-shaped log output redacted",
+        "governance links resolve and orchestration core contains no Kilo references"
+      ]
+    },
+    {
+      "command": "node --check utils/engineering-agent-runtime.js && node --check utils/engineering-agent-providers/kilo-cli.js && node --check tools/claim-verifier/engineering-task-verifier.js && node --check tests/engineering-agent-provider.test.js && node --check test.js",
+      "exit_code": 0,
+      "result": "all syntax checks passed"
+    },
+    {
+      "command": "npx eslint utils/engineering-agent-runtime.js utils/engineering-agent-providers/kilo-cli.js tools/claim-verifier/engineering-task-verifier.js tests/engineering-agent-provider.test.js test.js",
+      "exit_code": 0,
+      "result": "no diagnostics"
+    },
+    {
+      "command": "node -e \"const { SystemTest } = require('./test'); new SystemTest().testEngineeringAgentProviderRuntime().then(() => console.log('SystemTest integration: passed')).catch(error => { console.error(error); process.exitCode = 1; });\"",
+      "exit_code": 0,
+      "result": "SystemTest integration: passed"
+    }
+  ],
+  "not_run": [
+    {
+      "item": "npm test / full SystemTest.runAllTests()",
+      "reason": "Existing tests initialize the project SQLite database and testDatabase writes a test setting. Running the full suite would mutate the project's database, outside this task's allowed scope. The new suite was run standalone and through its individual SystemTest entry instead."
+    },
+    {
+      "item": "Kilo CLI/ACP live handshake or prompt",
+      "reason": "Kilo CLI is not installed and no current authorized backend was demonstrated. The installed VS Code extension is version 7.8.8; its package metadata does not declare an ACP server. Official CLI documentation describes kilo acp and kilo run, but documentation is not execution evidence. No CLI was installed and no model call was made."
+    },
+    {
+      "item": "legacy tools/claim-verifier/verifier.py",
+      "reason": "Source inspection shows check_evidence() returns true unconditionally, ROOT is hard-coded, and the script writes existing data outputs. It was not executed or overwritten."
+    }
+  ],
+  "sha256": {
+    "utils/engineering-agent-runtime.js": "f111df1f3fb4038761af072ff8d19f7db92592e68b294a663d2003b88a464dac",
+    "utils/engineering-agent-providers/kilo-cli.js": "3a6551f73d671aac6e58b864ef2cf5b9589c1b36276e665b3037db4f91021a57",
+    "tools/claim-verifier/engineering-task-verifier.js": "a39c3de1ec82761de0fafb14ea770083875d8d30a08896ab00e2b2b1f93d6bb4",
+    "tests/engineering-agent-provider.test.js": "772fd0357f7a5e51f79ae7e0b8dcd7158017211608259cc4c22c074848d30c40",
+    "config/engineering-agents.example.json": "1693d08cf4616cccb5f74aa9355144ea70c768af4b1374abe8d90c07b37d912b",
+    "docs/ENGINEERING-AGENT-OPERATING-MODEL.md": "d519c3d6c4018c590e17e028d251c919f1a8497dd7612c38755a7aa3436813cc"
+  },
+  "boundaries": {
+    "live_provider_calls": false,
+    "paid_calls": false,
+    "system_installations": false,
+    "database_mutations": false,
+    "staging_or_commits": false,
+    "destructive_git_operations": false
+  }
+}

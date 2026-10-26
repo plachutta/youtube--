@@ -1,0 +1,97 @@
+{
+  "candidate": {
+    "production_id": "prod_1791719492789_rox41tx3c2_jldixb8xqw",
+    "candidate_revision": "b9_37",
+    "video": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.mp4",
+    "video_sha256": "15606974b4b0954c3cec030fc0796e31231945f1716c5ed147820dab5ad5100d",
+    "captions": "data/captions/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_narration.srt",
+    "narration_preserved": true,
+    "scenes": [
+      {
+        "pos": 1,
+        "sceneId": "scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3",
+        "label": "Hook",
+        "dur": 8.0
+      },
+      {
+        "pos": 2,
+        "sceneId": "scene_1f04d8be-4aa1-45a2-a3be-18fa070d5302",
+        "label": "Introduction",
+        "dur": 15.425
+      },
+      {
+        "pos": 3,
+        "sceneId": "scene_edb8ee12-fcca-44a6-8980-5dfaa016860d",
+        "label": "The Setup",
+        "dur": 13.325
+      },
+      {
+        "pos": 4,
+        "sceneId": "scene_2d1b1392-458b-4831-a76f-7d0663e7bda5",
+        "label": "The Mistake",
+        "dur": 12.125
+      },
+      {
+        "pos": 5,
+        "sceneId": "scene_6ac316ee-5208-458a-b582-c7d953b96e7b",
+        "label": "The Registration",
+        "dur": 14.975
+      },
+      {
+        "pos": 6,
+        "sceneId": "scene_8764649f-fd26-4157-a900-9df5f476fc0c",
+        "label": "Why It Stuck",
+        "dur": 12.6
+      },
+      {
+        "pos": 7,
+        "sceneId": "scene_9ffc0770-f028-4f10-9537-c637771fa26d",
+        "label": "The Trade-off",
+        "dur": 12.5
+      },
+      {
+        "pos": 8,
+        "sceneId": "scene_69203470-d058-490a-9b78-c365844ad995",
+        "label": "The Lesson",
+        "dur": 12.3
+      },
+      {
+        "pos": 9,
+        "sceneId": "scene_be738bf9-b7b6-4f7b-8605-04311abb931d",
+        "label": "Conclusion",
+        "dur": 14.8
+      },
+      {
+        "pos": 10,
+        "sceneId": "scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9",
+        "label": "Call to action",
+        "dur": 10.55
+      }
+    ],
+    "contacts": "data/videos/review/b9_37_contacts/",
+    "review_json": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.review.json",
+    "status": {
+      "assembled": true,
+      "technically_validated": true,
+      "factual_review": "documented",
+      "rights_review": "documented",
+      "disclosure_review": "documented",
+      "pending_human_review": true
+    },
+    "created_at": "2026-10-15T12:17:10.555997Z"
+  },
+  "lineage": [
+    "b9_31",
+    "b9_32",
+    "b9_33",
+    "b9_36",
+    "b9_37"
+  ],
+  "narration_source": "hosted-runs/b9-30-kokoro-final-recovery-20261015T100622Z/retrieved/",
+  "evidence": {
+    "contacts": "data/videos/review/b9_37_contacts/",
+    "captions": "data/captions/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_narration.srt",
+    "review": "data/videos/prod_1791719492789_rox41tx3c2_jldixb8xqw_b9_37_draft.review.json"
+  },
+  "status": "TECHNICALLY VALIDATED; PENDING HUMAN REVIEW"
+}

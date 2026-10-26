@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-10-26 00:46:38",
+  "kdenlive_process": "1328327",
+  "environment": {
+    "QT_ACCESSIBILITY": "1",
+    "QT_LINUX_ACCESSIBILITY_ALWAYS_ON": "1",
+    "QT_QPA_PLATFORM": "wayland",
+    "KDENLIVE_VERSION": "25.12.3",
+    "MLT_VERSION": "7.36.1",
+    "FFMPEG_VERSION": "8.0.1"
+  },
+  "accessibility_checks": {
+    "kdenlive_running_with_accessibility_enabled": {
+      "result": "PASS",
+      "detail": "Kdenlive process running with QT_ACCESSIBILITY=1 and QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1"
+    },
+    "dbus_connectivity": {
+      "result": "PASS",
+      "detail": "Kdenlive D-Bus name org.kde.kdenlive-1328327 available on session bus"
+    },
+    "kmainwindow_properties": {
+      "result": "PASS",
+      "detail": "hasMenuBar=true, autoSaveSettings=true, autoSaveGroup=MainWindow"
+    },
+    "atspi_accessible_interface": {
+      "result": "FAIL",
+      "detail": "org.a11y.atspi.Accessible interface available but methods (get_children, get_role) not functional at Kdenlive D-Bus paths /MainApplication and /kdenlive/MainWindow_1"
+    },
+    "qt_widget_accessible_properties": {
+      "result": "FAIL",
+      "detail": "Qt QWidget accessibleName/Description/Identifier not accessible through D-Bus proxy"
+    },
+    "dbus_file_operations": {
+      "result": "FAIL",
+      "detail": "No D-Bus methods found for Kdenlive Save, Save As, or Open operations"
+    }
+  },
+  "failure_points": [
+    "AT-SPI bridge methods not functional from Kdenlive D-Bus objects - cannot automate GUI interactions through accessibility tree",
+    "No D-Bus methods available for file operations (Save, Save As, Open)",
+    "Qt accessibility properties not accessible through D-Bus proxy layer"
+  ],
+  "next_practical_routes": [
+    "Investigate KDE Selenium AT-SPI driver - would require substantial development dependencies",
+    "Use KDE D-Bus menu actions if discoverable through reverse engineering",
+    "Accept MLT rendering as the qualified pathway while native CLI render remains blocked",
+    "Use keyboard simulation (xdotool/wtype) as fallback for menu interactions"
+  ]
+}

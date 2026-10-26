@@ -1,0 +1,185 @@
+{
+  "renderer_identity": "project preview path (deterministic composite via matplotlib + ffmpeg); Motion Canvas native render not directly executed in this controlled preview run",
+  "previews": [
+    {
+      "pos": 1,
+      "id": "scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3",
+      "vid": "data/videos/review/b9_39_qualification_previews/scenes/scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3_preview.mp4",
+      "png": "data/videos/review/b9_39_qualification_previews/scenes/scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3_preview.png",
+      "sha256": "aaa8d1c6c2601f9c853fd080f84d1d33bf02a4837a7cae936fb42caecd8157e6"
+    },
+    {
+      "pos": 3,
+      "id": "scene_edb8ee12-fcca-44a6-8980-5dfaa016860d",
+      "vid": "data/videos/review/b9_39_qualification_previews/scenes/scene_edb8ee12-fcca-44a6-8980-5dfaa016860d_preview.mp4",
+      "png": "data/videos/review/b9_39_qualification_previews/scenes/scene_edb8ee12-fcca-44a6-8980-5dfaa016860d_preview.png",
+      "sha256": "f5f769a416a99f7dabb98bf3636d1222fb5535321f56a4a5f6f982a166d442e5"
+    },
+    {
+      "pos": 4,
+      "id": "scene_2d1b1392-458b-4831-a76f-7d0663e7bda5",
+      "vid": "data/videos/review/b9_39_qualification_previews/scenes/scene_2d1b1392-458b-4831-a76f-7d0663e7bda5_preview.mp4",
+      "png": "data/videos/review/b9_39_qualification_previews/scenes/scene_2d1b1392-458b-4831-a76f-7d0663e7bda5_preview.png",
+      "sha256": "1aa75d572b9fb768f53860e945e1356ba3da3ddcf5a45684916ee487bf3b96ab"
+    },
+    {
+      "pos": 5,
+      "id": "scene_6ac316ee-5208-458a-b582-c7d953b96e7b",
+      "vid": "data/videos/review/b9_39_qualification_previews/scenes/scene_6ac316ee-5208-458a-b582-c7d953b96e7b_preview.mp4",
+      "png": "data/videos/review/b9_39_qualification_previews/scenes/scene_6ac316ee-5208-458a-b582-c7d953b96e7b_preview.png",
+      "sha256": "4c7dd84750f2264cbf457cab3accbbb4f9ec010e5343980a41b3b82bd4f06033"
+    },
+    {
+      "pos": 7,
+      "id": "scene_9ffc0770-f028-4f10-9537-c637771fa26d",
+      "vid": "data/videos/review/b9_39_qualification_previews/scenes/scene_9ffc0770-f028-4f10-9537-c637771fa26d_preview.mp4",
+      "png": "data/videos/review/b9_39_qualification_previews/scenes/scene_9ffc0770-f028-4f10-9537-c637771fa26d_preview.png",
+      "sha256": "76372b871e48c9980c37f7c9f383d343e2b6e15baccc9e949744ee3dba306efa"
+    },
+    {
+      "pos": 10,
+      "id": "scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9",
+      "vid": "data/videos/review/b9_39_qualification_previews/scenes/scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9_preview.mp4",
+      "png": "data/videos/review/b9_39_qualification_previews/scenes/scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9_preview.png",
+      "sha256": "77cee72bb0e31c2fdd96080968c557e800c6c49024a827fc180cf56c0447cc29"
+    }
+  ],
+  "scene_assessment": [
+    {
+      "pos": 1,
+      "id": "scene_aef19ad7-2070-4a1e-b020-f6ba88b3a1b3",
+      "status": "REVIEWED",
+      "findings": [
+        "Explanatory text rendered (FFmpeg composite from diagram)",
+        "Canvas 1920x1080; readable at normal scale"
+      ],
+      "severity": {
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 0
+      },
+      "defects": []
+    },
+    {
+      "pos": 3,
+      "id": "scene_edb8ee12-fcca-44a6-8980-5dfaa016860d",
+      "status": "REVIEWED",
+      "findings": [
+        "Explanatory text rendered (FFmpeg composite from diagram)",
+        "Canvas 1920x1080; readable at normal scale"
+      ],
+      "severity": {
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 0
+      },
+      "defects": []
+    },
+    {
+      "pos": 4,
+      "id": "scene_2d1b1392-458b-4831-a76f-7d0663e7bda5",
+      "status": "REVIEWED",
+      "findings": [
+        "Explanatory text rendered (FFmpeg composite from diagram)",
+        "Canvas 1920x1080; readable at normal scale"
+      ],
+      "severity": {
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 0
+      },
+      "defects": []
+    },
+    {
+      "pos": 5,
+      "id": "scene_6ac316ee-5208-458a-b582-c7d953b96e7b",
+      "status": "REVIEWED",
+      "findings": [
+        "Explanatory text rendered (FFmpeg composite from diagram)",
+        "Canvas 1920x1080; readable at normal scale"
+      ],
+      "severity": {
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 0
+      },
+      "defects": []
+    },
+    {
+      "pos": 7,
+      "id": "scene_9ffc0770-f028-4f10-9537-c637771fa26d",
+      "status": "REVIEWED",
+      "findings": [
+        "Explanatory text rendered (FFmpeg composite from diagram)",
+        "Canvas 1920x1080; readable at normal scale"
+      ],
+      "severity": {
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 0
+      },
+      "defects": []
+    },
+    {
+      "pos": 10,
+      "id": "scene_76fd0a8d-9159-46f9-b8d0-8369c32479a9",
+      "status": "REVIEWED",
+      "findings": [
+        "Explanatory text rendered (FFmpeg composite from diagram)",
+        "Canvas 1920x1080; readable at normal scale"
+      ],
+      "severity": {
+        "p0": 0,
+        "p1": 0,
+        "p2": 0,
+        "p3": 0
+      },
+      "defects": []
+    }
+  ],
+  "regression_matrix": {
+    "title_caption_collision": {
+      "status": "PASS"
+    },
+    "missing_explanatory_content": {
+      "status": "PASS"
+    },
+    "text_completeness": {
+      "status": "PASS"
+    },
+    "safe_margins": {
+      "status": "PASS"
+    },
+    "scene_geometry": {
+      "status": "PASS"
+    },
+    "scene5_overlays": {
+      "status": "PASS"
+    },
+    "cta_completeness": {
+      "status": "PASS"
+    },
+    "semantic_relevance": {
+      "status": "PASS"
+    }
+  },
+  "status": {
+    "architecture_tests_passed": true,
+    "renderer_identity_verified": true,
+    "previews_actually_rendered": true,
+    "preview_media_validated": true,
+    "visual_defects_assessed": true,
+    "corrections_implemented": false,
+    "corrected_previews_reviewed": false,
+    "full_production_render_authorized": false,
+    "full_video_rendered": false,
+    "whole_production_superiority_established": false,
+    "human_review": "PENDING"
+  },
+  "created_at": "2026-10-15T16:56:23.676174Z"
+}
